@@ -14773,16 +14773,10 @@ LED</description>
 <wire x1="3.175" y1="-5.0292" x2="2.54" y2="-3.7592" width="0.1524" layer="21"/>
 <wire x1="3.302" y1="-2.667" x2="3.302" y2="2.667" width="0.1524" layer="21"/>
 <wire x1="-3.302" y1="2.667" x2="-3.302" y2="-2.667" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.667" y="-2.7305"/>
-<vertex x="-2.667" y="-3.1115"/>
-<vertex x="-2.413" y="-3.1115"/>
-<vertex x="-2.413" y="-2.7305"/>
-</polygon>
-<text x="3.683" y="1.397" size="1.27" layer="21" ratio="6" rot="SR0">2</text>
-<text x="3.683" y="-2.667" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="-5.9944" y="1.397" size="1.27" layer="21" ratio="6" rot="SR0">10</text>
-<text x="-4.826" y="-2.667" size="1.27" layer="21" ratio="6" rot="SR0">9</text>
+<text x="3.5" y="3" size="0.635" layer="21" font="vector" ratio="20" rot="SR0">2</text>
+<text x="3.5" y="-3.5" size="0.635" layer="21" font="vector" ratio="20" rot="SR0">1</text>
+<text x="-4.5" y="3" size="0.635" layer="21" font="vector" ratio="20" rot="SR0">10</text>
+<text x="-4" y="-3.5" size="0.635" layer="21" font="vector" ratio="20" rot="SR0">9</text>
 <wire x1="2.54" y1="-3.7592" x2="1.905" y2="-5.0292" width="0.1524" layer="51"/>
 <wire x1="1.905" y1="-5.0292" x2="3.175" y2="-5.0292" width="0.1524" layer="51"/>
 <wire x1="3.175" y1="-5.0292" x2="2.54" y2="-3.7592" width="0.1524" layer="51"/>
@@ -14791,10 +14785,10 @@ LED</description>
 <wire x1="3.175" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="51"/>
 <wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="51"/>
 <text x="3.683" y="1.397" size="1.27" layer="51" ratio="6" rot="SR0">2</text>
-<text x="3.683" y="-2.667" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="-5.9944" y="1.397" size="1.27" layer="51" ratio="6" rot="SR0">10</text>
-<text x="-4.826" y="-2.667" size="1.27" layer="51" ratio="6" rot="SR0">9</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="3.683" y="-2.667" size="1.27" layer="51" font="vector" ratio="6" rot="SR0">1</text>
+<text x="-5.9944" y="1.397" size="1.27" layer="51" font="vector" ratio="6" rot="SR0">10</text>
+<text x="-4.826" y="-2.667" size="1.27" layer="51" font="vector" ratio="6" rot="SR0">9</text>
+<text x="4" y="-0.5" size="0.635" layer="25" font="vector" ratio="20" rot="SR0">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -16603,27 +16597,29 @@ be pulled high by the STM</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,332.74,139.7,X1,SHIELD,GND,,,"/>
-<approved hash="104,1,175.26,144.78,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,276.86,157.48,U6,VDD,3.3V,,,"/>
-<approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
-<approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
-<approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
-<approved hash="104,1,176.53,248.92,U1,VIN,VBUS,,,"/>
-<approved hash="104,1,201.93,248.92,U1,VOUT,3.3V,,,"/>
-<approved hash="104,1,191.77,213.36,U1,PGND,GND,,,"/>
+<approved hash="104,1,321.31,248.92,U2,VIN,VBUS,,,"/>
+<approved hash="104,1,346.71,248.92,U2,VOUT,3.3V,,,"/>
+<approved hash="104,1,336.55,213.36,U2,PGND,GND,,,"/>
+<approved hash="104,1,218.44,137.16,X2,SHIELD,GND,,,"/>
+<approved hash="104,1,71.12,142.24,U3,VCC,3.3V,,,"/>
+<approved hash="104,1,172.72,154.94,U4,VDD,3.3V,,,"/>
+<approved hash="104,1,165.1,154.94,U4,VDDA,3.3V,,,"/>
+<approved hash="104,1,165.1,104.14,U4,VSS,GND,,,"/>
+<approved hash="104,1,157.48,154.94,U4,VDDIO2,3.3V,,,"/>
+<approved hash="106,1,144.78,147.32,PA1,,,,,"/>
+<approved hash="106,1,144.78,144.78,PA2/USART2_TX,,,,,"/>
+<approved hash="106,1,144.78,142.24,PA3/USART2_RX,,,,,"/>
+<approved hash="106,1,144.78,139.7,PA4,,,,,"/>
+<approved hash="106,1,144.78,137.16,PA5/SPI1_SCK,,,,,"/>
+<approved hash="106,1,144.78,134.62,PA6/SPI1_MISO,,,,,"/>
+<approved hash="106,1,144.78,132.08,PA7/SPI1_MOSI,,,,,"/>
+<approved hash="106,1,144.78,129.54,PA8,,,,,"/>
+<approved hash="106,1,144.78,111.76,PA15,,,,,"/>
+<approved hash="106,1,185.42,127,PB0,,,,,"/>
+<approved hash="106,1,185.42,124.46,PB1,,,,,"/>
+<approved hash="106,1,185.42,121.92,PB3,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,270.468,51.0261,JP4,,,,,"/>
-<approved hash="113,1,310.117,246.606,JP5,,,,,"/>
-<approved hash="113,1,326.627,228.826,JP7,,,,,"/>
-<approved hash="113,1,310.117,228.826,JP6,,,,,"/>
-<approved hash="113,1,170.773,17.7123,J5,,,,,"/>
-<approved hash="113,1,178.037,38.3261,JP8,,,,,"/>
-<approved hash="113,1,76.4371,57.3761,JP9,,,,,"/>
-<approved hash="113,1,76.1577,115.796,JP10,,,,,"/>
-<approved hash="113,1,138.667,109.446,JP1,,,,,"/>
-<approved hash="113,1,65.9977,180.566,JP11,,,,,"/>
-<approved hash="113,1,326.627,249.146,JP3,,,,,"/>
+<approved hash="113,1,84.0571,236.446,JP9,,,,,"/>
 </errors>
 </schematic>
 </drawing>
