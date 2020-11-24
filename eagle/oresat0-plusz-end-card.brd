@@ -2826,10 +2826,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="80.853" y="84.723" locked="yes" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="P-NP" value="P" x="77.9" y="90.6" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$9" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="76.93" y="76.83" smashed="yes"/>
-<element name="U$10" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="76.93" y="22.77" smashed="yes"/>
-<element name="U$11" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="22.87" y="76.83" smashed="yes"/>
-<element name="U$12" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="22.87" y="22.77" smashed="yes"/>
+<element name="HW1" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="76.93" y="76.83" smashed="yes"/>
+<element name="HW2" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="76.93" y="22.77" smashed="yes"/>
+<element name="HW3" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="22.87" y="76.83" smashed="yes"/>
+<element name="HW4" library="HW-mcmaster-94100A150-M2-threaded-insert" package="MCMASTER-94100A150" value="MCMASTER-94100A150" x="22.87" y="22.77" smashed="yes"/>
 <element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.3-GENERIC-3RF" value="ORESAT-CARD-V1.3-GENERIC-3RF" x="0" y="0" locked="yes" smashed="yes"/>
 <element name="CM1" library="J-Molex-73300-003X-SMPM-M-edge-mount-NO-DIM" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="71.9" y="90.6" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="SMPM Edge Mounted 50 ohm RF connector" x="71.9" y="90.6" locked="yes" size="1.778" layer="27" display="off"/>

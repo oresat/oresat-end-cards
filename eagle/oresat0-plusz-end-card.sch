@@ -5378,10 +5378,10 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CM3" library="J-Molex-73300-003X-SMPM-M-edge-mount-NO-DIM" deviceset="J-MOLEX-SMPM-73300-003X" device=""/>
 <part name="CM2" library="J-Molex-73300-003X-SMPM-M-edge-mount-NO-DIM" deviceset="J-MOLEX-SMPM-73300-003X" device=""/>
-<part name="U$9" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
-<part name="U$10" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
-<part name="U$11" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
-<part name="U$12" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
+<part name="HW1" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
+<part name="HW2" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
+<part name="HW3" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
+<part name="HW4" library="HW-mcmaster-94100A150-M2-threaded-insert" deviceset="MCMASTER-94100A150" device=""/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.3-GENERIC-3RF" device=""/>
 <part name="CM1" library="J-Molex-73300-003X-SMPM-M-edge-mount-NO-DIM" deviceset="J-MOLEX-SMPM-73300-003X" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5506,10 +5506,10 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <instance part="GND23" gate="1" x="199.39" y="138.43" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="201.93" y="135.89" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$9" gate="G$1" x="48.26" y="10.16" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="55.88" y="10.16" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="63.5" y="10.16" smashed="yes"/>
-<instance part="U$12" gate="G$1" x="71.12" y="10.16" smashed="yes"/>
+<instance part="HW1" gate="G$1" x="48.26" y="10.16" smashed="yes"/>
+<instance part="HW2" gate="G$1" x="55.88" y="10.16" smashed="yes"/>
+<instance part="HW3" gate="G$1" x="63.5" y="10.16" smashed="yes"/>
+<instance part="HW4" gate="G$1" x="71.12" y="10.16" smashed="yes"/>
 <instance part="PCB1" gate="G$1" x="58.42" y="22.86" smashed="yes"/>
 </instances>
 <busses>
