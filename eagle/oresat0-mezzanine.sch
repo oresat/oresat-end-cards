@@ -4425,18 +4425,16 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 </library>
 <library name="J-Radiall-R107064070-RF">
 <packages>
-<package name="R107064070">
-<smd name="P$1" x="0" y="-1" dx="1.2" dy="1.4" layer="1" thermals="no" cream="no"/>
-<smd name="P$2" x="-1.9" y="0" dx="1.2" dy="1.1" layer="1" rot="R90" thermals="no" cream="no"/>
-<smd name="P$3" x="1.9" y="0" dx="1.2" dy="1.1" layer="1" rot="R90" thermals="no" cream="no"/>
+<package name="R107064070_SOLDER">
+<smd name="P$1" x="0" y="-1" dx="1.2" dy="1.4" layer="1" thermals="no"/>
+<smd name="P$2" x="-1.9" y="0" dx="1.2" dy="1.1" layer="1" rot="R90" thermals="no"/>
+<smd name="P$3" x="1.9" y="0" dx="1.2" dy="1.1" layer="1" rot="R90" thermals="no"/>
 <rectangle x1="-1.35" y1="-0.3" x2="1.35" y2="0.6" layer="41"/>
 <rectangle x1="-1.35" y1="-1.25" x2="-0.6" y2="-0.3" layer="41"/>
 <rectangle x1="-0.8" y1="-2.1" x2="-0.6" y2="-1.25" layer="41"/>
 <rectangle x1="0.6" y1="-1.25" x2="1.35" y2="-0.3" layer="41"/>
 <rectangle x1="0.6" y1="-2.1" x2="0.8" y2="-1.25" layer="41"/>
-<rectangle x1="-2.3" y1="-0.45" x2="-1.5" y2="0.45" layer="31"/>
-<rectangle x1="-0.45" y1="-1.55" x2="0.45" y2="-0.45" layer="31"/>
-<rectangle x1="1.5" y1="-0.45" x2="2.3" y2="0.45" layer="31"/>
+<text x="1.3" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4462,21 +4460,34 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <wire x1="3.048" y1="-4.826" x2="3.048" y2="-2.794" width="0.1524" layer="94"/>
 <wire x1="4.064" y1="-3.048" x2="4.064" y2="-4.572" width="0.1524" layer="94" curve="-180"/>
 <wire x1="5.588" y1="5.08" x2="5.588" y2="-7.62" width="0.2032" layer="94"/>
+<text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R107064070">
+<deviceset name="R107064070" prefix="J">
+<description>&lt;b&gt;Surface to surface low percision RF connector&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;R107064070&lt;/b&gt;&lt;br&gt;
+Datasheet: &lt;a href="https://www.mouser.com/datasheet/2/516/radiall_radls10120-1-1746158.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R107064070" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="R107064070">
+<device name="" package="R107064070_SOLDER">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2 P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface to surface RF connector"/>
+<attribute name="DIST" value="Mouser" constant="no"/>
+<attribute name="DIST_PN" value="501-R107064070" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="Radiall"/>
+<attribute name="MFG_PN" value="R107064070"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4656,11 +4667,11 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R2" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="U$1" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$2" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$3" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$4" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$5" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J1" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J2" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J3" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J5" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J4" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4676,11 +4687,11 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="R4" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R5" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="U$6" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$7" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$8" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$9" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U$10" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J6" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J7" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J8" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J9" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
+<part name="J10" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device=""/>
 <part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device=""/>
 <part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device=""/>
@@ -4691,7 +4702,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <plain>
 <text x="121.92" y="104.14" size="1.778" layer="97">1/4 wavelength</text>
 <text x="266.7" y="6.35" size="3.81" layer="97">1</text>
-<text x="175.26" y="27.94" size="2.54" layer="97">MEZZANINE BOARD FOR UHF FEED SYSTEM</text>
+<text x="182.88" y="27.94" size="2.54" layer="94">MEZZANINE BOARD FOR UHF FEED SYSTEM</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -4701,15 +4712,15 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="U1" gate="G$1" x="91.44" y="127" smashed="yes">
-<attribute name="NAME" x="78.74" y="134.62" size="1.778" layer="95"/>
+<attribute name="NAME" x="97.79" y="116.84" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$1" x="170.18" y="144.78" smashed="yes">
-<attribute name="NAME" x="157.48" y="152.4" size="1.778" layer="95"/>
+<attribute name="NAME" x="177.8" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="G$1" x="170.18" y="93.98" smashed="yes">
-<attribute name="NAME" x="157.48" y="101.6" size="1.778" layer="95"/>
+<attribute name="NAME" x="177.8" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="83.82" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="91.44" y="104.14" smashed="yes">
@@ -4757,11 +4768,26 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <attribute name="NAME" x="145.8214" y="77.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="150.622" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="33.02" y="129.54" smashed="yes" rot="MR0"/>
-<instance part="U$2" gate="G$1" x="228.6" y="157.48" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="228.6" y="134.62" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="228.6" y="111.76" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="228.6" y="88.9" smashed="yes"/>
+<instance part="J1" gate="G$1" x="33.02" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="30.48" y="119.38" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="30.48" y="116.84" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="J2" gate="G$1" x="228.6" y="157.48" smashed="yes">
+<attribute name="NAME" x="231.14" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="231.14" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="J3" gate="G$1" x="228.6" y="134.62" smashed="yes">
+<attribute name="NAME" x="231.14" y="124.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="231.14" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="J5" gate="G$1" x="228.6" y="111.76" smashed="yes">
+<attribute name="NAME" x="231.14" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="231.14" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="G$1" x="228.6" y="88.9" smashed="yes">
+<attribute name="NAME" x="231.14" y="78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="231.14" y="76.2" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4770,7 +4796,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <segment>
 <pinref part="U1" gate="G$1" pin="SUM"/>
 <wire x1="38.1" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
 <label x="53.34" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4826,27 +4852,27 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="33.02" y1="119.38" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="J1" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="228.6" y1="147.32" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="228.6" y1="124.46" x2="228.6" y2="127" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="J3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="228.6" y1="101.6" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="J5" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="228.6" y1="78.74" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$2"/>
+<pinref part="J4" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$4" class="1">
@@ -4892,7 +4918,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="203.2" y="147.32" size="1.778" layer="95"/>
 <wire x1="213.36" y1="147.32" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="UHF_90" class="1">
@@ -4902,7 +4928,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="203.2" y="139.7" size="1.778" layer="95"/>
 <wire x1="213.36" y1="139.7" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="J3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="UHF_270" class="1">
@@ -4910,7 +4936,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <pinref part="U3" gate="G$1" pin="90"/>
 <label x="203.2" y="88.9" size="1.778" layer="95"/>
 <wire x1="182.88" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="J4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="UHF_180" class="1">
@@ -4920,7 +4946,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="203.2" y="96.52" size="1.778" layer="95"/>
 <wire x1="213.36" y1="96.52" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="J5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
@@ -4928,9 +4954,15 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <sheet>
 <description>S BAND</description>
 <plain>
-<text x="-127" y="254" size="1.778" layer="97">1/4 wavelength</text>
+<text x="-129.54" y="238.76" size="1.778" layer="97">1/4 wavelength</text>
 <text x="17.78" y="156.21" size="3.81" layer="97">1</text>
-<text x="-73.66" y="177.8" size="2.54" layer="97">MEZZANINE BOARD FOR UHF FEED SYSTEM</text>
+<text x="-62.23" y="177.8" size="2.54" layer="94">MEZZANINE BOARD FOR S BAND FEED SYSTEM</text>
+<text x="-140.97" y="236.22" size="1.778" layer="97">18.8mm on 4 lyr OSH Park PCB</text>
+<text x="-53.34" y="218.44" size="1.778" layer="97">MAKE SAME LENGTH</text>
+<wire x1="-58.42" y1="213.36" x2="-8.89" y2="213.36" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="213.36" x2="-8.89" y2="318.77" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="318.77" x2="-58.42" y2="318.77" width="0.1524" layer="97"/>
+<wire x1="-58.42" y1="318.77" x2="-58.42" y2="213.36" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-248.92" y="149.86" smashed="yes"/>
@@ -4984,11 +5016,26 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <attribute name="NAME" x="-103.0986" y="227.33" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-98.298" y="227.33" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$6" gate="G$1" x="-218.44" y="281.94" smashed="yes" rot="MR0"/>
-<instance part="U$7" gate="G$1" x="-20.32" y="307.34" smashed="yes"/>
-<instance part="U$8" gate="G$1" x="-20.32" y="284.48" smashed="yes"/>
-<instance part="U$9" gate="G$1" x="-20.32" y="261.62" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="-20.32" y="238.76" smashed="yes"/>
+<instance part="J6" gate="G$1" x="-218.44" y="281.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-220.98" y="271.78" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-220.98" y="269.24" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="J7" gate="G$1" x="-20.32" y="307.34" smashed="yes">
+<attribute name="NAME" x="-17.78" y="297.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-17.78" y="294.64" size="1.778" layer="96"/>
+</instance>
+<instance part="J8" gate="G$1" x="-20.32" y="284.48" smashed="yes">
+<attribute name="NAME" x="-17.78" y="274.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-17.78" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="J9" gate="G$1" x="-20.32" y="261.62" smashed="yes">
+<attribute name="NAME" x="-17.78" y="251.46" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-17.78" y="248.92" size="1.778" layer="96"/>
+</instance>
+<instance part="J10" gate="G$1" x="-20.32" y="238.76" smashed="yes">
+<attribute name="NAME" x="-17.78" y="228.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-17.78" y="226.06" size="1.778" layer="96"/>
+</instance>
 <instance part="U7" gate="G$1" x="-157.48" y="276.86" smashed="yes">
 <attribute name="NAME" x="-149.86" y="266.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-149.86" y="264.16" size="1.778" layer="96"/>
@@ -5047,27 +5094,27 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="-218.44" y1="271.78" x2="-218.44" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="P$2"/>
+<pinref part="J6" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="297.18" x2="-20.32" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="P$2"/>
+<pinref part="J7" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="274.32" x2="-20.32" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="P$2"/>
+<pinref part="J8" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="251.46" x2="-20.32" y2="254" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="P$2"/>
+<pinref part="J9" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="228.6" x2="-20.32" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P$2"/>
+<pinref part="J10" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$2" class="1">
@@ -5089,7 +5136,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <net name="SBAND" class="1">
 <segment>
 <wire x1="-213.36" y1="281.94" x2="-172.72" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="J6" gate="G$1" pin="P$1"/>
 <label x="-198.12" y="281.94" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="SUM"/>
 </segment>
@@ -5098,13 +5145,13 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <segment>
 <wire x1="-142.24" y1="281.94" x2="-134.62" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="281.94" x2="-134.62" y2="299.72" width="0.1524" layer="91"/>
-<label x="-132.08" y="287.02" size="1.778" layer="95"/>
+<label x="-133.35" y="290.83" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="PORT1"/>
 <pinref part="U8" gate="G$1" pin="SUM"/>
 <wire x1="-93.98" y1="299.72" x2="-134.62" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SBAND-1/4L" class="1">
+<net name="SBAND-SHORT+1/4WAVE" class="1">
 <segment>
 <wire x1="-99.06" y1="246.38" x2="-109.22" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="246.38" x2="-109.22" y2="251.46" width="0.1524" layer="91"/>
@@ -5119,7 +5166,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <wire x1="-129.54" y1="246.38" x2="-134.62" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="246.38" x2="-134.62" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="271.78" x2="-142.24" y2="271.78" width="0.1524" layer="91"/>
-<label x="-132.08" y="266.7" size="1.778" layer="95"/>
+<label x="-133.35" y="261.62" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="PORT2"/>
 <pinref part="U9" gate="G$1" pin="SUM"/>
 <wire x1="-93.98" y1="248.92" x2="-99.06" y2="248.92" width="0.1524" layer="91"/>
@@ -5130,7 +5177,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <segment>
 <wire x1="-35.56" y1="299.72" x2="-35.56" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="307.34" x2="-25.4" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
+<pinref part="J7" gate="G$1" pin="P$1"/>
 <pinref part="U8" gate="G$1" pin="PORT1"/>
 <wire x1="-63.5" y1="299.72" x2="-35.56" y2="299.72" width="0.1524" layer="91"/>
 <label x="-55.88" y="299.72" size="1.778" layer="95"/>
@@ -5142,7 +5189,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <wire x1="-63.5" y1="289.56" x2="-35.56" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="289.56" x2="-35.56" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="284.48" x2="-25.4" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="J8" gate="G$1" pin="P$1"/>
 <pinref part="U8" gate="G$1" pin="PORT2"/>
 </segment>
 </net>
@@ -5152,14 +5199,14 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="-55.88" y="248.92" size="1.778" layer="95"/>
 <wire x1="-35.56" y1="248.92" x2="-35.56" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="261.62" x2="-25.4" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="P$1"/>
+<pinref part="J9" gate="G$1" pin="P$1"/>
 <pinref part="U9" gate="G$1" pin="PORT1"/>
 </segment>
 </net>
 <net name="SBAND_270" class="1">
 <segment>
 <label x="-55.88" y="238.76" size="1.778" layer="95"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="J10" gate="G$1" pin="P$1"/>
 <pinref part="U9" gate="G$1" pin="PORT2"/>
 <wire x1="-63.5" y1="238.76" x2="-25.4" y2="238.76" width="0.1524" layer="91"/>
 </segment>
@@ -5169,6 +5216,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 </sheets>
 <errors>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,2,-109.324,257.706,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
