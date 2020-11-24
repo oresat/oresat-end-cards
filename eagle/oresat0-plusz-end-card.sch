@@ -5918,7 +5918,7 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <sheet>
 <description>L BAND</description>
 <plain>
-<text x="121.92" y="104.14" size="1.778" layer="97">1/4 wavelength</text>
+<text x="119.38" y="88.9" size="1.778" layer="97">1/4 wavelength</text>
 <wire x1="218.44" y1="128.27" x2="218.44" y2="132.08" width="0.1524" layer="94"/>
 <wire x1="218.44" y1="132.08" x2="215.9" y2="135.89" width="0.1524" layer="94"/>
 <wire x1="215.9" y1="135.89" x2="218.44" y2="135.89" width="0.1524" layer="94"/>
@@ -5950,6 +5950,7 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <wire x1="245.11" y1="165.1" x2="212.09" y2="165.1" width="0.1524" layer="97"/>
 <text x="214.63" y="156.21" size="2.54" layer="97">4x UHF elements
 (through holes)</text>
+<text x="106.68" y="86.36" size="1.778" layer="97">36.1 mm on 4 lyr OSH Park PCB</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

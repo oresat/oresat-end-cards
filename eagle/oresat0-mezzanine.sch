@@ -4692,9 +4692,9 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="J8" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J9" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J10" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
-<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
-<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
+<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
+<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
+<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
 </parts>
 <sheets>
 <sheet>
@@ -4708,6 +4708,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <wire x1="245.11" y1="60.96" x2="245.11" y2="166.37" width="0.1524" layer="97"/>
 <wire x1="245.11" y1="166.37" x2="187.96" y2="166.37" width="0.1524" layer="97"/>
 <wire x1="187.96" y1="166.37" x2="187.96" y2="60.96" width="0.1524" layer="97"/>
+<text x="109.22" y="86.36" size="1.778" layer="97">105 mm on 4 lyr OSH Park PCB</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
