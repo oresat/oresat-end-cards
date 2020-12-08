@@ -4636,6 +4636,44 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+</package>
+<package name="FLIGHTMARKER_OLD_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="36" y1="-0.2" x2="37.8" y2="1.6" layer="21"/>
+<wire x1="22.077" y1="-0.381" x2="26.087" y2="-0.381" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FLIGHTHARDWARE">
+<text x="0" y="0" size="2.54" layer="94">Flight Hardware Marker (on PCB)</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FLIGHMARKER">
+<gates>
+<gate name="G$1" symbol="FLIGHTHARDWARE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NEW" package="FLIGHTMARKER_NEW_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OLD" package="FLIGHTMARKER_OLD_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4695,6 +4733,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
 <part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
 <part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
+<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
 </parts>
 <sheets>
 <sheet>
@@ -4794,6 +4833,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <attribute name="NAME" x="231.14" y="78.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="231.14" y="76.2" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="10.16" y="2.54" smashed="yes"/>
 </instances>
 <busses>
 </busses>

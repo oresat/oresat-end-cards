@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5306,6 +5306,44 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+</package>
+<package name="FLIGHTMARKER_OLD_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="36" y1="-0.2" x2="37.8" y2="1.6" layer="21"/>
+<wire x1="22.077" y1="-0.381" x2="26.087" y2="-0.381" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FLIGHTHARDWARE">
+<text x="0" y="0" size="2.54" layer="94">Flight Hardware Marker (on PCB)</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FLIGHMARKER">
+<gates>
+<gate name="G$1" symbol="FLIGHTHARDWARE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NEW" package="FLIGHTMARKER_NEW_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OLD" package="FLIGHTMARKER_OLD_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5363,9 +5401,7 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R2" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="R4" library="oresat-rcl" deviceset="R-US_" device="0309/12" value="1 1W"/>
 <part name="R5" library="oresat-rcl" deviceset="R-US_" device="0309/12" value="1 1W"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J7" library="J-Radiall-R107064070-RF" deviceset="R107064070_CONTACT" device=""/>
 <part name="J8" library="J-Radiall-R107064070-RF" deviceset="R107064070_CONTACT" device=""/>
@@ -5396,6 +5432,7 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
 </parts>
 <sheets>
 <sheet>
@@ -5415,11 +5452,12 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <text x="234.95" y="190.5" size="1.778" layer="97">TO +Z END CAP</text>
 <text x="45.72" y="5.08" size="1.778" layer="97">PEMSERT nuts for meltwires</text>
 <text x="205.74" y="134.62" size="1.778" layer="97" rot="R90">PAC100001008FA1000</text>
-<text x="182.88" y="129.54" size="1.778" layer="97">MELTWIRE RESISTORS</text>
-<wire x1="177.8" y1="127" x2="177.8" y2="162.56" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="97"/>
-<wire x1="213.36" y1="162.56" x2="213.36" y2="127" width="0.1524" layer="97"/>
-<wire x1="213.36" y1="127" x2="177.8" y2="127" width="0.1524" layer="97"/>
+<text x="195.58" y="128.27" size="1.778" layer="97">Meltwire
+Resistors</text>
+<wire x1="189.23" y1="127" x2="189.23" y2="162.56" width="0.1524" layer="97"/>
+<wire x1="189.23" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="162.56" x2="208.28" y2="127" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="127" x2="189.23" y2="127" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5492,16 +5530,9 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <instance part="GND22" gate="1" x="234.95" y="156.21" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="237.49" y="153.67" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R4" gate="R" x="190.5" y="148.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="189.0014" y="144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="193.802" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R5" gate="R" x="199.39" y="148.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.8914" y="144.78" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="202.692" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND12" gate="1" x="190.5" y="138.43" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="193.04" y="135.89" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND23" gate="1" x="199.39" y="138.43" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="201.93" y="135.89" size="1.778" layer="96" rot="MR0"/>
@@ -5511,6 +5542,7 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <instance part="HW3" gate="G$1" x="63.5" y="10.16" smashed="yes"/>
 <instance part="HW4" gate="G$1" x="71.12" y="10.16" smashed="yes"/>
 <instance part="PCB1" gate="G$1" x="58.42" y="22.86" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="81.28" y="8.89" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5605,11 +5637,6 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <junction x="234.95" y="162.56"/>
 </segment>
 <segment>
-<pinref part="R4" gate="R" pin="1"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="190.5" y1="140.97" x2="190.5" y2="143.51" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R5" gate="R" pin="1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="199.39" y1="140.97" x2="199.39" y2="143.51" width="0.1524" layer="91"/>
@@ -5639,12 +5666,8 @@ Datasheet for physical part: &lt;a href="https://www.mouser.com/datasheet/2/516/
 <wire x1="66.04" y1="130.81" x2="166.37" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="166.37" y1="130.81" x2="166.37" y2="158.75" width="0.1524" layer="91"/>
 <pinref part="R5" gate="R" pin="2"/>
-<wire x1="166.37" y1="158.75" x2="190.5" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="158.75" x2="199.39" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="158.75" x2="199.39" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="158.75" x2="199.39" y2="153.67" width="0.1524" layer="91"/>
-<pinref part="R4" gate="R" pin="2"/>
-<wire x1="190.5" y1="153.67" x2="190.5" y2="158.75" width="0.1524" layer="91"/>
-<junction x="190.5" y="158.75"/>
 </segment>
 </net>
 <net name="MAG-SCL" class="0">

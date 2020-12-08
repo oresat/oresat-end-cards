@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -186,14 +186,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="23" y1="82.9" x2="87" y2="82.9" width="0.001" layer="20"/>
-<wire x1="87" y1="82.9" x2="91" y2="78.9" width="0.001" layer="20" curve="-90"/>
-<wire x1="91" y1="78.9" x2="91" y2="20.9" width="0.001" layer="20"/>
-<wire x1="91" y1="20.9" x2="79" y2="8.9" width="0.001" layer="20" curve="-90"/>
-<wire x1="79" y1="8.9" x2="19" y2="8.9" width="0.001" layer="20"/>
-<wire x1="19" y1="8.9" x2="11" y2="16.9" width="0.001" layer="20" curve="-90"/>
-<wire x1="11" y1="16.9" x2="11" y2="70.9" width="0.001" layer="20"/>
-<wire x1="11" y1="70.9" x2="23" y2="82.9" width="0.001" layer="20" curve="-90"/>
+<wire x1="13" y1="82.9" x2="89" y2="82.9" width="0.001" layer="20"/>
+<wire x1="89" y1="82.9" x2="91" y2="80.9" width="0.001" layer="20" curve="-90"/>
+<wire x1="91" y1="80.9" x2="91" y2="13.4" width="0.001" layer="20"/>
+<wire x1="91" y1="13.4" x2="89" y2="11.4" width="0.001" layer="20" curve="-90"/>
+<wire x1="89" y1="11.4" x2="13" y2="11.4" width="0.001" layer="20"/>
+<wire x1="13" y1="11.4" x2="11" y2="13.4" width="0.001" layer="20" curve="-90"/>
+<wire x1="11" y1="13.4" x2="11" y2="80.9" width="0.001" layer="20"/>
+<wire x1="11" y1="80.9" x2="13" y2="82.9" width="0.001" layer="20" curve="-90"/>
 <wire x1="85" y1="75.7" x2="83" y2="72.9" width="2" layer="29" curve="70"/>
 <wire x1="83" y1="72.9" x2="83" y2="67.142640625" width="2" layer="29"/>
 <wire x1="83" y1="67.142640625" x2="83.878678125" y2="65.021321875" width="2" layer="29" curve="44.999958"/>
@@ -248,9 +248,9 @@
 <circle x="75" y="49.8" radius="2.5" width="0" layer="29"/>
 <circle x="75" y="49.8" radius="3" width="0" layer="30"/>
 <text x="32" y="15.9" size="1.5" layer="25" font="vector" ratio="10">OreSat0 +Z End Card Mezzanine Board
-v1.1  2020-11-23</text>
+v1.1  2020-12-08</text>
 <text x="69.4" y="16.2" size="1.5" layer="22" font="vector" ratio="10" rot="MR0">OreSat0 +Z End Card Mezzanine Board
-v1.1  2020-11-23</text>
+v1.1  2020-12-08</text>
 <circle x="22.87" y="76.83" radius="2.75" width="0.001" layer="50"/>
 <circle x="76.93" y="76.83" radius="2.75" width="0.001" layer="50"/>
 <circle x="22.87" y="22.77" radius="2.75" width="0.001" layer="50"/>
@@ -261,20 +261,20 @@ v1.1  2020-11-23</text>
 <wire x1="25.368640625" y1="27.53138125" x2="27.63138125" y2="25.268640625" width="0.001" layer="50"/>
 <wire x1="27.63138125" y1="74.331359375" x2="25.368640625" y2="72.06861875" width="0.001" layer="50"/>
 <wire x1="8.4" y1="87.68281875" x2="8.4" y2="3.307140625" width="0.001" layer="50"/>
-<wire x1="91.4" y1="12.8" x2="91.4" y2="8.3" width="0.001" layer="50"/>
+<wire x1="91.4" y1="12.8" x2="91.4" y2="10.8" width="0.001" layer="50"/>
 <wire x1="91.4" y1="87.68281875" x2="91.4" y2="3.307140625" width="0.001" layer="50"/>
 <circle x="24.799990625" y="49.799990625" radius="1.2" width="0.001" layer="50"/>
 <circle x="49.899990625" y="24.699990625" radius="1.55" width="0.001" layer="50"/>
 <circle x="74.999990625" y="49.799990625" radius="1.2" width="0.001" layer="50"/>
 <circle x="49.899990625" y="74.899990625" radius="1.55" width="0.001" layer="50"/>
-<wire x1="91" y1="20.9" x2="91" y2="78.9" width="0.001" layer="50"/>
-<wire x1="91" y1="78.9" x2="87" y2="82.9" width="0.001" layer="50" curve="90"/>
-<wire x1="87" y1="82.9" x2="23" y2="82.9" width="0.001" layer="50"/>
-<wire x1="23" y1="82.9" x2="11" y2="70.9" width="0.001" layer="50" curve="90"/>
-<wire x1="11" y1="70.9" x2="11" y2="16.9" width="0.001" layer="50"/>
-<wire x1="11" y1="16.9" x2="19" y2="8.9" width="0.001" layer="50" curve="90"/>
-<wire x1="19" y1="8.9" x2="79" y2="8.9" width="0.001" layer="50"/>
-<wire x1="79" y1="8.9" x2="91" y2="20.9" width="0.001" layer="50" curve="90"/>
+<wire x1="13" y1="11.4" x2="89" y2="11.4" width="0.001" layer="50"/>
+<wire x1="89" y1="11.4" x2="91" y2="13.4" width="0.001" layer="50" curve="90"/>
+<wire x1="91" y1="13.4" x2="91" y2="80.9" width="0.001" layer="50"/>
+<wire x1="91" y1="80.9" x2="89" y2="82.9" width="0.001" layer="50" curve="90"/>
+<wire x1="89" y1="82.9" x2="13" y2="82.9" width="0.001" layer="50"/>
+<wire x1="13" y1="82.9" x2="11" y2="80.9" width="0.001" layer="50" curve="90"/>
+<wire x1="11" y1="80.9" x2="11" y2="13.4" width="0.001" layer="50"/>
+<wire x1="11" y1="13.4" x2="13" y2="11.4" width="0.001" layer="50" curve="90"/>
 <hole x="76.93" y="76.83" drill="5.5" locked="yes"/>
 <hole x="22.87" y="76.83" drill="5.5" locked="yes"/>
 <hole x="76.93" y="22.77" drill="5.5" locked="yes"/>
@@ -1477,6 +1477,15 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </package>
 </packages>
 </library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1839,6 +1848,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="P-NP" value="P" x="36.1" y="52.3" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="37.5" y="49" size="0.6096" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="12.1" y="28.9" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1878,8 +1888,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J4" pad="P$2"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="6">
 <vertex x="11" y="82.9"/>
-<vertex x="11" y="8.9"/>
-<vertex x="91" y="8.9"/>
+<vertex x="11" y="11.4"/>
+<vertex x="91" y="11.4"/>
 <vertex x="91" y="82.9"/>
 </polygon>
 <via x="85" y="73.9" extent="1-16" drill="0.254"/>
@@ -2017,20 +2027,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="71.92" y="29.92" extent="1-16" drill="0.254"/>
 <polygon width="0.127" layer="2" isolate="0.2" thermals="no" rank="6">
 <vertex x="11" y="82.9"/>
-<vertex x="11" y="8.9"/>
-<vertex x="91" y="8.9"/>
+<vertex x="11" y="11.4"/>
+<vertex x="91" y="11.4"/>
 <vertex x="91" y="82.9"/>
 </polygon>
 <polygon width="0.127" layer="15" isolate="0.2" thermals="no" rank="6">
 <vertex x="11" y="82.9"/>
-<vertex x="11" y="8.9"/>
-<vertex x="91" y="8.9"/>
+<vertex x="11" y="11.4"/>
+<vertex x="91" y="11.4"/>
 <vertex x="91" y="82.9"/>
 </polygon>
 <polygon width="0.127" layer="16" isolate="0.2" thermals="no" rank="6">
 <vertex x="11" y="82.9"/>
-<vertex x="11" y="8.9"/>
-<vertex x="91" y="8.9"/>
+<vertex x="11" y="11.4"/>
+<vertex x="91" y="11.4"/>
 <vertex x="91" y="82.9"/>
 </polygon>
 <via x="84.9" y="43.3" extent="1-16" drill="0.254"/>
@@ -2132,12 +2142,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="75" y="19.9" extent="1-16" drill="0.254"/>
 <via x="80" y="24.9" extent="1-16" drill="0.254"/>
 <via x="85" y="29.9" extent="1-16" drill="0.254"/>
-<via x="75" y="9.9" extent="1-16" drill="0.254"/>
-<via x="65" y="9.9" extent="1-16" drill="0.254"/>
-<via x="55" y="9.9" extent="1-16" drill="0.254"/>
-<via x="45" y="9.9" extent="1-16" drill="0.254"/>
-<via x="35" y="9.9" extent="1-16" drill="0.254"/>
-<via x="25" y="9.9" extent="1-16" drill="0.254"/>
 <via x="80" y="34.9" extent="1-16" drill="0.254"/>
 <via x="70" y="34.9" extent="1-16" drill="0.254"/>
 <via x="57" y="66.4" extent="1-16" drill="0.254"/>
@@ -2465,6 +2469,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="40.3" y="54.4" extent="1-16" drill="0.254"/>
 <via x="40" y="53.1" extent="1-16" drill="0.254"/>
 <via x="40.8" y="51.2" extent="1-16" drill="0.254"/>
+<via x="12" y="12.5" extent="1-16" drill="0.254"/>
+<via x="90" y="12.5" extent="1-16" drill="0.254"/>
+<via x="90" y="81.8" extent="1-16" drill="0.254"/>
+<via x="12.1" y="81.9" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="UHF" class="1">
 <contactref element="U1" pad="1"/>
@@ -2843,6 +2851,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="5,16,ad31976657870d07"/>
 <approved hash="5,16,f82b2f14df222c4d"/>
 <approved hash="5,1,756abbb7e142d3f5"/>
+<approved hash="23,16,52e032e830fa50f2"/>
+<approved hash="23,16,b93c39b97437bb30"/>
+<approved hash="23,16,5a37b63fb4685860"/>
+<approved hash="23,16,e7e03fe83f7ce774"/>
+<approved hash="23,16,6160b168b1c461cc"/>
+<approved hash="23,16,fceff8e7fef2fafa"/>
 </errors>
 </board>
 </drawing>
