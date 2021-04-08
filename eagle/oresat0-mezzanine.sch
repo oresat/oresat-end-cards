@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3371,30 +3371,6 @@ This package is identical to 0805-C, but has its tPlace silkscreen layer removed
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.15" layer="33"/>
 <text x="0" y="0" size="0.4" layer="33" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="1206-A">
-<description>&lt;b&gt;1206 (metric 3216) loose 'IPC-A'&lt;/b&gt;
-&lt;br&gt;In house package for generous spacing based on IPC-7351A. Cross-checked against other packages.</description>
-<wire x1="-0.95" y1="0.8" x2="-0.95" y2="-0.8" width="0.01" layer="51"/>
-<wire x1="0.95" y1="0.8" x2="0.95" y2="-0.8" width="0.01" layer="51"/>
-<wire x1="2.8" y1="1.45" x2="-2.8" y2="1.45" width="0.01" layer="39"/>
-<wire x1="-2.8" y1="1.45" x2="-2.8" y2="-1.45" width="0.01" layer="39"/>
-<wire x1="-2.8" y1="-1.45" x2="2.8" y2="-1.45" width="0.01" layer="39"/>
-<wire x1="2.8" y1="-1.45" x2="2.8" y2="1.45" width="0.01" layer="39"/>
-<wire x1="1.6" y1="0.8" x2="0.95" y2="0.8" width="0.2" layer="51"/>
-<wire x1="0.95" y1="0.8" x2="-0.95" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-0.95" y1="0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-0.95" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="-0.95" y1="-0.8" x2="0.95" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="0.95" y1="-0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-0.55" y1="0.8" x2="0.55" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.2" layer="21"/>
-<smd name="1" x="-1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
-<smd name="2" x="1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
-<text x="-0.8" y="1.25" size="1" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.8" y="-2.3" size="1" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="1206-B">
 <description>&lt;b&gt;1206 (metric 3216) normal 'IPC-B'&lt;/b&gt;
 &lt;br&gt;In house package for nominal spacing based on IPC-7351A. Cross-checked against other packages.</description>
@@ -3478,6 +3454,30 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <wire x1="0.8" y1="0.41" x2="0.8" y2="-0.41" width="0.08" layer="33"/>
 <wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
 <text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1206-A">
+<description>&lt;b&gt;1206 (metric 3216) loose 'IPC-A'&lt;/b&gt;
+&lt;br&gt;In house package for generous spacing based on IPC-7351A. Cross-checked against other packages.</description>
+<wire x1="-0.95" y1="0.8" x2="-0.95" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="0.95" y1="0.8" x2="0.95" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="2.8" y1="1.45" x2="-2.8" y2="1.45" width="0.01" layer="39"/>
+<wire x1="-2.8" y1="1.45" x2="-2.8" y2="-1.45" width="0.01" layer="39"/>
+<wire x1="-2.8" y1="-1.45" x2="2.8" y2="-1.45" width="0.01" layer="39"/>
+<wire x1="2.8" y1="-1.45" x2="2.8" y2="1.45" width="0.01" layer="39"/>
+<wire x1="1.6" y1="0.8" x2="0.95" y2="0.8" width="0.2" layer="51"/>
+<wire x1="0.95" y1="0.8" x2="-0.95" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-0.95" y1="0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-0.95" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-0.95" y1="-0.8" x2="0.95" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="0.95" y1="-0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-0.55" y1="0.8" x2="0.55" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.2" layer="21"/>
+<smd name="1" x="-1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
+<smd name="2" x="1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
+<text x="-0.8" y="1.25" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.8" y="-2.3" size="1" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -4605,9 +4605,9 @@ Datasheet: &lt;a href="https://www.mouser.com/datasheet/2/516/radiall_radls10120
 <devicesets>
 <deviceset name="QCN-XXX+" prefix="U">
 <description>&lt;b&gt;RF Power Splitter/Combiner, Quadrature Hybrid&lt;/b&gt;&lt;p&gt;
-&lt;b&gt;QCN-19+&lt;/b&gt;&lt;br&gt;
-1100 - 1925 MHz&lt;br&gt;
-Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datasheet&lt;/a&gt;</description>
+&lt;b&gt;QCN-XXX&lt;/b&gt;&lt;br&gt;
+19[D]+ = 1100 - 1925 MHz&lt;br&gt;
+27[D]+ = 1700 - 2700 MHz&lt;br&gt;</description>
 <gates>
 <gate name="G$1" symbol="QCN-XXX+" x="0" y="0"/>
 </gates>
@@ -4621,15 +4621,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <connect gate="G$1" pin="TERM" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Signal Conditioning LTCC 90 Hybrid, 1100-1925 MHz, 50 ohms"/>
-<attribute name="DIST" value="Mouser" constant="no"/>
-<attribute name="DIST_PN" value="139-QCN-19" constant="no"/>
-<attribute name="GENERIC" value="N"/>
-<attribute name="MFG" value="Mini-Circuits"/>
-<attribute name="MFG_PN" value="QCN-19+"/>
-<attribute name="P-NP" value="P" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4639,9 +4631,9 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <library name="oresat-flight-marker">
 <packages>
 <package name="FLIGHTMARKER_NEW_BOARDS">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
-<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
-<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+<text x="2.54" y="0" size="1.27" layer="21" font="vector" ratio="15">NOT FLIGHT HARDWARE</text>
+<wire x1="2.19" y1="-0.5" x2="5.89" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="-0.25" y1="-0.3" x2="1.55" y2="1.5" layer="21"/>
 </package>
 <package name="FLIGHTMARKER_OLD_BOARDS">
 <text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
@@ -4666,6 +4658,85 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 </technologies>
 </device>
 <device name="OLD" package="FLIGHTMARKER_OLD_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="monitor-v2-debug">
+<description>Generated from &lt;b&gt;monitor_testjig_bottom.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X1.5">
+<description>Tight Fiducial, 1.0 mm diameter with 1.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.375" width="0.75" layer="29"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.5">
+<description>Standard Fiducial, 1.0 mm diameter with 2.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.625" width="1.25" layer="29"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<description>Fiducial for optical coordinate reference</description>
+<circle x="0" y="0" radius="2.54" width="2.54" layer="94"/>
+<circle x="0" y="0" radius="4.699" width="0.762" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-2.54" y2="-3.556" layer="94"/>
+<rectangle x1="3.556" y1="-5.08" x2="5.08" y2="-2.54" layer="94"/>
+<rectangle x1="3.556" y1="2.54" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="-5.08" x2="5.08" y2="-3.556" layer="94"/>
+<rectangle x1="-5.08" y1="3.556" x2="-2.54" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="2.54" x2="-3.556" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="3.556" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-3.556" y2="-2.54" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="4.699" x2="2.54" y2="4.699" width="0.762" layer="94"/>
+<wire x1="-4.699" y1="2.54" x2="-4.699" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="-2.54" y1="-4.699" x2="2.54" y2="-4.699" width="0.762" layer="94"/>
+<wire x1="4.699" y1="-2.54" x2="4.699" y2="2.54" width="0.762" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<pin name="FIDUCIAL" x="0" y="0" length="point" direction="nc"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FIDUCIAL">
+<description>Fiducials for optical coordinate reference</description>
+<gates>
+<gate name="FIDUCIAL" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.0X1.5" package="FIDUCIAL-1.0X1.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.0" package="FIDUCIAL-1.0X2.0">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.5" package="FIDUCIAL-1.0X2.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4702,9 +4773,9 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
+<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
+<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
+<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
 <part name="J1" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J2" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J3" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
@@ -4722,25 +4793,31 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
-<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="50"/>
+<part name="R4" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
+<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
+<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="50"/>
 <part name="J6" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J7" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J8" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J9" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J10" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
-<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
-<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27D+"/>
+<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
+<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
+<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
 <part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
+<part name="FIDUCIAL2" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL3" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL4" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL6" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL7" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL1" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 </parts>
 <sheets>
 <sheet>
 <description>UHF</description>
 <plain>
 <text x="119.38" y="88.9" size="1.778" layer="97">1/4 wavelength</text>
-<text x="261.62" y="6.35" size="3.81" layer="97">v1.1</text>
+<text x="261.62" y="6.35" size="3.81" layer="97">v1.2</text>
 <text x="182.88" y="27.94" size="2.54" layer="94">MEZZANINE BOARD FOR UHF FEED SYSTEM</text>
 <text x="200.66" y="66.04" size="1.778" layer="97">MAKE SAME LENGTH</text>
 <wire x1="187.96" y1="60.96" x2="245.11" y2="60.96" width="0.1524" layer="97"/>
@@ -4833,7 +4910,13 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <attribute name="NAME" x="231.14" y="78.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="231.14" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="10.16" y="2.54" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="81.28" y="2.54" smashed="yes"/>
+<instance part="FIDUCIAL2" gate="FIDUCIAL" x="25.4" y="22.86" smashed="yes"/>
+<instance part="FIDUCIAL3" gate="FIDUCIAL" x="38.1" y="22.86" smashed="yes"/>
+<instance part="FIDUCIAL4" gate="FIDUCIAL" x="50.8" y="22.86" smashed="yes"/>
+<instance part="FIDUCIAL6" gate="FIDUCIAL" x="63.5" y="22.86" smashed="yes"/>
+<instance part="FIDUCIAL7" gate="FIDUCIAL" x="76.2" y="22.86" smashed="yes"/>
+<instance part="FIDUCIAL1" gate="FIDUCIAL" x="88.9" y="22.86" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4856,7 +4939,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="116.84" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="N$3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TERM"/>
 <wire x1="78.74" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
@@ -4921,7 +5004,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <pinref part="J4" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="N$4" class="1">
+<net name="N$4" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="TERM"/>
 <wire x1="157.48" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
@@ -4949,7 +5032,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <label x="116.84" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="1">
+<net name="N$6" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="TERM"/>
 <wire x1="157.48" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
@@ -5098,7 +5181,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="1">
+<net name="N$1" class="0">
 <segment>
 <wire x1="-172.72" y1="271.78" x2="-180.34" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="271.78" x2="-180.34" y2="269.24" width="0.1524" layer="91"/>
@@ -5163,7 +5246,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <pinref part="J10" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="N$2" class="1">
+<net name="N$2" class="0">
 <segment>
 <wire x1="-93.98" y1="289.56" x2="-101.6" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="289.56" x2="-101.6" y2="287.02" width="0.1524" layer="91"/>
@@ -5171,7 +5254,7 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <pinref part="U8" gate="G$1" pin="TERM"/>
 </segment>
 </net>
-<net name="N$5" class="1">
+<net name="N$5" class="0">
 <segment>
 <wire x1="-93.98" y1="238.76" x2="-101.6" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="238.76" x2="-101.6" y2="236.22" width="0.1524" layer="91"/>
