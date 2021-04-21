@@ -610,12 +610,8 @@ This 12pin 1.27 mm male SMT connector (Harwin M55-7101242R) is used on the end c
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="connector" constant="no"/>
-<attribute name="DIST" value="Digi-Key" constant="no"/>
-<attribute name="DIST_PN" value="952-3851-1-ND" constant="no"/>
-<attribute name="GENERIC" value="N"/>
 <attribute name="MFG" value="Harwin"/>
-<attribute name="MFG_PN" value="M55-6021242R"/>
+<attribute name="MFG_PN" value="M55-60X1242R"/>
 <attribute name="P-NP" value="P" constant="no"/>
 </technology>
 </technologies>
@@ -5577,7 +5573,7 @@ by exp-lbrs.ulp</description>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CF1" library="J-Harwin-M55-60X1242R-12pin-1.27mm-F-vertical" deviceset="J-HARWIN-M55-60X1242R" device=""/>
+<part name="CF1" library="J-Harwin-M55-60X1242R-12pin-1.27mm-F-vertical" deviceset="J-HARWIN-M55-60X1242R" device="" value="J-HARWIN-M55-6001242R"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
