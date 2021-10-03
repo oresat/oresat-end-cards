@@ -6608,7 +6608,7 @@ PCB</text>
 <wire x1="234.95" y1="166.37" x2="238.76" y2="166.37" width="0.1524" layer="94"/>
 <wire x1="238.76" y1="166.37" x2="234.95" y2="161.29" width="0.1524" layer="94"/>
 <wire x1="234.95" y1="161.29" x2="234.95" y2="166.37" width="0.1524" layer="94"/>
-<text x="194.31" y="26.67" size="5.08" layer="94">S BAND Feed System</text>
+<text x="194.31" y="26.67" size="5.08" layer="94">L1 BAND Feed System</text>
 <wire x1="171.45" y1="182.88" x2="171.45" y2="146.05" width="0.1524" layer="97"/>
 <wire x1="171.45" y1="146.05" x2="256.54" y2="146.05" width="0.1524" layer="97"/>
 <wire x1="256.54" y1="146.05" x2="256.54" y2="182.88" width="0.1524" layer="97"/>
@@ -6713,7 +6713,7 @@ BE SAME LENGTH</text>
 <wire x1="151.13" y1="100.33" x2="151.13" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SBAND_270" class="1">
+<net name="L1BAND_270" class="1">
 <segment>
 <label x="191.77" y="154.94" size="1.778" layer="95"/>
 <wire x1="153.67" y1="142.24" x2="191.77" y2="142.24" width="0.1524" layer="91"/>
@@ -6722,16 +6722,16 @@ BE SAME LENGTH</text>
 <label x="157.48" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SBAND_180" class="1">
+<net name="L1BAND_180" class="1">
 <segment>
-<label x="205.74" y="154.94" size="1.778" layer="95"/>
+<label x="205.74" y="152.4" size="1.778" layer="95"/>
 <wire x1="153.67" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="114.3" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="J14" gate="G$1" pin="P$1"/>
 <label x="157.48" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SBAND_90" class="1">
+<net name="L1BAND_90" class="1">
 <segment>
 <label x="219.71" y="154.94" size="1.778" layer="95"/>
 <wire x1="153.67" y1="86.36" x2="219.71" y2="86.36" width="0.1524" layer="91"/>
@@ -6740,16 +6740,16 @@ BE SAME LENGTH</text>
 <label x="157.48" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SBAND_0" class="1">
+<net name="L1BAND_0" class="1">
 <segment>
-<label x="234.95" y="154.94" size="1.778" layer="95"/>
+<label x="234.95" y="152.4" size="1.778" layer="95"/>
 <wire x1="153.67" y1="57.15" x2="234.95" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="57.15" x2="234.95" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="J16" gate="G$1" pin="P$1"/>
 <label x="157.48" y="57.15" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SBAND" class="1">
+<net name="L1BAND" class="1">
 <segment>
 <pinref part="CM1" gate="G$1" pin="CENTER"/>
 <pinref part="J12" gate="G$1" pin="P$1"/>

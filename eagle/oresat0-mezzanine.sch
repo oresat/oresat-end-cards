@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4605,9 +4605,9 @@ Datasheet: &lt;a href="https://www.mouser.com/datasheet/2/516/radiall_radls10120
 <devicesets>
 <deviceset name="QCN-XXX+" prefix="U">
 <description>&lt;b&gt;RF Power Splitter/Combiner, Quadrature Hybrid&lt;/b&gt;&lt;p&gt;
-&lt;b&gt;QCN-XXX&lt;/b&gt;&lt;br&gt;
-19[D]+ = 1100 - 1925 MHz&lt;br&gt;
-27[D]+ = 1700 - 2700 MHz&lt;br&gt;</description>
+&lt;b&gt;QCN-19+&lt;/b&gt;&lt;br&gt;
+1100 - 1925 MHz&lt;br&gt;
+Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="QCN-XXX+" x="0" y="0"/>
 </gates>
@@ -4621,7 +4621,15 @@ Datasheet: &lt;a href="https://www.mouser.com/datasheet/2/516/radiall_radls10120
 <connect gate="G$1" pin="TERM" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Signal Conditioning LTCC 90 Hybrid, 1100-1925 MHz, 50 ohms"/>
+<attribute name="DIST" value="Mouser" constant="no"/>
+<attribute name="DIST_PN" value="139-QCN-19" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="Mini-Circuits"/>
+<attribute name="MFG_PN" value="QCN-19+"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4801,9 +4809,9 @@ by exp-lbrs.ulp</description>
 <part name="J8" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J9" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
 <part name="J10" library="J-Radiall-R107064070-RF" deviceset="R107064070" device=""/>
-<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
-<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
-<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-27+"/>
+<part name="U7" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-19+"/>
+<part name="U8" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-19+"/>
+<part name="U9" library="U-MiniCirc-QCN-XXX+-quad" deviceset="QCN-XXX+" device="" value="QCN-19+"/>
 <part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
 <part name="FIDUCIAL2" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 <part name="FIDUCIAL3" library="monitor-v2-debug" deviceset="FIDUCIAL" device="-1.0X2.0"/>
@@ -5085,13 +5093,15 @@ by exp-lbrs.ulp</description>
 <plain>
 <text x="-129.54" y="238.76" size="1.778" layer="97">1/4 wavelength</text>
 <text x="12.7" y="156.21" size="3.81" layer="97">v1.1</text>
-<text x="-62.23" y="177.8" size="2.54" layer="94">MEZZANINE BOARD FOR S BAND FEED SYSTEM</text>
-<text x="-140.97" y="236.22" size="1.778" layer="97">18.8mm on 4 lyr OSH Park PCB</text>
+<text x="-62.23" y="177.8" size="2.54" layer="94">MEZZANINE BOARD FOR L1 BAND FEED SYSTEM</text>
+<text x="-140.97" y="236.22" size="1.778" layer="97">+29.1mm on 4 lyr OSH Park PCB</text>
 <text x="-53.34" y="218.44" size="1.778" layer="97">MAKE SAME LENGTH</text>
 <wire x1="-58.42" y1="213.36" x2="-8.89" y2="213.36" width="0.1524" layer="97"/>
 <wire x1="-8.89" y1="213.36" x2="-8.89" y2="318.77" width="0.1524" layer="97"/>
 <wire x1="-8.89" y1="318.77" x2="-58.42" y2="318.77" width="0.1524" layer="97"/>
 <wire x1="-58.42" y1="318.77" x2="-58.42" y2="213.36" width="0.1524" layer="97"/>
+<text x="-154.94" y="228.6" size="1.778" layer="97">1/4 wavelengh of the dielectric per oshpark
+1.5742GHz</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-248.92" y="149.86" smashed="yes"/>
@@ -5106,8 +5116,8 @@ by exp-lbrs.ulp</description>
 <instance part="GND12" gate="1" x="-78.74" y="271.78" smashed="yes">
 <attribute name="VALUE" x="-81.28" y="269.24" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="-78.74" y="220.98" smashed="yes">
-<attribute name="VALUE" x="-81.28" y="218.44" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="-78.74" y="218.44" smashed="yes">
+<attribute name="VALUE" x="-81.28" y="215.9" size="1.778" layer="96"/>
 </instance>
 <instance part="GND15" gate="1" x="-180.34" y="254" smashed="yes">
 <attribute name="VALUE" x="-182.88" y="251.46" size="1.778" layer="96"/>
@@ -5115,8 +5125,8 @@ by exp-lbrs.ulp</description>
 <instance part="GND16" gate="1" x="-101.6" y="271.78" smashed="yes">
 <attribute name="VALUE" x="-104.14" y="269.24" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="-101.6" y="220.98" smashed="yes">
-<attribute name="VALUE" x="-104.14" y="218.44" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="-101.6" y="218.44" smashed="yes">
+<attribute name="VALUE" x="-104.14" y="215.9" size="1.778" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="-218.44" y="269.24" smashed="yes">
 <attribute name="VALUE" x="-220.98" y="266.7" size="1.778" layer="96"/>
@@ -5141,9 +5151,9 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="-103.0986" y="278.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-98.298" y="278.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="R" x="-101.6" y="231.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="-103.0986" y="227.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-98.298" y="227.33" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="R" x="-101.6" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="-103.0986" y="224.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-98.298" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J6" gate="G$1" x="-218.44" y="281.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-220.98" y="271.78" size="1.778" layer="95" rot="MR0"/>
@@ -5173,9 +5183,9 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="-71.12" y="284.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-71.12" y="281.94" size="1.778" layer="96"/>
 </instance>
-<instance part="U9" gate="G$1" x="-78.74" y="243.84" smashed="yes">
-<attribute name="NAME" x="-71.12" y="233.68" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-71.12" y="231.14" size="1.778" layer="96"/>
+<instance part="U9" gate="G$1" x="-78.74" y="241.3" smashed="yes">
+<attribute name="NAME" x="-71.12" y="231.14" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-71.12" y="228.6" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5212,12 +5222,12 @@ by exp-lbrs.ulp</description>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="-101.6" y1="226.06" x2="-101.6" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="223.52" x2="-101.6" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R6" gate="R" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="-78.74" y1="233.68" x2="-78.74" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="231.14" x2="-78.74" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -5256,13 +5266,13 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="-93.98" y1="238.76" x2="-101.6" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="238.76" x2="-101.6" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="236.22" x2="-101.6" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="236.22" x2="-101.6" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R6" gate="R" pin="2"/>
 <pinref part="U9" gate="G$1" pin="TERM"/>
 </segment>
 </net>
-<net name="SBAND" class="1">
+<net name="L1BAND" class="1">
 <segment>
 <wire x1="-213.36" y1="281.94" x2="-172.72" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="P$1"/>
@@ -5270,7 +5280,7 @@ by exp-lbrs.ulp</description>
 <pinref part="U7" gate="G$1" pin="SUM"/>
 </segment>
 </net>
-<net name="SBAND-SHORT" class="1">
+<net name="L1BAND-SHORT" class="1">
 <segment>
 <wire x1="-142.24" y1="281.94" x2="-134.62" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="281.94" x2="-134.62" y2="299.72" width="0.1524" layer="91"/>
@@ -5280,9 +5290,8 @@ by exp-lbrs.ulp</description>
 <wire x1="-93.98" y1="299.72" x2="-134.62" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SBAND-SHORT+1/4WAVE" class="1">
+<net name="L1BAND-SHORT+1/4WAVE" class="1">
 <segment>
-<wire x1="-99.06" y1="246.38" x2="-109.22" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="246.38" x2="-109.22" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="251.46" x2="-114.3" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="251.46" x2="-114.3" y2="241.3" width="0.1524" layer="91"/>
@@ -5298,11 +5307,10 @@ by exp-lbrs.ulp</description>
 <label x="-133.35" y="261.62" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="PORT2"/>
 <pinref part="U9" gate="G$1" pin="SUM"/>
-<wire x1="-93.98" y1="248.92" x2="-99.06" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="248.92" x2="-99.06" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="246.38" x2="-109.22" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SBAND_0" class="1">
+<net name="L1BAND_0" class="1">
 <segment>
 <wire x1="-35.56" y1="299.72" x2="-35.56" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="307.34" x2="-25.4" y2="307.34" width="0.1524" layer="91"/>
@@ -5312,7 +5320,7 @@ by exp-lbrs.ulp</description>
 <label x="-55.88" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SBAND_90" class="1">
+<net name="L1BAND_90" class="1">
 <segment>
 <label x="-55.88" y="289.56" size="1.778" layer="95"/>
 <wire x1="-63.5" y1="289.56" x2="-35.56" y2="289.56" width="0.1524" layer="91"/>
@@ -5322,22 +5330,24 @@ by exp-lbrs.ulp</description>
 <pinref part="U8" gate="G$1" pin="PORT2"/>
 </segment>
 </net>
-<net name="SBAND_180" class="1">
+<net name="L1BAND_180" class="1">
 <segment>
-<wire x1="-63.5" y1="248.92" x2="-35.56" y2="248.92" width="0.1524" layer="91"/>
 <label x="-55.88" y="248.92" size="1.778" layer="95"/>
-<wire x1="-35.56" y1="248.92" x2="-35.56" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="246.38" x2="-35.56" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="261.62" x2="-25.4" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="J9" gate="G$1" pin="P$1"/>
 <pinref part="U9" gate="G$1" pin="PORT1"/>
+<wire x1="-35.56" y1="246.38" x2="-63.5" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SBAND_270" class="1">
+<net name="L1BAND_270" class="1">
 <segment>
 <label x="-55.88" y="238.76" size="1.778" layer="95"/>
 <pinref part="J10" gate="G$1" pin="P$1"/>
 <pinref part="U9" gate="G$1" pin="PORT2"/>
-<wire x1="-63.5" y1="238.76" x2="-25.4" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="236.22" x2="-35.56" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="236.22" x2="-35.56" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="238.76" x2="-25.4" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -5350,6 +5360,10 @@ by exp-lbrs.ulp</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
