@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -296,13 +296,8 @@ v1.2  2021-04-08</text>
 <circle x="34.1" y="77.6" locked="yes" radius="0.8" width="0" layer="29"/>
 <circle x="22.1" y="34" locked="yes" radius="0.8" width="0" layer="29"/>
 <wire x1="64.425" y1="53.6" x2="64.425" y2="49.29" width="1.5" layer="30"/>
-<wire x1="64.82291875" y1="55.7167125" x2="64.425" y2="53.590365625" width="1.5" layer="30" curve="45.00009"/>
-<wire x1="74.4082875" y1="65.30208125" x2="64.82291875" y2="55.7167125" width="1.5" layer="30"/>
-<wire x1="77.7" y1="65.6" x2="76.01036875" y2="65.6" width="1.5" layer="30"/>
-<wire x1="76.01036875" y1="65.6" x2="74.4082875" y2="65.30208125" width="1.5" layer="30" curve="45.000063"/>
-<wire x1="64.175" y1="44.76" x2="64.175" y2="37.66879375" width="1.5" layer="30"/>
+<wire x1="77.7" y1="65.6" x2="75.8" y2="65.6" width="1.5" layer="30"/>
 <wire x1="64.20620625" y1="37.4" x2="64.20620625" y2="27.89379375" width="1.5" layer="30"/>
-<wire x1="64.175" y1="37.66879375" x2="64.20620625" y2="37.4" width="1.5" layer="30"/>
 <wire x1="64.20620625" y1="27.89379375" x2="64.2" y2="27.8" width="1.5" layer="30"/>
 <wire x1="64.2" y1="27.8" x2="64.225096875" y2="24.189634375" width="1.5" layer="30"/>
 <wire x1="64.225096875" y1="24.189634375" x2="65.0108375" y2="22.6891625" width="1.5" layer="30" curve="44.604993"/>
@@ -324,6 +319,11 @@ v1.2  2021-04-08</text>
 <wire x1="43.7" y1="68.5" x2="38" y2="62.7" width="1.5" layer="30" curve="90.996419"/>
 <wire x1="38" y1="62.6" x2="38" y2="55.4" width="1.5" layer="30"/>
 <wire x1="38" y1="55.4" x2="37.8" y2="54.6" width="1.5" layer="30" curve="-28.072487"/>
+<wire x1="64.4" y1="53.1" x2="64.4" y2="54" width="1.5" layer="30"/>
+<wire x1="64.4" y1="54" x2="65.4" y2="56.3" width="1.5" layer="30" curve="-46.997131"/>
+<wire x1="75.8" y1="65.6" x2="73.7" y2="64.6" width="1.5" layer="30" curve="50.92669"/>
+<wire x1="73.9" y1="64.8" x2="65.4" y2="56.3" width="1.5" layer="30"/>
+<wire x1="64.2" y1="36.9" x2="64.2" y2="44.6" width="1.5" layer="30"/>
 </plain>
 <libraries>
 <library name="oresat-rcl">
