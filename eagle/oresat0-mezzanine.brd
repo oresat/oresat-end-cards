@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="11" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -316,6 +316,14 @@ v1.2  2021-04-08</text>
 <wire x1="61.9" y1="47.6" x2="61.9" y2="47.4" width="0.1" layer="42"/>
 <wire x1="37.7" y1="51.9" x2="37.7" y2="51.7" width="0.1" layer="42"/>
 <rectangle x1="31" y1="21" x2="39" y2="29" layer="22"/>
+<wire x1="56.6" y1="57.5" x2="55.8" y2="57.9" width="1.5" layer="30"/>
+<wire x1="55.8" y1="57.9" x2="52.9" y2="62.5" width="1.5" layer="30" curve="-62.412391"/>
+<wire x1="52.9" y1="62.5" x2="52.9" y2="65.1" width="1.5" layer="30" curve="-2.045116"/>
+<wire x1="52.9" y1="65.1" x2="49.5" y2="68.5" width="1.5" layer="30" curve="92.045109"/>
+<wire x1="49.3" y1="68.5" x2="43.7" y2="68.5" width="1.5" layer="30"/>
+<wire x1="43.7" y1="68.5" x2="38" y2="62.7" width="1.5" layer="30" curve="90.996419"/>
+<wire x1="38" y1="62.6" x2="38" y2="55.4" width="1.5" layer="30"/>
+<wire x1="38" y1="55.4" x2="37.8" y2="54.6" width="1.5" layer="30" curve="-28.072487"/>
 </plain>
 <libraries>
 <library name="oresat-rcl">
