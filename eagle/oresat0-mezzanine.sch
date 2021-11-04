@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4825,8 +4825,9 @@ by exp-lbrs.ulp</description>
 <description>UHF</description>
 <plain>
 <text x="119.38" y="88.9" size="1.778" layer="97">1/4 wavelength</text>
-<text x="261.62" y="6.35" size="3.81" layer="97">v1.2</text>
-<text x="182.88" y="27.94" size="2.54" layer="94">MEZZANINE BOARD FOR UHF FEED SYSTEM</text>
+<text x="261.62" y="6.35" size="3.81" layer="97">v2.0</text>
+<text x="182.88" y="25.4" size="2.54" layer="94">MEZZANINE BOARD
+UHF FEED SYSTEM (436.5 MHz)</text>
 <text x="200.66" y="66.04" size="1.778" layer="97">MAKE SAME LENGTH</text>
 <wire x1="187.96" y1="60.96" x2="245.11" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="245.11" y1="60.96" x2="245.11" y2="166.37" width="0.1524" layer="97"/>
@@ -5089,11 +5090,11 @@ by exp-lbrs.ulp</description>
 </nets>
 </sheet>
 <sheet>
-<description>S BAND</description>
+<description>L1 BAND</description>
 <plain>
 <text x="-129.54" y="238.76" size="1.778" layer="97">1/4 wavelength</text>
 <text x="12.7" y="156.21" size="3.81" layer="97">v1.1</text>
-<text x="-62.23" y="177.8" size="2.54" layer="94">MEZZANINE BOARD FOR L1 BAND FEED SYSTEM</text>
+<text x="-57.15" y="177.8" size="2.54" layer="94">L1 BAND FEED SYSTEM (1.575 GHz)</text>
 <text x="-140.97" y="236.22" size="1.778" layer="97">+29.1mm on 4 lyr OSH Park PCB</text>
 <text x="-53.34" y="218.44" size="1.778" layer="97">MAKE SAME LENGTH</text>
 <wire x1="-58.42" y1="213.36" x2="-8.89" y2="213.36" width="0.1524" layer="97"/>
