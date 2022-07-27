@@ -29,5 +29,4 @@ You may redistribute and modify this documentation under the terms of the CERN O
 Version | Date       | Notes
 --------|------------|-------------------------
 1.0     | 2018/12/16 | In progress.
-
-
+1.1     | 2022/17/26 | Connectors for Oresat0.5
