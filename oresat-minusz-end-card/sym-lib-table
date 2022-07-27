@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name "oresat-minusz-end-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-minusz-end-card-eagle-import.kicad_sym")(options "")(descr ""))
-  (lib (name "j-molex-smpm-73300-003x")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/j-molex-smpm-73300-003x.kicad_sym")(options "")(descr ""))
-  (lib (name "u.fl2pin")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/u.fl2pin.kicad_sym")(options "")(descr ""))
-  (lib (name "OreSat-u.fl2pin")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-u.fl2pin.kicad_sym")(options "")(descr ""))
-  (lib (name "OreSat-j-molex-smpm-73300-003x")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-j-molex-smpm-73300-003x.kicad_sym")(options "")(descr ""))
-)
