@@ -76,17 +76,11 @@
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/0a07886e-3d8c-44c3-986b-812032e08cc3"
       (reference "#GND02") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
     )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/6e9f42d2-08b7-40f8-b525-4d47d36688e8"
-      (reference "#GND03") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
-    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bf95a043-ce90-46aa-9c06-5e16cfecaa97"
       (reference "#GND04") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
     )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/e49401cd-af98-472b-adef-3b45b808f043"
       (reference "#GND05") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
-    )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/f39143f8-117b-4ddd-92fb-f1388449fd23"
-      (reference "#GND06") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
     )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/41f460fb-8799-4c66-9923-5916f9f5dfd4"
       (reference "#GND07") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
@@ -151,14 +145,8 @@
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/4be348db-63ac-4f33-a645-79583283bdd6"
       (reference "J1") (unit 1) (value "J-SAMTEC-TFM-120-X1-XXX-D-RA") (footprint "oresat-footprints:J-SAMTEC-TFM-120-X1-XXX-D-RA")
     )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/63f85e20-3c9d-4c9f-9122-656fa90d3655"
-      (reference "J2") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
-    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/b1ddf696-1742-4f67-8c14-a3e798ac2b63"
       (reference "J3") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
-    )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/7e1fec55-1f7c-44de-87d0-0166a361f0c4"
-      (reference "J4") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
     )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/50e66a8f-b31f-4aad-9508-ff2109404d2f"
       (reference "J5") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
@@ -175,14 +163,8 @@
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/b61d3888-9f88-4a09-961f-494cd0f4c210"
       (reference "TP2") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
     )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/8ef6cf40-0c48-4a76-a560-c25341f55851"
-      (reference "TP3") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
-    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/63d72a32-4c40-4f8b-965e-3b355061cbef"
       (reference "TP4") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
-    )
-    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bdbea5fe-162d-4ae8-8989-fd530c5ed5b3"
-      (reference "TP5") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
     )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/f86ab87d-e6b4-452c-9773-13d006bad011"
       (reference "TP6") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
