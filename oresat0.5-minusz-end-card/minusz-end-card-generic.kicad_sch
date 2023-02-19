@@ -1,0 +1,194 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f7595184-4323-4ed9-b19e-5e32e3c6e76f)
+
+  (paper "USLedger")
+
+  (title_block
+    (title "+Z End Card w/ Turnstile")
+    (rev "1.0")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4adc3c58-69d8-4146-af4b-be39b69b6246)
+    (property "Sheet name" "CONNECTORS" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CONNECTORS.kicad_sch" (id 1) (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7efb4e63-9d62-4a45-8323-bca1b123bd45)
+    (property "Sheet name" "UHF" (id 0) (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "UHF.kicad_sch" (id 1) (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c4a46bba-817b-433a-9d2e-3dc88315141d)
+    (property "Sheet name" "L1 BAND" (id 0) (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "L1_BAND.kicad_sch" (id 1) (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e6c8a025-92ad-43ea-8ca0-148adc1f93f0)
+    (property "Sheet name" "L BAND" (id 0) (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "L_BAND.kicad_sch" (id 1) (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246" (page "2"))
+    (path "/e6c8a025-92ad-43ea-8ca0-148adc1f93f0" (page "3"))
+    (path "/7efb4e63-9d62-4a45-8323-bca1b123bd45" (page "4"))
+    (path "/c4a46bba-817b-433a-9d2e-3dc88315141d" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/a72157e7-4242-476c-9397-115248a2524d"
+      (reference "#GND01") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/0a07886e-3d8c-44c3-986b-812032e08cc3"
+      (reference "#GND02") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/6e9f42d2-08b7-40f8-b525-4d47d36688e8"
+      (reference "#GND03") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bf95a043-ce90-46aa-9c06-5e16cfecaa97"
+      (reference "#GND04") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/e49401cd-af98-472b-adef-3b45b808f043"
+      (reference "#GND05") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/f39143f8-117b-4ddd-92fb-f1388449fd23"
+      (reference "#GND06") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/41f460fb-8799-4c66-9923-5916f9f5dfd4"
+      (reference "#GND07") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/c9b2382a-2bfa-4ba6-afdf-581bc44e2569"
+      (reference "#GND08") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/1e705ca7-ab8b-476e-b98c-b3e92e143493"
+      (reference "#GND09") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/e6c8a025-92ad-43ea-8ca0-148adc1f93f0/f014a6fe-d1b4-4e62-bafe-0226a8e78a56"
+      (reference "#GND010") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/7efb4e63-9d62-4a45-8323-bca1b123bd45/63d28f28-9c67-4822-a2f6-4b3192fcd0ea"
+      (reference "#GND011") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/c4a46bba-817b-433a-9d2e-3dc88315141d/af7a2a05-a16a-4d5e-916f-b87b560acca0"
+      (reference "#GND012") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bf6a0de2-211b-46eb-a5cb-fa1a5d19f262"
+      (reference "CF1") (unit 1) (value "J-HARWIN-M55-6001242R") (footprint "plusz-end-card-with-turnstile:HARWIN-M55-60X1242R")
+    )
+    (path "/c4a46bba-817b-433a-9d2e-3dc88315141d/87ef95c1-067c-4f59-8b86-bbcaa923254b"
+      (reference "CM1") (unit 1) (value "J-MOLEX-SMPM-73300-003X") (footprint "oresat-footprints:J-MOLEX-SMPM-073300-003X")
+    )
+    (path "/e6c8a025-92ad-43ea-8ca0-148adc1f93f0/c3129a8d-c0e7-40ac-a1f7-5f1015279387"
+      (reference "CM2") (unit 1) (value "J-MOLEX-SMPM-73300-003X") (footprint "oresat-footprints:J-MOLEX-SMPM-073300-003X")
+    )
+    (path "/7efb4e63-9d62-4a45-8323-bca1b123bd45/abfa5c3b-f520-438b-974b-ede57ed4974e"
+      (reference "CM3") (unit 1) (value "J-MOLEX-SMPM-73300-003X") (footprint "oresat-footprints:J-MOLEX-SMPM-073300-003X")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/a8cdc18c-c8fe-4061-93b2-a08cf47ad755"
+      (reference "FIDUCIAL1") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/c8098a5d-06cd-482c-b1d9-307c9f89b6ab"
+      (reference "FIDUCIAL2") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/213bea71-774b-463a-a7cc-0dcfceeb8aff"
+      (reference "FIDUCIAL3") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/0eb52da8-0ecd-44c2-81d1-3514cc6284de"
+      (reference "FIDUCIAL4") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/1466b2ac-b2d3-4b88-8b61-be6416149f48"
+      (reference "FIDUCIAL5") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/37873c06-8dc9-44f1-b5f0-0b8cc92908f1"
+      (reference "FIDUCIAL6") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "plusz-end-card-with-turnstile:FIDUCIAL-1.0X2.0")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/31203335-72e3-4f15-8c2e-690739b363f0"
+      (reference "HW1") (unit 1) (value "MCMASTER-94100A150") (footprint "oresat-footprints:H-MCMASTER-94100A150")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/a1604586-e8fb-4112-b7d5-b3631e955210"
+      (reference "HW2") (unit 1) (value "MCMASTER-94100A150") (footprint "oresat-footprints:H-MCMASTER-94100A150")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/175f0718-ec90-4418-91c2-4e14fd50a234"
+      (reference "HW3") (unit 1) (value "MCMASTER-94100A150") (footprint "oresat-footprints:H-MCMASTER-94100A150")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/5738f61b-c267-4550-b8e4-3085608498f2"
+      (reference "HW4") (unit 1) (value "MCMASTER-94100A150") (footprint "oresat-footprints:H-MCMASTER-94100A150")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/4be348db-63ac-4f33-a645-79583283bdd6"
+      (reference "J1") (unit 1) (value "J-SAMTEC-TFM-120-X1-XXX-D-RA") (footprint "oresat-footprints:J-SAMTEC-TFM-120-X1-XXX-D-RA")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/63f85e20-3c9d-4c9f-9122-656fa90d3655"
+      (reference "J2") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/b1ddf696-1742-4f67-8c14-a3e798ac2b63"
+      (reference "J3") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/7e1fec55-1f7c-44de-87d0-0166a361f0c4"
+      (reference "J4") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/50e66a8f-b31f-4aad-9508-ff2109404d2f"
+      (reference "J5") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-footprints:J-Harwin-M55-7101242R")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/06a180a0-2d06-42e1-9a94-bbcbefc14913"
+      (reference "PCB1") (unit 1) (value "ORESAT-CARD-V1.3-GENERIC-3RF") (footprint "plusz-end-card-with-turnstile:ORESAT-CARD-V1.3-GENERIC-3RF")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/26da0479-4a8b-4429-a91c-5bd0204c5489"
+      (reference "R1") (unit 1) (value "7.5  1W") (footprint "oresat-footprints:R-PAC100-FOR-MELTWIRE")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/c98a39ee-2b54-439b-9594-fcc49cfff4d2"
+      (reference "TP1") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/b61d3888-9f88-4a09-961f-494cd0f4c210"
+      (reference "TP2") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/8ef6cf40-0c48-4a76-a560-c25341f55851"
+      (reference "TP3") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/63d72a32-4c40-4f8b-965e-3b355061cbef"
+      (reference "TP4") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bdbea5fe-162d-4ae8-8989-fd530c5ed5b3"
+      (reference "TP5") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/f86ab87d-e6b4-452c-9773-13d006bad011"
+      (reference "TP6") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "plusz-end-card-with-turnstile:1X01")
+    )
+    (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/c677f637-5c80-4633-92e4-c3a8e29a207f"
+      (reference "U$1") (unit 1) (value "FLIGHMARKERNEW") (footprint "plusz-end-card-with-turnstile:FLIGHTMARKER_NEW_BOARDS")
+    )
+  )
+)
