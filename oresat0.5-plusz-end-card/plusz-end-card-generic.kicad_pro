@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.7,
+          "height": 3.7,
+          "width": 3.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -462,22 +462,6 @@
     [
       "f7595184-4323-4ed9-b19e-5e32e3c6e76f",
       ""
-    ],
-    [
-      "4adc3c58-69d8-4146-af4b-be39b69b6246",
-      "CONNECTORS"
-    ],
-    [
-      "e6c8a025-92ad-43ea-8ca0-148adc1f93f0",
-      "L BAND"
-    ],
-    [
-      "7efb4e63-9d62-4a45-8323-bca1b123bd45",
-      "UHF"
-    ],
-    [
-      "c4a46bba-817b-433a-9d2e-3dc88315141d",
-      "L1 BAND"
     ]
   ],
   "text_variables": {}
