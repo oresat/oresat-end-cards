@@ -82,6 +82,9 @@
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/0a07886e-3d8c-44c3-986b-812032e08cc3"
       (reference "#GND02") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
     )
+    (path "/c4a46bba-817b-433a-9d2e-3dc88315141d/7335aae2-68ff-47b7-8df7-2ee8cbd93e90"
+      (reference "#GND03") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
+    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/bf95a043-ce90-46aa-9c06-5e16cfecaa97"
       (reference "#GND04") (unit 1) (value "GND") (footprint "plusz-end-card-with-turnstile:")
     )
@@ -160,11 +163,20 @@
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/4be348db-63ac-4f33-a645-79583283bdd6"
       (reference "J1") (unit 1) (value "J-SAMTEC-TFM-120-01-L-D-RA") (footprint "oresat-footprints:J-SAMTEC-TFM-120-X1-XXX-D-RA")
     )
+    (path "/c4a46bba-817b-433a-9d2e-3dc88315141d/585b4fdf-d923-450d-bfd1-3b21baa358a9"
+      (reference "J2") (unit 1) (value "U.FL-R-SMT-1") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/b1ddf696-1742-4f67-8c14-a3e798ac2b63"
       (reference "J3") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-connectors:J-Harwin-M55-7101242R")
     )
+    (path "/e6c8a025-92ad-43ea-8ca0-148adc1f93f0/d10eda98-c726-49d8-a495-c24973f4a10f"
+      (reference "J4") (unit 1) (value "L-Band Feed") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
+    )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/50e66a8f-b31f-4aad-9508-ff2109404d2f"
       (reference "J5") (unit 1) (value "Harwin M55-7101242R") (footprint "oresat-connectors:J-Harwin-M55-7101242R")
+    )
+    (path "/7efb4e63-9d62-4a45-8323-bca1b123bd45/55a5c082-bea4-48b7-a4d4-cbd076717c28"
+      (reference "J6") (unit 1) (value "UHF Feed") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
     )
     (path "/4adc3c58-69d8-4146-af4b-be39b69b6246/06a180a0-2d06-42e1-9a94-bbcbefc14913"
       (reference "PCB1") (unit 1) (value "ORESAT-CARD-V1.3-GENERIC-3RF") (footprint "plusz-end-card-with-turnstile:ORESAT-CARD-V1.3-GENERIC-3RF")
