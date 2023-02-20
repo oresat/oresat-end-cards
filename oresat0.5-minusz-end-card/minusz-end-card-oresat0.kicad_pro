@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.19999999999999998
         }
       },
@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|100342662|106916846|15621e3c-1306-4c5d-b427-a7a9ac0f8fd4|5389fcef-0e26-4865-9772-00c88991803a",
+        "courtyards_overlap|100342662|99916846|b75ed874-333f-4bf4-8142-cbec7c12444a|5389fcef-0e26-4865-9772-00c88991803a",
+        "courtyards_overlap|109013034|107868813|7b971d0a-1c82-4b35-bf42-d0d738c77caf|15621e3c-1306-4c5d-b427-a7a9ac0f8fd4",
+        "courtyards_overlap|109013034|97098813|8ca36d2c-8c28-4e83-8794-d17e1e693da2|b75ed874-333f-4bf4-8142-cbec7c12444a",
+        "courtyards_overlap|109409269|102505193|b75ed874-333f-4bf4-8142-cbec7c12444a|15621e3c-1306-4c5d-b427-a7a9ac0f8fd4",
+        "courtyards_overlap|121409269|102505193|2a15ea1e-510f-44ae-9b56-be626f0a7eaf|b69d3e39-9400-4626-9d87-3c0b40772947",
+        "courtyards_overlap|183409269|102505193|12d12d99-309c-42e0-b4bc-a9d0258e4891|5446e627-3ca1-4f5c-a3e7-ade523e97c00",
+        "courtyards_overlap|186276265|106157916|3105e6b5-16f1-491f-9573-16e7ec362e71|d9949713-f513-443f-834f-0050f00c3ab8",
+        "courtyards_overlap|187384555|95782820|6feeac00-f03c-486c-b50a-c7a9004fe284|234fa547-8675-4f8e-bd53-b502085ebae5",
+        "courtyards_overlap|195300001|102395925|d9949713-f513-443f-834f-0050f00c3ab8|5389fcef-0e26-4865-9772-00c88991803a",
+        "courtyards_overlap|195300001|95395925|234fa547-8675-4f8e-bd53-b502085ebae5|5389fcef-0e26-4865-9772-00c88991803a",
+        "courtyards_overlap|195409269|102505193|234fa547-8675-4f8e-bd53-b502085ebae5|d9949713-f513-443f-834f-0050f00c3ab8"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -349,7 +362,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "minusz-end-card-generic.kicad_pro",
+    "filename": "minusz-end-card-oresat0.kicad_pro",
     "version": 1
   },
   "net_settings": {

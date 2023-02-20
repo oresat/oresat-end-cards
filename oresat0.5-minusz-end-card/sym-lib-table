@@ -1,6 +1,7 @@
 (sym_lib_table
   (lib (name "plusz-end-card-with-turnstile-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/plusz-end-card-with-turnstile-eagle-import.kicad_sym")(options "")(descr "")(disabled))
-  (lib (name "OreSat-j-molex-smpm-73300-003x")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-j-molex-smpm-73300-003x.kicad_sym")(options "")(descr ""))
   (lib (name "plusz-end-card-generic-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/plusz-end-card-generic-eagle-import.kicad_sym")(options "")(descr "")(disabled))
-  (lib (name "OreSat-j-solar-card-connector")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-j-solar-card-connector.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_SYMBOLS}/oresat-misc.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_SYMBOLS}/oresat-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-power")(type "KiCad")(uri "${ORESAT_SYMBOLS}/oresat-power.kicad_sym")(options "")(descr ""))
 )
