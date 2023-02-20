@@ -12,4 +12,5 @@
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-pcbs.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-power")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-power.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-transistors.kicad_sym")(options "")(descr ""))
+  (lib (name "j-harwin-m55-6001242r")(type "KiCad")(uri "${ORESAT_SYMBOLS}/j-harwin-m55-6001242r.kicad_sym")(options "")(descr ""))
 )
