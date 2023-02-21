@@ -1,3 +1,9 @@
+# PSAS directories to ignore
+
+archive
+local-archive
+build
+
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files

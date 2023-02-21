@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,6.0.11+dfsg-1*%
+%TF.CreationDate,2023-02-20T23:54:33-08:00*%
+%TF.ProjectId,minusz-end-card-oresat0,6d696e75-737a-42d6-956e-642d63617264,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.11+dfsg-1) date 2023-02-20 23:54:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.000000X1.050000*%
+%ADD11R,1.050000X2.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J2*%
+X170500000Y-74350000D03*
+D11*
+X169025000Y-75875000D03*
+X171975000Y-75875000D03*
+%TD*%
+M02*
