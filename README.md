@@ -1,7 +1,7 @@
 # "End Card" PCBs for OreSat
 
 OreSat cards in the top position (#1) and bottom position (#20) are special because they interface with
-both the solar arrays and with the end caps.
+both the solar arrays and with the end caps. They also tend to hold deployable antennas.
 
 ## Features
 
@@ -21,8 +21,3 @@ This documentation describes Open Hardware and is licensed under the CERN OHL v2
 
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [https://ohwr.org/cernohl](https://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v2 for applicable conditions.
 
-## Version Information
-
-Version | Date       | Notes
---------|------------|-------------------------
-1.0     | 2022/07/27 | Created generic end cards
