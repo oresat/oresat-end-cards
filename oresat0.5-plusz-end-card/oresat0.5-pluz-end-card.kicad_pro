@@ -345,7 +345,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "plusz-end-card-generic.kicad_pro",
+    "filename": "oresat0.5-pluz-end-card.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -377,7 +377,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "nets": [],
+        "nets": [
+          "/S BAND",
+          "/S BAND U FL"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.38,
