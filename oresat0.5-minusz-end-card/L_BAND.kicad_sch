@@ -167,8 +167,8 @@
     (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf" (at 54.61 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "SHLD" (uuid b3020bd7-0b0d-4162-8be4-1ee1a5eaeba7))
-    (pin "SIG" (uuid 71d54798-96b1-4ca2-89d3-a8c6e64a7762))
+    (pin "SHLD" (uuid 4eda3761-74bf-4e63-a13d-ab84acffca43))
+    (pin "SIG" (uuid 7b1008b6-87f2-4c87-8908-e42672715ea5))
     (instances
       (project "oresat0.5-minusz-end-card"
         (path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/e6c8a025-92ad-43ea-8ca0-148adc1f93f0"
@@ -181,10 +181,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 93.98 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d10eda98-c726-49d8-a495-c24973f4a10f)
-    (property "Reference" "J4" (at 96.52 100.3299 0)
+    (property "Reference" "J6" (at 96.52 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "L-Band Feed" (at 96.52 102.8699 0)
+    (property "Value" "L-Band Feed" (at 96.52 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 93.98 101.6 0)
@@ -193,11 +193,11 @@
     (property "Datasheet" "~" (at 93.98 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 42b42792-ec30-4f12-a956-da10613316b6))
+    (pin "1" (uuid 25f9f656-9558-4f90-bebe-e256dbd61a3e))
     (instances
       (project "oresat0.5-minusz-end-card"
         (path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/e6c8a025-92ad-43ea-8ca0-148adc1f93f0"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )

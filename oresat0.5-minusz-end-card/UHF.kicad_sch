@@ -155,10 +155,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 106.68 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55a5c082-bea4-48b7-a4d4-cbd076717c28)
-    (property "Reference" "J6" (at 109.22 130.8099 0)
+    (property "Reference" "J4" (at 109.22 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "UHF Feed" (at 109.22 133.3499 0)
+    (property "Value" "UHF Feed" (at 109.22 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 106.68 132.08 0)
@@ -167,11 +167,11 @@
     (property "Datasheet" "~" (at 106.68 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6124daa-6ed7-453f-8a4b-45a0bcf372a6))
+    (pin "1" (uuid c1a098af-dad5-47fd-8f3f-525d41e6ef4c))
     (instances
       (project "oresat0.5-minusz-end-card"
         (path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/7efb4e63-9d62-4a45-8323-bca1b123bd45"
-          (reference "J6") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -217,8 +217,8 @@
     (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf" (at 57.15 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "SHLD" (uuid 2dd97cde-77ee-4599-80d8-2f6c0d7c3c02))
-    (pin "SIG" (uuid 60e721a7-a04d-4bc8-a178-1b4a18514cb4))
+    (pin "SHLD" (uuid 86883e93-f08b-424f-b071-953b8f680871))
+    (pin "SIG" (uuid e181edc2-ef16-415a-a91b-007aaa72387f))
     (instances
       (project "oresat0.5-minusz-end-card"
         (path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/7efb4e63-9d62-4a45-8323-bca1b123bd45"
