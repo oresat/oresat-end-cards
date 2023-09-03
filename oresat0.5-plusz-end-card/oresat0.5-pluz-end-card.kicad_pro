@@ -56,7 +56,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|170308900|65896400|0319a3b2-4b91-47cd-be5e-b215bbb7442a|23d22318-a970-42d1-b99f-7d9a276e44f9",
+        "clearance|170330000|72860000|fee6e0a9-3581-4681-828a-d7e7c0b72a48|cc1b77af-799a-48de-a9a3-c6ffc84bdf10",
+        "clearance|170457310|74821117|90a8ec07-d3ea-402f-af83-e85d686655cc|2c9b6572-6b2a-488a-92fe-f22fb1a78469",
+        "clearance|170468304|74935145|2c9b6572-6b2a-488a-92fe-f22fb1a78469|dd81f792-3a25-482c-b21e-05ec2d4eb5d6",
+        "clearance|170498900|69791100|72eed569-92e0-4567-9fe9-d6fa8bd1fa1f|565201b3-becc-437f-a898-b54dee9f0930",
+        "clearance|170647500|74872500|f626dfdc-a42e-49fe-92eb-181cb51736dc|dd81f792-3a25-482c-b21e-05ec2d4eb5d6",
+        "clearance|170688900|67696400|4dfa4993-dbe4-4fd3-90a5-331a06e7c5a4|23d22318-a970-42d1-b99f-7d9a276e44f9",
+        "clearance|171320000|71530000|7409b7ef-8956-4da6-ad96-be089f976da1|0ccc54f6-dbba-411f-b0a7-722f16e7d5f1",
+        "clearance|171320000|71870000|7409b7ef-8956-4da6-ad96-be089f976da1|fee6e0a9-3581-4681-828a-d7e7c0b72a48",
+        "clearance|171322500|74527500|dd81f792-3a25-482c-b21e-05ec2d4eb5d6|cc1b77af-799a-48de-a9a3-c6ffc84bdf10",
+        "clearance|171375000|69985000|43ccafec-53f0-4f45-9c5e-3b395d44cbe9|910d5aed-ecf7-4f20-97cc-2597a922d436",
+        "clearance|182325000|73300000|038cf987-da82-4cb3-9ffb-3c8715f500c6|11802f8a-5b58-430e-a0f6-71de3ec01c58",
+        "clearance|182325000|74300000|038cf987-da82-4cb3-9ffb-3c8715f500c6|b0180f97-39cb-4c6a-84db-72b695c624de",
+        "solder_mask_bridge|118348071|120424033|10bfbf83-6839-4a9b-b870-a8d5b02fa86b|40f9844d-d00d-4f03-af5a-16b978c4f4f6",
+        "solder_mask_bridge|120204204|118617203|1f7c319f-839c-4a69-8287-26e2c5551806|40f9844d-d00d-4f03-af5a-16b978c4f4f6",
+        "solder_mask_bridge|120735040|82292418|dff6480c-da39-4a33-a3f5-524ad63ac7d1|6db99eab-0250-4971-94e1-3dbf3fce8862",
+        "solder_mask_bridge|128147498|74282641|cbb57269-0174-4cdd-b093-0ce84e77e164|8d01333b-b4d5-4d7b-bbbf-11602e59904d",
+        "solder_mask_bridge|132867596|136597643|d6e493df-00cb-4231-858e-54da10626836|de1f0666-3384-4d47-85da-c638eb553a72",
+        "solder_mask_bridge|159476713|75914915|42e2d406-97d5-4473-93f1-053eedbe758a|0047ac19-1667-450c-8517-412f43048293",
+        "solder_mask_bridge|163754101|114963539|cb079fb0-8e3a-4fec-af7f-c17fe4ec20dc|d566b403-6558-4b59-af8c-fc54a376530b",
+        "solder_mask_bridge|170498900|66796400|3548572c-ba05-4cb4-90d5-0a5c5ae9fca3|0319a3b2-4b91-47cd-be5e-b215bbb7442a",
+        "solder_mask_bridge|176975385|86101104|4610af4b-e9c7-4158-b6ca-a42e5f4e969f|bf7b7170-c5a0-416e-b2ee-69cd3f3e3ac4",
+        "solder_mask_bridge|177194862|86880420|f2de03fa-c25e-472b-9948-26d6aadc83a8|bf7b7170-c5a0-416e-b2ee-69cd3f3e3ac4",
+        "track_dangling|145300000|80100001|3fe05a7e-6dfd-4088-b6e8-427f0bc0bdbc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -124,7 +149,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
@@ -174,12 +199,24 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1524,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false,
@@ -370,18 +407,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -391,6 +433,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -467,11 +510,15 @@
     "netclass_patterns": [
       {
         "netclass": "RF",
-        "pattern": "/S BAND"
+        "pattern": "/S_BAND"
       },
       {
         "netclass": "RF",
-        "pattern": "/S BAND U FL"
+        "pattern": "/S_BAND_U_FL"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/S_BAND_FEED"
       }
     ]
   },
@@ -489,6 +536,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -520,7 +569,11 @@
     "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
