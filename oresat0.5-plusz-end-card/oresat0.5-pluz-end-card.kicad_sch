@@ -3711,12 +3711,6 @@
 		(uuid "490f027d-e2e7-41b8-b53a-873ce8ca4620")
 	)
 	(junction
-		(at 144.78 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494ca011-6d78-4817-88ec-4451f403dc60")
-	)
-	(junction
 		(at 175.26 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3741,10 +3735,10 @@
 		(uuid "52ecff09-fb41-4a6f-b89a-04fffbb383d0")
 	)
 	(junction
-		(at 160.02 35.56)
+		(at 144.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "669fe0b8-5444-4f36-8b7a-356151175087")
+		(uuid "5f02a8fc-d44c-4829-a0c4-d7f67c7e0bc7")
 	)
 	(junction
 		(at 74.93 182.88)
@@ -3871,6 +3865,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b414a804-138c-4435-acaa-009a96499eb9")
+	)
+	(junction
+		(at 160.02 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32596cd-14be-44cf-be78-cc1307978932")
 	)
 	(junction
 		(at 205.74 160.02)
@@ -4036,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 160.02 48.26)
+			(xy 160.02 43.18) (xy 160.02 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4126,7 +4126,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 20.32) (xy 48.26 60.96)
+			(xy 48.26 17.78) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4616,23 +4616,13 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 60.96) (xy 48.26 60.96)
+			(xy 200.66 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a3573f9-969f-4e00-8615-9a6d5f785348")
-	)
-	(wire
-		(pts
-			(xy 154.94 35.56) (xy 160.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a443588-6a1d-408e-a939-f58fed09f5ca")
 	)
 	(wire
 		(pts
@@ -4746,7 +4736,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 20.32) (xy 208.28 60.96)
+			(xy 200.66 17.78) (xy 200.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5266,7 +5256,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 20.32) (xy 208.28 20.32)
+			(xy 48.26 17.78) (xy 200.66 17.78)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.83) (xy 160.02 35.56)
+			(xy 160.02 35.56) (xy 160.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5434,6 +5424,16 @@
 		)
 		(uuid "c6932f64-cffc-4548-aa40-59dbb26f061a")
 	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 148.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1a5eae-e268-43ee-bc70-53c2eb1b605b")
+	)
 	(polyline
 		(pts
 			(xy 48.26 88.9) (xy 119.38 88.9)
@@ -5483,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "cdeeb3f6-44a0-42ba-9851-481701fa1084")
+	)
+	(wire
+		(pts
+			(xy 156.21 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced899f0-8abd-402c-b9bf-c09704b23b31")
 	)
 	(wire
 		(pts
@@ -5824,16 +5834,6 @@
 		)
 		(uuid "fea43076-db07-4564-b849-03fcdba2752c")
 	)
-	(wire
-		(pts
-			(xy 144.78 35.56) (xy 149.86 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff917b5a-32c7-408d-9aac-3af3d66cf05b")
-	)
 	(text "TO +Z END CAP"
 		(exclude_from_sim no)
 		(at 242.57 67.31 0)
@@ -5856,9 +5856,9 @@
 		)
 		(uuid "36d54446-cbaf-4a91-a4d9-cf2b8c8b62c5")
 	)
-	(text "Todo: Match"
+	(text "L1 value needs to be fine tuned for each helical\nVaries from around 3.0 nH to 5.0 nH"
 		(exclude_from_sim no)
-		(at 157.48 30.48 0)
+		(at 137.922 22.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5878,6 +5878,17 @@
 		)
 		(uuid "5a0060d2-5204-44d7-aafc-719bb39cb557")
 	)
+	(text "Using 4.3 nH should get S11 around -15 dB, \nbut < -30 dB is possible with tuning"
+		(exclude_from_sim no)
+		(at 137.922 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70180ffa-d648-4dab-9113-6f2ff9588aec")
+	)
 	(text "-Y"
 		(exclude_from_sim no)
 		(at 176.53 142.24 0)
@@ -5891,7 +5902,7 @@
 	)
 	(text "S BAND RF"
 		(exclude_from_sim no)
-		(at 82.55 24.13 0)
+		(at 82.55 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6271,10 +6282,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "034ae140-7135-4fb2-8d49-b0218d10e380")
 		(property "Reference" "C2"
-			(at 147.32 39.3636 0)
+			(at 147.32 39.3635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,8 +6292,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NP"
-			(at 147.32 41.9036 0)
+		(property "Value" "0.9 pF"
+			(at 147.32 41.9035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,6 +6326,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "04025J0R9PBSTR"
+			(at 151.13 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6792,7 +6810,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 152.4 35.56 90)
+		(at 160.02 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6800,15 +6818,15 @@
 		(dnp no)
 		(uuid "21c5f26e-c09a-4a8f-9b83-fb665500858e")
 		(property "Reference" "C1"
-			(at 149.86 33.02 90)
+			(at 163.576 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 154.94 33.02 90)
+		(property "Value" "1.0 pF"
+			(at 165.608 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +6834,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 35.56 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 35.56 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,12 +6852,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 35.56 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "04025J1R0PBSTR\\500"
+			(at 172.974 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7313,34 +7339,31 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 160.02 40.64 0)
+		(at 152.4 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52a8c9dc-c5aa-485c-817d-caad5d80c397")
 		(property "Reference" "L1"
-			(at 161.29 39.3699 0)
+			(at 152.4 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 161.29 41.9099 0)
+		(property "Value" "4.3 nH"
+			(at 152.4 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 160.02 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,12 +7381,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 40.64 0)
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "0402DC-4N3XGRW"
+			(at 152.654 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
