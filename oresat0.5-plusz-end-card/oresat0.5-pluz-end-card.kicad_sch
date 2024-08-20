@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "+Z End Card w/ Turnstile")
-		(date "2024-02-26")
-		(rev "1.2")
+		(date "2024-08-20")
+		(rev "1.4")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -41,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6648,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -7762,7 +7762,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 249.555 250.19 0)
+		(at 250.19 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7771,7 +7771,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f114e9-cb3f-4d50-aca9-ec782b9cdfab")
 		(property "Reference" "HW12"
-			(at 253.365 248.9199 0)
+			(at 254 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7780,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 253.365 251.4599 0)
+			(at 254 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 249.555 254.635 0)
+			(at 250.19 254.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 249.555 250.19 0)
+			(at 250.19 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 249.555 250.19 0)
+			(at 250.19 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8748,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 278.765 234.95 0)
+		(at 279.4 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8757,7 +8757,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0853c71-6dfc-447d-a2fe-b696d1d0f328")
 		(property "Reference" "HW14"
-			(at 282.575 233.68 0)
+			(at 283.21 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8766,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 282.575 236.22 0)
+			(at 283.21 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8775,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 278.765 239.395 0)
+			(at 279.4 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.765 234.95 0)
+			(at 279.4 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.765 234.95 0)
+			(at 279.4 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8812,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 249.555 234.95 0)
+		(at 250.19 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8820,7 +8820,7 @@
 		(dnp no)
 		(uuid "b4244523-9939-44ac-93b9-17f2e6697783")
 		(property "Reference" "HW10"
-			(at 253.365 233.6799 0)
+			(at 254 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,7 +8829,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 253.365 236.22 0)
+			(at 254 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +8838,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 249.555 239.395 0)
+			(at 250.19 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 249.555 234.95 0)
+			(at 250.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 249.555 234.95 0)
+			(at 250.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,6 +8937,70 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:M2-Press-Fit-Nut")
+		(at 279.4 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ae8397-3d9a-4a9e-81c1-53b71ccf9102")
+		(property "Reference" "HW4"
+			(at 283.21 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2-Press-Fit-Nut"
+			(at 283.21 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
+			(at 279.4 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "oresat0.5-pluz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "HW4")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9497,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 278.765 227.33 0)
+		(at 279.4 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9442,7 +9506,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2e56f0a-6105-4d8d-85b6-42bd78f86864")
 		(property "Reference" "HW13"
-			(at 282.575 226.06 0)
+			(at 283.21 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9515,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 282.575 228.6 0)
+			(at 283.21 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9524,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 278.765 231.775 0)
+			(at 279.4 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.765 227.33 0)
+			(at 279.4 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.765 227.33 0)
+			(at 279.4 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +9923,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 249.555 227.33 0)
+		(at 250.19 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9868,7 +9932,7 @@
 		(fields_autoplaced yes)
 		(uuid "eed515ff-cd1d-4353-9a36-970af40b0d9a")
 		(property "Reference" "HW9"
-			(at 253.365 226.0599 0)
+			(at 254 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9941,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 253.365 228.5999 0)
+			(at 254 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9950,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 249.555 231.775 0)
+			(at 250.19 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +9959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 249.555 227.33 0)
+			(at 250.19 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 249.555 227.33 0)
+			(at 250.19 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +9987,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 249.555 242.57 0)
+		(at 250.19 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9931,7 +9995,7 @@
 		(dnp no)
 		(uuid "f036672b-ee05-4277-87ff-7086ef36c6ff")
 		(property "Reference" "HW11"
-			(at 253.365 241.2999 0)
+			(at 254 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +10004,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 253.365 243.84 0)
+			(at 254 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10013,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 249.555 247.015 0)
+			(at 250.19 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 249.555 242.57 0)
+			(at 250.19 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 249.555 242.57 0)
+			(at 250.19 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
