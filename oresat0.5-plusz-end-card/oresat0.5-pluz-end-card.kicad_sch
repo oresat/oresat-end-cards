@@ -6697,9 +6697,9 @@
 		(at 111.76 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0afb4b62-8b1d-4328-ae1d-ef83f0b12ef9")
 		(property "Reference" "J6"
@@ -8400,9 +8400,9 @@
 		(at 88.9 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d14c647-e92b-479d-9812-179a611735a9")
 		(property "Reference" "R2"
 			(at 86.36 50.8 90)
