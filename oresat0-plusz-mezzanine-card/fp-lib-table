@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "plusz-end-card-with-turnstile-mezzanine")(type "KiCad")(uri "$(KIPRJMOD)/plusz-end-card-with-turnstile-mezzanine.pretty")(options "")(descr ""))
+)
