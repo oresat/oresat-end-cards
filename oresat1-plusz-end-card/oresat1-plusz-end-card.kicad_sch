@@ -620,179 +620,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3657,17 +3484,6 @@
 		)
 		(uuid "2ced1e33-2c5d-4121-b7cc-96a108893821")
 	)
-	(text "(SPARE7+SPARE8)"
-		(exclude_from_sim no)
-		(at 96.52 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "36d54446-cbaf-4a91-a4d9-cf2b8c8b62c5")
-	)
 	(text "L1 value needs to be fine tuned for each helical\nVaries from around 3.0 nH to 5.0 nH"
 		(exclude_from_sim no)
 		(at 137.922 22.606 0)
@@ -3678,17 +3494,6 @@
 			(justify left bottom)
 		)
 		(uuid "37ea60a4-35cd-4015-b59e-f5239a498b68")
-	)
-	(text "Meltwire Resistor"
-		(exclude_from_sim no)
-		(at 181.61 125.73 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a0060d2-5204-44d7-aafc-719bb39cb557")
 	)
 	(text "Using 4.3 nH should get S11 around -15 dB, \nbut < -30 dB is possible with tuning"
 		(exclude_from_sim no)
@@ -3733,17 +3538,6 @@
 			(justify left bottom)
 		)
 		(uuid "987e6cbd-2c73-4278-b16d-336f32a55cb4")
-	)
-	(text "PAC100007508FA1000"
-		(exclude_from_sim no)
-		(at 177.8 123.19 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "b06d7960-7922-4da4-bdc8-cf7ae9306ed9")
 	)
 	(text "(SPARE1)"
 		(exclude_from_sim no)
@@ -3918,6 +3712,12 @@
 		(uuid "32fb07ac-d328-42d9-8dc8-51297d7bff63")
 	)
 	(junction
+		(at 74.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "394c2df9-0c70-42b8-9c0a-f2b209637f32")
+	)
+	(junction
 		(at 228.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3988,6 +3788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6822f1cc-584c-4251-bb52-edfc0b8b9251")
+	)
+	(junction
+		(at 74.93 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68653488-2bd4-4570-af3a-2976331cc23b")
 	)
 	(junction
 		(at 172.72 160.02)
@@ -4074,12 +3880,6 @@
 		(uuid "a2cccc31-1506-4b0f-8ed7-060cad851e8e")
 	)
 	(junction
-		(at 74.93 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a75a8da3-c566-4e48-b6bc-4a245730d7fd")
-	)
-	(junction
 		(at 74.93 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4132,6 +3932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5daf194-f2b2-45d5-bbd8-229339e2ee09")
+	)
+	(junction
+		(at 74.93 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d74259e6-5b71-4f25-a207-4866b4591a56")
 	)
 	(junction
 		(at 205.74 175.26)
@@ -4204,10 +4010,6 @@
 		(uuid "342e7c95-6f0c-411c-a48c-43bcc6e92fbb")
 	)
 	(no_connect
-		(at 67.31 129.54)
-		(uuid "37618f83-3f0f-4894-a0c4-ca66d48b126a")
-	)
-	(no_connect
 		(at 250.19 100.33)
 		(uuid "43ef0225-1f14-4dea-a12e-5f381861bd68")
 	)
@@ -4224,16 +4026,12 @@
 		(uuid "4fd6bc04-388a-48e2-a6e6-6f8e99e2d59b")
 	)
 	(no_connect
-		(at 67.31 121.92)
-		(uuid "572675be-5372-4277-a301-16c09ed5175c")
+		(at 67.31 111.76)
+		(uuid "59472d9e-2acd-48b7-ba09-240671ce882f")
 	)
 	(no_connect
 		(at 250.19 97.79)
 		(uuid "6f7bebd1-cec4-4ccf-bc25-4fc3bfd6cc8b")
-	)
-	(no_connect
-		(at 67.31 124.46)
-		(uuid "9114c97a-78f6-48e3-81db-cac45580d3f6")
 	)
 	(no_connect
 		(at 67.31 172.72)
@@ -4244,14 +4042,6 @@
 		(uuid "cdfb59ec-b5aa-4fba-a952-6f289df4d845")
 	)
 	(no_connect
-		(at 67.31 127)
-		(uuid "cfef7a1a-22cf-4cef-917c-985f05256344")
-	)
-	(no_connect
-		(at 67.31 132.08)
-		(uuid "df90dbb9-673c-4ccf-b1a7-a9bb1159ff0e")
-	)
-	(no_connect
 		(at 67.31 175.26)
 		(uuid "e0f75d95-f84d-436c-94ec-a44290c6756c")
 	)
@@ -4260,8 +4050,8 @@
 		(uuid "ea5e4426-b2be-4486-a1dd-e163cbb91cc5")
 	)
 	(no_connect
-		(at 67.31 119.38)
-		(uuid "ed030477-e9e2-4296-bb00-1b9176c8e8fd")
+		(at 67.31 114.3)
+		(uuid "f2bd7661-0413-4f78-bfe9-a099faa6e561")
 	)
 	(no_connect
 		(at 67.31 147.32)
@@ -4286,26 +4076,6 @@
 			(type default)
 		)
 		(uuid "024ef9af-2116-4828-bb4b-a21e6faef64a")
-	)
-	(wire
-		(pts
-			(xy 67.31 114.3) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0328099c-7174-4707-921b-43d9e491eef0")
-	)
-	(polyline
-		(pts
-			(xy 204.47 127) (xy 176.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0488c425-2684-4e00-acac-41fdbaaf7cf4")
 	)
 	(wire
 		(pts
@@ -4359,6 +4129,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a57494-7163-48c9-b869-ee24361e9ceb")
+	)
+	(wire
+		(pts
 			(xy 172.72 154.94) (xy 175.26 154.94)
 		)
 		(stroke
@@ -4366,6 +4146,26 @@
 			(type default)
 		)
 		(uuid "07edb166-da30-44b6-93d7-3728186da688")
+	)
+	(wire
+		(pts
+			(xy 74.93 119.38) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086b6db0-a975-472d-b721-44e64c3b2e9c")
+	)
+	(wire
+		(pts
+			(xy 67.31 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09adbb31-5d4c-4225-80a4-d6aa6e5bcd6f")
 	)
 	(polyline
 		(pts
@@ -4376,6 +4176,16 @@
 			(type default)
 		)
 		(uuid "0a429f4f-cf53-4288-b0cc-651172390671")
+	)
+	(wire
+		(pts
+			(xy 74.93 124.46) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6d7693-e0af-4f57-a143-b7a28dc0ba9e")
 	)
 	(wire
 		(pts
@@ -4439,16 +4249,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e35418-d113-4f47-a425-bcabaa35e224")
-	)
-	(wire
-		(pts
 			(xy 74.93 101.6) (xy 67.31 101.6)
 		)
 		(stroke
@@ -4509,26 +4309,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 74.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c97329-9b78-4c0a-a2f1-c9e6f0f36fd4")
-	)
-	(polyline
-		(pts
-			(xy 176.53 127) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21514760-b3e7-465a-b410-be8befd6402c")
-	)
-	(wire
-		(pts
 			(xy 160.02 35.56) (xy 175.26 35.56)
 		)
 		(stroke
@@ -4536,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "230e75ec-d179-411a-8dbf-93d3d9d3fb7f")
-	)
-	(wire
-		(pts
-			(xy 74.93 111.76) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23eb96ef-a229-4d18-9052-7f7787ec4852")
 	)
 	(polyline
 		(pts
@@ -4576,6 +4346,16 @@
 			(type default)
 		)
 		(uuid "2688e9bf-063c-4bd6-9385-50308c0682f4")
+	)
+	(wire
+		(pts
+			(xy 74.93 124.46) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cf62be-31b1-4f48-b831-432f08ccc810")
 	)
 	(wire
 		(pts
@@ -4616,16 +4396,6 @@
 			(type default)
 		)
 		(uuid "2caa2171-4e15-4550-b5ba-5cc70366c780")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cbeeacf-b7e8-4cd3-9e3a-0efa5fa8d100")
 	)
 	(wire
 		(pts
@@ -4929,16 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5106bd2a-20d7-4ade-a761-faf9353f613e")
-	)
-	(wire
-		(pts
 			(xy 74.93 104.14) (xy 74.93 101.6)
 		)
 		(stroke
@@ -4946,6 +4706,16 @@
 			(type default)
 		)
 		(uuid "52da3692-5f30-4747-8a41-7a5f7b51365f")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 90.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5381df49-6e24-48ca-8ffb-041cff05f749")
 	)
 	(wire
 		(pts
@@ -4999,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 121.92) (xy 67.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce5c655-be58-4c0c-b07e-e32e7f808852")
+	)
+	(wire
+		(pts
 			(xy 81.28 167.64) (xy 81.28 168.91)
 		)
 		(stroke
@@ -5036,6 +4816,16 @@
 			(type default)
 		)
 		(uuid "64147642-2784-431a-8122-b43381e3e9b6")
+	)
+	(wire
+		(pts
+			(xy 67.31 129.54) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64529424-6bd6-43db-a48e-f41242ab76c2")
 	)
 	(wire
 		(pts
@@ -5129,16 +4919,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 167.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd9afd5-3fd5-44bc-9833-03adad685822")
-	)
-	(wire
-		(pts
 			(xy 147.32 96.52) (xy 147.32 77.47)
 		)
 		(stroke
@@ -5156,6 +4936,16 @@
 			(type default)
 		)
 		(uuid "7fdff2fa-3082-4598-99bd-11b8f199da1e")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 74.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d50eb3-eca0-434c-8224-bd1d5cce0b1b")
 	)
 	(wire
 		(pts
@@ -5276,6 +5066,16 @@
 			(type default)
 		)
 		(uuid "90313fad-f0c2-4234-b676-666b16372706")
+	)
+	(wire
+		(pts
+			(xy 74.93 132.08) (xy 67.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92242a44-7cf9-4b7d-b906-128fd3ad324c")
 	)
 	(wire
 		(pts
@@ -5539,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 127) (xy 67.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb15257-86f9-4dfb-aac2-b2e57440513d")
+	)
+	(wire
+		(pts
 			(xy 228.6 157.48) (xy 256.54 157.48)
 		)
 		(stroke
@@ -5616,16 +5426,6 @@
 			(type default)
 		)
 		(uuid "bdf1a572-4c32-466d-aa2a-adae7bc394cb")
-	)
-	(wire
-		(pts
-			(xy 190.5 111.76) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f09369-376f-402a-aa64-b6e3f5d2cfa4")
 	)
 	(wire
 		(pts
@@ -5729,6 +5529,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce263686-d219-438d-8565-6a84af37605e")
+	)
+	(wire
+		(pts
 			(xy 156.21 35.56) (xy 160.02 35.56)
 		)
 		(stroke
@@ -5816,16 +5626,6 @@
 			(type default)
 		)
 		(uuid "daf763ff-d95f-4ab2-99c6-b844abd25553")
-	)
-	(polyline
-		(pts
-			(xy 204.47 97.79) (xy 204.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc477a6a-ea8b-4e23-984b-bc39a99acd3b")
 	)
 	(wire
 		(pts
@@ -6067,16 +5867,6 @@
 		)
 		(uuid "fab33fd5-92a5-4485-b3d0-c20e2bf10797")
 	)
-	(polyline
-		(pts
-			(xy 176.53 97.79) (xy 204.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea43076-db07-4564-b849-03fcdba2752c")
-	)
 	(label "S_BAND"
 		(at 109.22 35.56 0)
 		(effects
@@ -6157,16 +5947,6 @@
 		)
 		(uuid "36c1a6ee-960a-4a50-aa53-47a0b3cdcd8c")
 	)
-	(label "HELICAL-DEPLOY"
-		(at 77.47 114.3 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "43f8ed00-efb7-49a8-94c9-dc9351552a0a")
-	)
 	(label "VBUS"
 		(at 165.1 160.02 0)
 		(effects
@@ -6187,6 +5967,16 @@
 		)
 		(uuid "782acf5b-496e-4b70-b9e1-734e9e02e2ec")
 	)
+	(label "OPD_SCL"
+		(at 76.2 124.46 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b88544b-8a1b-450c-a89d-5f9b1e57615e")
+	)
 	(label "C3-UART-TX"
 		(at 77.47 187.96 0)
 		(effects
@@ -6206,6 +5996,16 @@
 			(justify left bottom)
 		)
 		(uuid "96efca30-8b1c-4ab1-9f53-44bb8664fe86")
+	)
+	(label "OPD_SDA"
+		(at 76.2 119.38 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "a819431b-8e52-4e0d-807a-816ec3845d09")
 	)
 	(label "~{SD}"
 		(at 77.47 193.04 0)
@@ -6287,6 +6087,16 @@
 		)
 		(uuid "d59fc979-9312-453b-95bb-b85d1d897f2c")
 	)
+	(label "OPD_PWR"
+		(at 76.2 129.54 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "ded073ce-155e-4012-8d98-76cb62cef23f")
+	)
 	(label "S_BAND_FEED"
 		(at 175.26 35.56 180)
 		(effects
@@ -6306,6 +6116,72 @@
 			(justify left bottom)
 		)
 		(uuid "f708dd84-bc8c-4c9c-a958-583489679500")
+	)
+	(global_label "OPD_PWR"
+		(shape output)
+		(at 90.17 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "639c666a-4dd6-42ec-85c7-35363721475f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.9847 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OPD_SCL"
+		(shape output)
+		(at 90.17 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bd2515b-bad3-4e60-abed-3e65d8c54d92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.5009 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OPD_SDA"
+		(shape bidirectional)
+		(at 90.17 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec70488f-4bd7-4104-b9ef-cfef56088f56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6727 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6413,7 +6289,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 222.25 234.95 0)
+		(at 220.98 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6422,7 +6298,7 @@
 		(fields_autoplaced yes)
 		(uuid "03b38c7a-00ce-4cda-942c-b3b00359f6ed")
 		(property "Reference" "HW6"
-			(at 226.06 233.6799 0)
+			(at 224.79 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6307,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 226.06 236.2199 0)
+			(at 224.79 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6316,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6343,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6352,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6361,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +6709,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 162.56 242.57 0)
+		(at 161.29 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6842,7 +6718,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c6b9e30-45da-4a07-993c-71009a4c2c4f")
 		(property "Reference" "FID3"
-			(at 165.1 241.2999 0)
+			(at 163.83 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6727,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 165.1 243.8399 0)
+			(at 163.83 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6736,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6763,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6772,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6781,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 162.56 242.57 0)
+			(at 161.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6800,7 @@
 	)
 	(symbol
 		(lib_id "oresat-pcbs:ORESAT-CARD-V1.3-3RF")
-		(at 207.01 215.9 0)
+		(at 205.74 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6932,7 +6808,7 @@
 		(dnp no)
 		(uuid "0cc9f9e8-5bbb-4a89-9332-5d6156333b7c")
 		(property "Reference" "PCB1"
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6817,7 @@
 			)
 		)
 		(property "Value" "ORESAT-CARD-V1.3-GENERIC-3RF"
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6826,7 @@
 			)
 		)
 		(property "Footprint" "oresat-pcbs:ORESAT-CARD-V1.3-3RF"
-			(at 207.01 204.47 0)
+			(at 205.74 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6853,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6862,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6871,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 207.01 215.9 0)
+			(at 205.74 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7345,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 162.56 232.41 0)
+		(at 161.29 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7478,7 +7354,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c597b20-0ede-4b61-af08-addfdbd6667e")
 		(property "Reference" "FID1"
-			(at 165.1 231.1399 0)
+			(at 163.83 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7363,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 165.1 233.6799 0)
+			(at 163.83 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7372,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +7399,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7408,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7417,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 162.56 232.41 0)
+			(at 161.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 177.8 237.49 0)
+		(at 176.53 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7569,7 +7445,7 @@
 		(fields_autoplaced yes)
 		(uuid "51b324fd-b801-4430-a5cc-b09982f33aee")
 		(property "Reference" "FID5"
-			(at 180.34 236.2199 0)
+			(at 179.07 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +7454,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 180.34 238.7599 0)
+			(at 179.07 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7463,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7490,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7499,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7508,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 177.8 237.49 0)
+			(at 176.53 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8076,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 250.19 250.19 0)
+		(at 248.92 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8209,7 +8085,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f114e9-cb3f-4d50-aca9-ec782b9cdfab")
 		(property "Reference" "HW12"
-			(at 254 248.9199 0)
+			(at 252.73 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8094,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 254 251.4599 0)
+			(at 252.73 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8103,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 250.19 254.635 0)
+			(at 248.92 258.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 250.19 0)
+			(at 248.92 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 250.19 0)
+			(at 248.92 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8130,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 250.19 250.19 0)
+			(at 248.92 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8139,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 250.19 250.19 0)
+			(at 248.92 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8148,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 250.19 250.19 0)
+			(at 248.92 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8409,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 222.25 242.57 0)
+		(at 220.98 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8541,7 +8417,7 @@
 		(dnp no)
 		(uuid "76144fcd-c72e-4d56-ad61-ffc03c683e21")
 		(property "Reference" "HW7"
-			(at 226.06 241.3 0)
+			(at 224.79 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8426,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 226.06 243.84 0)
+			(at 224.79 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8435,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 222.25 250.19 0)
+			(at 220.98 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +8453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8462,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8471,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8480,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 222.25 242.57 0)
+			(at 220.98 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8656,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 177.8 242.57 0)
+		(at 176.53 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8789,7 +8665,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b4e4b7b-68de-436a-8dd7-48ff8b8a20f8")
 		(property "Reference" "FID6"
-			(at 180.34 241.2999 0)
+			(at 179.07 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8674,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 180.34 243.8399 0)
+			(at 179.07 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8683,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8710,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8719,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8728,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 177.8 242.57 0)
+			(at 176.53 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9073,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 194.31 227.33 0)
+		(at 193.04 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9206,7 +9082,7 @@
 		(fields_autoplaced yes)
 		(uuid "a058e57b-8ea5-49c7-98a9-4f8ba3f627b0")
 		(property "Reference" "HW1"
-			(at 198.12 226.0599 0)
+			(at 196.85 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9091,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 198.12 228.5999 0)
+			(at 196.85 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9100,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +9109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 227.33 0)
+			(at 193.04 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 227.33 0)
+			(at 193.04 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9127,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 194.31 227.33 0)
+			(at 193.04 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,7 +9136,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 194.31 227.33 0)
+			(at 193.04 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9145,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 194.31 227.33 0)
+			(at 193.04 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9368,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 279.4 234.95 0)
+		(at 278.13 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9501,7 +9377,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0853c71-6dfc-447d-a2fe-b696d1d0f328")
 		(property "Reference" "HW14"
-			(at 283.21 233.68 0)
+			(at 281.94 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9386,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 283.21 236.22 0)
+			(at 281.94 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9395,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 279.4 239.395 0)
+			(at 278.13 243.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 234.95 0)
+			(at 278.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 234.95 0)
+			(at 278.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9422,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 279.4 234.95 0)
+			(at 278.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9431,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 279.4 234.95 0)
+			(at 278.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9440,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 279.4 234.95 0)
+			(at 278.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9459,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 250.19 234.95 0)
+		(at 248.92 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9591,7 +9467,7 @@
 		(dnp no)
 		(uuid "b4244523-9939-44ac-93b9-17f2e6697783")
 		(property "Reference" "HW10"
-			(at 254 233.6799 0)
+			(at 252.73 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9476,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 254 236.22 0)
+			(at 252.73 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9485,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 250.19 239.395 0)
+			(at 248.92 243.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 234.95 0)
+			(at 248.92 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 234.95 0)
+			(at 248.92 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9512,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 250.19 234.95 0)
+			(at 248.92 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9521,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 250.19 234.95 0)
+			(at 248.92 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9530,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 250.19 234.95 0)
+			(at 248.92 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,113 +9548,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b834a139-ed2a-43bd-ba09-9b9792684e1e")
-		(property "Reference" "R1"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "7.5  1W"
-			(at 191.77 104.14 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-passives:R-PAC100-FOR-MELTWIRE"
-			(at 189.484 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Vishay Beyschlag/Draloric/BC Components"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "749-PAC100007508FA1000TB-ND"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Beyschlag/Draloric/BC Components"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PAC100007508FA1000"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "540bcae6-15f8-48be-88b5-3c3803bfc33d")
-		)
-		(pin "2"
-			(uuid "90a64544-5962-4056-829a-065773fb9c3c")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 279.4 242.57 0)
+		(at 278.13 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9787,7 +9558,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8ae8397-3d9a-4a9e-81c1-53b71ccf9102")
 		(property "Reference" "HW4"
-			(at 283.21 241.3 0)
+			(at 281.94 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9567,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 283.21 243.84 0)
+			(at 281.94 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9576,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 279.4 247.015 0)
+			(at 278.13 250.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +9585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 242.57 0)
+			(at 278.13 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9823,7 +9594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 242.57 0)
+			(at 278.13 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9603,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 279.4 242.57 0)
+			(at 278.13 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +9612,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 279.4 242.57 0)
+			(at 278.13 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,7 +9621,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 279.4 242.57 0)
+			(at 278.13 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9732,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 222.25 227.33 0)
+		(at 220.98 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9970,7 +9741,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0c53b0c-ff73-4664-82cc-042ae61dd968")
 		(property "Reference" "HW5"
-			(at 226.06 226.0599 0)
+			(at 224.79 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +9750,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 226.06 228.5999 0)
+			(at 224.79 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +9759,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 222.25 234.95 0)
+			(at 220.98 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +9768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 227.33 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +9777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 227.33 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +9786,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 222.25 227.33 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +9795,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 222.25 227.33 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,7 +9804,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 222.25 227.33 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +9823,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 177.8 232.41 0)
+		(at 176.53 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10061,7 +9832,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4781289-28e1-4258-852a-f9619ba86972")
 		(property "Reference" "FID4"
-			(at 180.34 231.1399 0)
+			(at 179.07 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +9841,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 180.34 233.6799 0)
+			(at 179.07 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +9850,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +9859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +9868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +9877,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +9886,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +9895,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 177.8 232.41 0)
+			(at 176.53 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10118,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 194.31 234.95 0)
+		(at 193.04 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10356,7 +10127,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb046921-a74f-4669-b7e4-7fed7e4a3ff8")
 		(property "Reference" "HW2"
-			(at 198.12 233.6799 0)
+			(at 196.85 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10136,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 198.12 236.2199 0)
+			(at 196.85 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10145,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +10172,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10181,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +10190,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 194.31 234.95 0)
+			(at 193.04 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10209,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
-		(at 194.31 242.57 0)
+		(at 193.04 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10447,7 +10218,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbdbfe57-0d22-463f-bf7c-43207cd3566b")
 		(property "Reference" "HW3"
-			(at 198.12 241.2999 0)
+			(at 196.85 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +10227,7 @@
 			)
 		)
 		(property "Value" "M1.6_Mounting_Hole"
-			(at 198.12 243.8399 0)
+			(at 196.85 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +10236,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M1.6 Mounting Hole"
-			(at 194.31 250.19 0)
+			(at 193.04 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +10245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10263,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10272,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10281,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 194.31 242.57 0)
+			(at 193.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +10300,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 279.4 227.33 0)
+		(at 278.13 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10538,7 +10309,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2e56f0a-6105-4d8d-85b6-42bd78f86864")
 		(property "Reference" "HW13"
-			(at 283.21 226.06 0)
+			(at 281.94 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10318,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 283.21 228.6 0)
+			(at 281.94 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10327,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 279.4 231.775 0)
+			(at 278.13 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 227.33 0)
+			(at 278.13 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 227.33 0)
+			(at 278.13 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10354,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 279.4 227.33 0)
+			(at 278.13 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10363,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 279.4 227.33 0)
+			(at 278.13 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10372,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 279.4 227.33 0)
+			(at 278.13 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10391,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 162.56 237.49 0)
+		(at 161.29 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10629,7 +10400,7 @@
 		(fields_autoplaced yes)
 		(uuid "d38da605-57f2-425a-afdb-b5c54dad5369")
 		(property "Reference" "FID2"
-			(at 165.1 236.2199 0)
+			(at 163.83 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,7 +10409,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 165.1 238.7599 0)
+			(at 163.83 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +10418,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +10427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10445,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +10454,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +10463,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 162.56 237.49 0)
+			(at 161.29 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,71 +10621,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc0df0bc-3b2c-4026-aef7-08f440e4d13d")
-		(property "Reference" "#GND04"
-			(at 190.5 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dab0ca5a-aefd-454e-be1e-413799c8b8bb")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "#GND04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 250.19 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11045,7 +10751,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 250.19 227.33 0)
+		(at 248.92 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11054,7 +10760,7 @@
 		(fields_autoplaced yes)
 		(uuid "eed515ff-cd1d-4353-9a36-970af40b0d9a")
 		(property "Reference" "HW9"
-			(at 254 226.0599 0)
+			(at 252.73 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +10769,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 254 228.5999 0)
+			(at 252.73 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +10778,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 250.19 231.775 0)
+			(at 248.92 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +10787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 227.33 0)
+			(at 248.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +10796,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 227.33 0)
+			(at 248.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +10805,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 250.19 227.33 0)
+			(at 248.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,7 +10814,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 250.19 227.33 0)
+			(at 248.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +10823,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 250.19 227.33 0)
+			(at 248.92 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +10842,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 250.19 242.57 0)
+		(at 248.92 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11144,7 +10850,7 @@
 		(dnp no)
 		(uuid "f036672b-ee05-4277-87ff-7086ef36c6ff")
 		(property "Reference" "HW11"
-			(at 254 241.2999 0)
+			(at 252.73 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +10859,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 254 243.84 0)
+			(at 252.73 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +10868,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 250.19 247.015 0)
+			(at 248.92 250.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,7 +10877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 242.57 0)
+			(at 248.92 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +10886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 242.57 0)
+			(at 248.92 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +10895,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 250.19 242.57 0)
+			(at 248.92 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +10904,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 250.19 242.57 0)
+			(at 248.92 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +10913,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 250.19 242.57 0)
+			(at 248.92 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11351,6 +11057,48 @@
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 228.6)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00d1c146-41ee-47bc-806e-4a57139ad2b4")
+		(property "Sheetname" "OPD"
+			(at 60.96 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat1-plusz-end-card-sch-opd.kicad_sch"
+			(at 60.96 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(page "2")
 				)
 			)
 		)
