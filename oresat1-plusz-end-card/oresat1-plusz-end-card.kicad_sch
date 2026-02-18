@@ -5,9 +5,10 @@
 	(uuid "f7595184-4323-4ed9-b19e-5e32e3c6e76f")
 	(paper "USLedger")
 	(title_block
-		(title "+Z End Card w/ Turnstile")
-		(date "2024-08-20")
-		(rev "1.4")
+		(title "OreSat1 +Z End Card")
+		(date "2026-02-18")
+		(rev "v1.1")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
