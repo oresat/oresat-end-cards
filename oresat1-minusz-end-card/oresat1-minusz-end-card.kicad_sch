@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat1 -Z End Card")
-		(date "2026-02-17")
-		(rev "v1.2")
+		(date "2026-02-18")
+		(rev "v1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
