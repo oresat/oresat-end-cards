@@ -11,6 +11,514 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Conn_01x12_MountingPin_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at -1.27 17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M55-7101242R"
+				(at -7.62 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIS" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "952-3891-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Harwin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "M55-7101242R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x12_MountingPin_1_1_1"
+				(rectangle
+					(start -1.27 13.97)
+					(end 1.27 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -17.272) (xy 1.016 -17.272)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -16.891 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -171,6 +679,514 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x12_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CF1"
+				(at -6.35 19.05 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M55-6001242R"
+				(at -6.35 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12 Position Receptacle Connector 0.050\" (1.27mm) Surface Mount Gold"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIS" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "952-3835-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Harwin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "M55-6001242R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x12_MountingPin_1_1"
+				(rectangle
+					(start -1.27 13.97)
+					(end 1.27 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -17.272) (xy 1.016 -17.272)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -16.891 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -696,788 +1712,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-connectors:Harwin M55-7101242R"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -12.7 15.875 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Harwin M55-7101242R"
-				(at -12.7 13.97 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.harwin.com/pdfs/C047XX_M55_Archer_Kontrol.pdf"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER SMD R/A 12POS 1.27MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Harwin M55-7101242R_1_1"
-				(rectangle
-					(start -1.27 -16.51)
-					(end 1.27 13.97)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -16.256)
-					(end 1.016 13.716)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -0.254 12.573)
-					(end 1.016 12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 10.033)
-					(end 1.016 10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 7.493)
-					(end 1.016 7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 4.953)
-					(end 1.016 5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 2.413)
-					(end 1.016 2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -0.127)
-					(end 1.016 0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -2.667)
-					(end 1.016 -2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -5.207)
-					(end 1.016 -4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -7.747)
-					(end 1.016 -7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -10.287)
-					(end 1.016 -10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -12.827)
-					(end 1.016 -12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -15.367)
-					(end 1.016 -15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 3.81)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 12.7 180)
-					(length 4.064)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 180)
-					(length 4.064)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 4.064)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 4.064)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 4.064)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 4.064)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 4.064)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 4.064)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 4.064)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 180)
-					(length 4.064)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -12.7 180)
-					(length 4.064)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -15.24 180)
-					(length 4.064)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-connectors:J-HARWIN-M55-6001242R"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CF1"
-				(at -6.35 19.05 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "J-HARWIN-M55-6001242R"
-				(at -6.35 16.51 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.harwin.com/pdfs/C047XX_M55_Archer_Kontrol.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN RCPT 12POS 0.05 GOLD SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "J-HARWIN-M55-6001242R_1_0"
-				(polyline
-					(pts
-						(xy -6.35 15.24) (xy -6.35 -17.78)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -17.78) (xy 1.27 -17.78)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 15.24) (xy -6.35 15.24)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -17.78) (xy 1.27 15.24)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 12.7 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 10.16 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -20.32 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 			)
@@ -3635,34 +3869,10 @@
 		(uuid "02735e47-0f14-45f4-95be-85faba2b1b80")
 	)
 	(junction
-		(at 228.6 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "033a38c9-760d-41ae-a22c-bfa92374778d")
-	)
-	(junction
-		(at 175.26 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05166e1f-f700-4963-9f7b-d7aceb8bd5e6")
-	)
-	(junction
-		(at 205.74 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06c42ae8-95ff-4124-974b-d45ae57a9bcc")
-	)
-	(junction
 		(at 172.72 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c4e24bf-c047-4962-8c4b-eb695970fd85")
-	)
-	(junction
-		(at 228.6 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "102467f6-b147-48b2-af99-12c32cfd5573")
 	)
 	(junction
 		(at 172.72 170.18)
@@ -3671,16 +3881,10 @@
 		(uuid "15855117-00c1-4824-a161-1861af7dbe76")
 	)
 	(junction
-		(at 175.26 177.8)
+		(at 228.6 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16a87597-e169-4d6b-a2aa-d3c6178a6ebc")
-	)
-	(junction
-		(at 175.26 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc5b0d8-8f7b-4ad7-b45e-af56c9a7d938")
+		(uuid "1cff2b8d-224d-4876-be8d-c94a44a197a0")
 	)
 	(junction
 		(at 242.57 95.25)
@@ -3707,10 +3911,28 @@
 		(uuid "262f19a8-da1a-427c-8eab-3524a449753b")
 	)
 	(junction
+		(at 175.26 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ccdb13-6289-4fdc-a748-676f2a156ecd")
+	)
+	(junction
 		(at 74.93 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32fb07ac-d328-42d9-8dc8-51297d7bff63")
+	)
+	(junction
+		(at 175.26 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37a6b6b5-cf6e-4518-8ff5-6f7c0a7e5355")
+	)
+	(junction
+		(at 175.26 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38558664-7794-4f32-96b2-f02a1bb5cf5a")
 	)
 	(junction
 		(at 74.93 124.46)
@@ -3719,34 +3941,16 @@
 		(uuid "394c2df9-0c70-42b8-9c0a-f2b209637f32")
 	)
 	(junction
-		(at 228.6 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bd3171a-246c-46aa-8bed-03959959d56d")
-	)
-	(junction
-		(at 175.26 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c2625f8-12f5-467d-839f-deda4facfc4a")
-	)
-	(junction
-		(at 228.6 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44c0763c-4590-4c8b-9897-3ea5c43ef597")
-	)
-	(junction
-		(at 228.6 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4632f856-7712-4fb0-8430-98d01a13f380")
-	)
-	(junction
 		(at 228.6 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47e0224f-e749-4b63-9600-8d4bb2515bf0")
+		(uuid "3ae2386d-b314-4cfd-9755-e0d2db238b2e")
+	)
+	(junction
+		(at 205.74 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b8cae39-59b5-4f06-8081-49ccb13308c9")
 	)
 	(junction
 		(at 242.57 87.63)
@@ -3755,16 +3959,10 @@
 		(uuid "490f027d-e2e7-41b8-b53a-873ce8ca4620")
 	)
 	(junction
-		(at 175.26 162.56)
+		(at 205.74 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49f8ec50-e06c-47ed-b338-bed1ac3cd238")
-	)
-	(junction
-		(at 228.6 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b7b45e7-8bc1-4f7a-8fca-1f35ecd1bd19")
+		(uuid "4d6196ea-2c57-4022-9401-d2807ff30c64")
 	)
 	(junction
 		(at 74.93 193.04)
@@ -3773,16 +3971,22 @@
 		(uuid "4ef4f7e4-0794-4bc6-9525-ebacc78531d3")
 	)
 	(junction
-		(at 205.74 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52ecff09-fb41-4a6f-b89a-04fffbb383d0")
-	)
-	(junction
 		(at 144.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f02a8fc-d44c-4829-a0c4-d7f67c7e0bc7")
+	)
+	(junction
+		(at 205.74 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66c4f315-77c2-44f5-ab36-8b1b8f9aef4c")
+	)
+	(junction
+		(at 228.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6782e90f-8ac0-43bb-845f-eb6b5e3d4cca")
 	)
 	(junction
 		(at 74.93 182.88)
@@ -3803,6 +4007,18 @@
 		(uuid "6d97bd15-fcfd-4faa-b3fb-dcc194e23dc1")
 	)
 	(junction
+		(at 175.26 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73461586-6176-4441-bea1-0f56bd10b4d3")
+	)
+	(junction
+		(at 205.74 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73df0750-123f-4d4d-9a30-c096208809e1")
+	)
+	(junction
 		(at 74.93 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3815,16 +4031,10 @@
 		(uuid "77fccce0-6218-4fde-bbb2-2c4eabfa7040")
 	)
 	(junction
-		(at 205.74 152.4)
+		(at 228.6 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c6c8f86-dd02-4462-8b45-df1bb05f7022")
-	)
-	(junction
-		(at 228.6 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "810dd204-3704-43a7-bf58-5f588e038580")
+		(uuid "7da9df5f-7811-49f5-b0b7-818fe692c9c4")
 	)
 	(junction
 		(at 81.28 35.56)
@@ -3833,16 +4043,10 @@
 		(uuid "8821aa0d-7a94-4ce3-9709-4835d22a1a4f")
 	)
 	(junction
-		(at 175.26 157.48)
+		(at 228.6 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9026bc7a-31f2-4efb-93ab-fb514e451366")
-	)
-	(junction
-		(at 205.74 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "911ce70c-7345-4911-948c-f496949f1604")
+		(uuid "88904968-4225-404f-b582-3cc74ec25717")
 	)
 	(junction
 		(at 242.57 77.47)
@@ -3851,10 +4055,10 @@
 		(uuid "91d0ad28-fec7-4d34-8cf7-c0e3bfe6ff59")
 	)
 	(junction
-		(at 175.26 149.86)
+		(at 205.74 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98e6eac5-7535-4cb7-a46b-f9a770254173")
+		(uuid "9768eb54-eb0c-45b1-b24d-01538022aecf")
 	)
 	(junction
 		(at 81.28 154.94)
@@ -3863,10 +4067,10 @@
 		(uuid "991ea2b8-a81b-4d82-83a2-b2e49ba19ada")
 	)
 	(junction
-		(at 228.6 149.86)
+		(at 175.26 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a021647f-29e2-4e3c-a891-6b16206522bb")
+		(uuid "9eeed3cd-ecba-449b-a68b-469aa101863b")
 	)
 	(junction
 		(at 74.93 165.1)
@@ -3878,7 +4082,13 @@
 		(at 205.74 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2cccc31-1506-4b0f-8ed7-060cad851e8e")
+		(uuid "a446c7dd-4078-4116-8571-03a7ccb4ca3b")
+	)
+	(junction
+		(at 205.74 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a65e79ec-14a1-433d-a573-b393900eeab9")
 	)
 	(junction
 		(at 74.93 177.8)
@@ -3899,10 +4109,10 @@
 		(uuid "ac0ba0b3-48dd-4c06-bc9b-ff1ccdc134ee")
 	)
 	(junction
-		(at 175.26 170.18)
+		(at 175.26 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b10f46cc-e3ae-43c4-9f44-a9e446ba8539")
+		(uuid "af7d7201-1fc5-41fd-b247-252bd54db4a6")
 	)
 	(junction
 		(at 81.28 167.64)
@@ -3911,16 +4121,46 @@
 		(uuid "b414a804-138c-4435-acaa-009a96499eb9")
 	)
 	(junction
+		(at 175.26 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b611984f-1b77-44f4-88ea-3e6a605d587c")
+	)
+	(junction
+		(at 175.26 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b716f809-da8e-4cda-9d70-1ec5808c538a")
+	)
+	(junction
+		(at 228.6 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b79ce2e4-488e-4d44-8ffd-e0bd375e1e1b")
+	)
+	(junction
+		(at 205.74 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf7096c6-af86-4304-a589-dd64c4c69138")
+	)
+	(junction
+		(at 205.74 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf8a21c7-5441-4880-8a78-a450d50c9073")
+	)
+	(junction
 		(at 160.02 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32596cd-14be-44cf-be78-cc1307978932")
 	)
 	(junction
-		(at 205.74 160.02)
+		(at 175.26 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2c298b4-0f5d-4790-a15c-b698c22544cc")
+		(uuid "c8b0e73f-0885-4a11-9cde-54420c017d9d")
 	)
 	(junction
 		(at 254 165.1)
@@ -3929,34 +4169,34 @@
 		(uuid "d40ad571-ad2e-494c-948d-89db01f70149")
 	)
 	(junction
-		(at 175.26 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5daf194-f2b2-45d5-bbd8-229339e2ee09")
-	)
-	(junction
 		(at 74.93 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74259e6-5b71-4f25-a207-4866b4591a56")
 	)
 	(junction
-		(at 205.74 175.26)
+		(at 175.26 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8a48e3c-3867-421c-a452-56f78edec63d")
+		(uuid "d8908691-15ab-4755-9070-20ffda25382b")
 	)
 	(junction
-		(at 205.74 172.72)
+		(at 228.6 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1647f7a-42ed-44f9-a63f-f72038c491b2")
+		(uuid "d993f31e-6799-4e75-81ed-6b2844fac7f9")
 	)
 	(junction
-		(at 175.26 160.02)
+		(at 228.6 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2fda304-f84a-4c6c-a454-7d4499a434b7")
+		(uuid "db20cc69-fbb0-4252-8ab6-00520f795a36")
+	)
+	(junction
+		(at 228.6 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deaeef2e-b92b-42a4-b744-660a65d7f31e")
 	)
 	(junction
 		(at 74.93 157.48)
@@ -3965,34 +4205,28 @@
 		(uuid "e810a6c2-0072-4ebf-8dde-e6a062104c4c")
 	)
 	(junction
+		(at 228.6 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93715d2-fdfb-4f26-b7d8-1b0eda5be74a")
+	)
+	(junction
 		(at 172.72 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea15ab17-ab90-4dbb-b9a7-1a15fbf943d7")
 	)
 	(junction
-		(at 228.6 172.72)
+		(at 205.74 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f35f06e0-16dd-4ffe-88ea-6e56afd4edd6")
+		(uuid "eaa5d47a-665e-44dd-8202-74a6ad48fe37")
 	)
 	(junction
 		(at 172.72 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa117f67-5f76-4e64-a15b-626b49a6d099")
-	)
-	(junction
-		(at 205.74 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe1be0e1-d647-4f35-bb35-7d6a474c1670")
-	)
-	(junction
-		(at 205.74 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe969a08-eb65-434a-a6c7-8a97a949a077")
 	)
 	(no_connect
 		(at 67.31 144.78)
@@ -4100,26 +4334,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 172.72) (xy 172.72 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054b8781-89f2-4fe9-938e-f9d78f44ea6b")
-	)
-	(wire
-		(pts
-			(xy 228.6 175.26) (xy 256.54 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063d7bd2-ad6c-4b02-a1b4-dd7dc9a6d028")
-	)
-	(wire
-		(pts
 			(xy 233.68 182.88) (xy 233.68 185.42)
 		)
 		(stroke
@@ -4150,6 +4364,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 172.72) (xy 228.6 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082f7e5a-5249-4be9-8bd1-6a16c18d25d6")
+	)
+	(wire
+		(pts
 			(xy 74.93 119.38) (xy 74.93 121.92)
 		)
 		(stroke
@@ -4167,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "09adbb31-5d4c-4225-80a4-d6aa6e5bcd6f")
+	)
+	(wire
+		(pts
+			(xy 228.6 170.18) (xy 256.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a377d03-d927-406e-aed9-5ec9bb83b33d")
 	)
 	(polyline
 		(pts
@@ -4207,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "0b0f8e89-29d1-4d3a-b95f-cfdb94818d3d")
+	)
+	(wire
+		(pts
+			(xy 228.6 177.8) (xy 256.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd1b974-a4f3-4bb5-a55d-3a49a8fc0c88")
 	)
 	(wire
 		(pts
@@ -4290,16 +4534,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 177.8) (xy 228.6 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ffaa54d-9cfc-4075-9a84-7771733b7630")
-	)
-	(wire
-		(pts
 			(xy 242.57 92.71) (xy 242.57 95.25)
 		)
 		(stroke
@@ -4317,6 +4551,16 @@
 			(type default)
 		)
 		(uuid "230e75ec-d179-411a-8dbf-93d3d9d3fb7f")
+	)
+	(wire
+		(pts
+			(xy 175.26 157.48) (xy 205.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bf081b-faaa-439b-b32d-03cdda62e240")
 	)
 	(polyline
 		(pts
@@ -4380,6 +4624,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 175.26) (xy 256.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be7cf20-6d73-41b7-979d-cd997d2b74ee")
+	)
+	(wire
+		(pts
 			(xy 250.19 77.47) (xy 242.57 77.47)
 		)
 		(stroke
@@ -4410,6 +4664,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 152.4) (xy 256.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3002b9b5-9f26-4bcb-a825-bd4bce40960a")
+	)
+	(wire
+		(pts
+			(xy 228.6 154.94) (xy 256.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30066098-be9f-40b2-972d-47ab1faa2da2")
+	)
+	(wire
+		(pts
 			(xy 67.31 109.22) (xy 74.93 109.22)
 		)
 		(stroke
@@ -4430,13 +4704,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 154.94) (xy 256.54 154.94)
+			(xy 175.26 170.18) (xy 205.74 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34c54249-8762-4aed-81a1-7f5cd466caa7")
+		(uuid "376ac823-d018-4e70-b70c-7d9def041883")
 	)
 	(polyline
 		(pts
@@ -4468,16 +4742,6 @@
 		)
 		(uuid "39885931-eb73-482b-9229-53d926847477")
 	)
-	(wire
-		(pts
-			(xy 175.26 177.8) (xy 172.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6eb2b1-5c32-4ec4-8f0b-d3b45b8e8baf")
-	)
 	(polyline
 		(pts
 			(xy 279.4 198.12) (xy 152.4 198.12)
@@ -4490,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 162.56) (xy 205.74 162.56)
+			(xy 172.72 162.56) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4540,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 152.4) (xy 172.72 152.4)
+			(xy 172.72 152.4) (xy 175.26 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4600,6 +4864,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 170.18) (xy 228.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47637624-3efb-4363-bc75-1a94b5b9ff27")
+	)
+	(wire
+		(pts
 			(xy 130.81 149.86) (xy 130.81 193.04)
 		)
 		(stroke
@@ -4617,16 +4891,6 @@
 			(type default)
 		)
 		(uuid "4a0b7f47-270c-4b70-94d3-8e2139a9ace6")
-	)
-	(wire
-		(pts
-			(xy 228.6 149.86) (xy 256.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a182f2d-4636-49c7-9b5d-de3f216133ef")
 	)
 	(polyline
 		(pts
@@ -4680,16 +4944,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 162.56) (xy 172.72 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5015765c-3996-420c-a3cb-e8aa0ff35284")
-	)
-	(wire
-		(pts
 			(xy 226.06 165.1) (xy 228.6 165.1)
 		)
 		(stroke
@@ -4728,26 +4982,6 @@
 		)
 		(uuid "57a19232-bfa6-42e8-bce8-0fcdb8b04c50")
 	)
-	(wire
-		(pts
-			(xy 228.6 172.72) (xy 256.54 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d35f63-59b1-435c-8c89-d6459ca8312f")
-	)
-	(wire
-		(pts
-			(xy 205.74 162.56) (xy 228.6 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5927a3c1-be55-4d79-9a16-27bb54e3f800")
-	)
 	(polyline
 		(pts
 			(xy 200.66 17.78) (xy 200.66 60.96)
@@ -4760,13 +4994,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 175.26) (xy 205.74 175.26)
+			(xy 175.26 162.56) (xy 205.74 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cc2a826-5867-4058-a7a5-9a5a0d133fef")
+		(uuid "5b4e370e-79b1-4a26-9d9e-aa33a1ca96da")
 	)
 	(wire
 		(pts
@@ -4810,16 +5044,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 160.02) (xy 228.6 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64147642-2784-431a-8122-b43381e3e9b6")
-	)
-	(wire
-		(pts
 			(xy 67.31 129.54) (xy 74.93 129.54)
 		)
 		(stroke
@@ -4827,16 +5051,6 @@
 			(type default)
 		)
 		(uuid "64529424-6bd6-43db-a48e-f41242ab76c2")
-	)
-	(wire
-		(pts
-			(xy 175.26 154.94) (xy 205.74 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64679f76-e7c8-43d8-9f91-dd0cd59184e8")
 	)
 	(wire
 		(pts
@@ -4857,6 +5071,16 @@
 			(type default)
 		)
 		(uuid "680888ea-bde0-401b-a918-19af13a6b372")
+	)
+	(wire
+		(pts
+			(xy 175.26 172.72) (xy 205.74 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1f93c9-77ad-4175-91ab-1062f0018947")
 	)
 	(wire
 		(pts
@@ -4887,6 +5111,16 @@
 			(type default)
 		)
 		(uuid "756ffc86-b603-4caa-a7bd-87c7981bf3ef")
+	)
+	(wire
+		(pts
+			(xy 228.6 160.02) (xy 256.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d558ee-f4f1-4d78-b93e-f26f436c4245")
 	)
 	(wire
 		(pts
@@ -4958,6 +5192,16 @@
 		)
 		(uuid "82334400-00b1-4ebf-8e3d-d5339e31aa32")
 	)
+	(wire
+		(pts
+			(xy 228.6 149.86) (xy 256.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823c0b41-3332-4fc5-b890-1edb4c09972c")
+	)
 	(polyline
 		(pts
 			(xy 279.4 63.5) (xy 279.4 118.11)
@@ -4970,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 177.8) (xy 256.54 177.8)
+			(xy 175.26 177.8) (xy 205.74 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4980,17 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 154.94) (xy 228.6 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867f98f3-0fa5-4695-b4c4-bd5cebf11f93")
-	)
-	(wire
-		(pts
-			(xy 175.26 157.48) (xy 172.72 157.48)
+			(xy 172.72 157.48) (xy 175.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5020,16 +5254,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 160.02) (xy 256.54 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a09f124-872e-4e01-9caf-1c01d988b8da")
-	)
-	(wire
-		(pts
 			(xy 172.72 177.8) (xy 172.72 175.26)
 		)
 		(stroke
@@ -5037,16 +5261,6 @@
 			(type default)
 		)
 		(uuid "8aeab5d3-7239-4196-bd28-226804d1fea3")
-	)
-	(wire
-		(pts
-			(xy 205.74 149.86) (xy 228.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c595871-0efe-480f-b224-accb3d309813")
 	)
 	(wire
 		(pts
@@ -5080,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 172.72) (xy 256.54 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923ba312-4638-4958-819b-0377fd67526e")
+	)
+	(wire
+		(pts
 			(xy 74.93 109.22) (xy 74.93 106.68)
 		)
 		(stroke
@@ -5097,16 +5321,6 @@
 			(type default)
 		)
 		(uuid "9398269a-2d15-4732-9eec-3c3b8accb794")
-	)
-	(wire
-		(pts
-			(xy 205.74 172.72) (xy 228.6 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e9a41c-4a68-4f4a-ba33-748cebc0e3a1")
 	)
 	(polyline
 		(pts
@@ -5130,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 160.02) (xy 205.74 160.02)
+			(xy 172.72 160.02) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5147,16 +5361,6 @@
 			(type default)
 		)
 		(uuid "9aa42136-d7a9-45fe-a7ae-78ac9f5c7699")
-	)
-	(wire
-		(pts
-			(xy 228.6 152.4) (xy 256.54 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4f5b0b-e793-4f00-aae9-43bf5240b5b9")
 	)
 	(wire
 		(pts
@@ -5180,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 149.86) (xy 172.72 149.86)
+			(xy 172.72 149.86) (xy 175.26 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 111.76) (xy 250.19 110.49)
+			(xy 255.27 111.76) (xy 255.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5240,16 +5444,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 175.26) (xy 228.6 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4430730-0dc0-461c-b90e-4d24af36d223")
-	)
-	(wire
-		(pts
 			(xy 242.57 85.09) (xy 250.19 85.09)
 		)
 		(stroke
@@ -5257,6 +5451,16 @@
 			(type default)
 		)
 		(uuid "a4457af0-409b-4f6e-a969-2a77a30f4639")
+	)
+	(wire
+		(pts
+			(xy 175.26 149.86) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51a2e0b-4361-40cb-842e-bd53ee537a70")
 	)
 	(wire
 		(pts
@@ -5310,16 +5514,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 157.48) (xy 228.6 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0b7406-fdf8-494e-90a8-3bee61535a25")
-	)
-	(wire
-		(pts
 			(xy 160.02 35.56) (xy 160.02 38.1)
 		)
 		(stroke
@@ -5350,16 +5544,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 157.48) (xy 256.54 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06f5bde-4833-4b8c-942f-273f3e173fed")
-	)
-	(wire
-		(pts
 			(xy 67.31 104.14) (xy 74.93 104.14)
 		)
 		(stroke
@@ -5370,13 +5554,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 170.18) (xy 205.74 170.18)
+			(xy 228.6 162.56) (xy 256.54 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0de69e0-9a7a-4857-b225-61f5e780cad9")
+		(uuid "b1730646-5948-4d3e-8b59-98a4e3242487")
 	)
 	(wire
 		(pts
@@ -5400,6 +5584,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 157.48) (xy 256.54 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a56bfe-8ff9-4014-b757-1bbe287bee28")
+	)
+	(wire
+		(pts
 			(xy 172.72 165.1) (xy 175.26 165.1)
 		)
 		(stroke
@@ -5410,13 +5604,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 162.56) (xy 256.54 162.56)
+			(xy 205.74 157.48) (xy 228.6 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd92c2f5-405e-4d27-a676-5f31ce7939ee")
+		(uuid "bd2866cf-a808-47d7-802c-3e8b06fae32e")
 	)
 	(wire
 		(pts
@@ -5430,7 +5624,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 172.72) (xy 205.74 172.72)
+			(xy 172.72 172.72) (xy 175.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5450,6 +5644,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 154.94) (xy 205.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a2e459-ad55-4a4f-b8df-52bb474939e1")
+	)
+	(wire
+		(pts
 			(xy 74.93 99.06) (xy 74.93 96.52)
 		)
 		(stroke
@@ -5460,13 +5664,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 157.48) (xy 205.74 157.48)
+			(xy 205.74 160.02) (xy 228.6 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6932f64-cffc-4548-aa40-59dbb26f061a")
+		(uuid "c9cfdb50-f346-4a1a-b761-7c70d9217e85")
 	)
 	(wire
 		(pts
@@ -5500,7 +5704,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 177.8) (xy 205.74 177.8)
+			(xy 172.72 177.8) (xy 175.26 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5540,6 +5744,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 175.26) (xy 205.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2d6380-7037-4eda-b4dd-6f3ff7c6df2f")
+	)
+	(wire
+		(pts
 			(xy 156.21 35.56) (xy 160.02 35.56)
 		)
 		(stroke
@@ -5560,16 +5774,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 170.18) (xy 256.54 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c843b7-028a-49f2-ad3c-ac12ad8953bb")
-	)
-	(wire
-		(pts
 			(xy 74.93 96.52) (xy 147.32 96.52)
 		)
 		(stroke
@@ -5577,6 +5781,16 @@
 			(type default)
 		)
 		(uuid "d4b30d4d-26c5-4ef7-a2bd-125bf6eb9a3f")
+	)
+	(wire
+		(pts
+			(xy 205.74 177.8) (xy 228.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b4579b-1083-4cb4-89d9-529174243759")
 	)
 	(wire
 		(pts
@@ -5620,16 +5834,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 170.18) (xy 228.6 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf763ff-d95f-4ab2-99c6-b844abd25553")
-	)
-	(wire
-		(pts
 			(xy 172.72 162.56) (xy 172.72 160.02)
 		)
 		(stroke
@@ -5670,23 +5874,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 160.02) (xy 175.26 160.02)
+			(xy 205.74 162.56) (xy 228.6 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2f14792-1e88-4c2d-8f09-142647a44986")
+		(uuid "dfaf269a-4f0d-466a-a000-d7876e6791eb")
 	)
 	(wire
 		(pts
-			(xy 175.26 149.86) (xy 205.74 149.86)
+			(xy 205.74 152.4) (xy 228.6 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4bdc516-6059-484e-a95f-ce96d07bdd8a")
+		(uuid "e0eba8e4-32f0-4327-9f52-d6630f48f8ca")
 	)
 	(wire
 		(pts
@@ -5697,6 +5901,16 @@
 			(type default)
 		)
 		(uuid "e64b06b5-cabe-4496-99cb-0fe45519c746")
+	)
+	(wire
+		(pts
+			(xy 175.26 160.02) (xy 205.74 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98978ab-1643-4dae-ad38-c530b5537ff1")
 	)
 	(wire
 		(pts
@@ -5730,13 +5944,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 152.4) (xy 205.74 152.4)
+			(xy 205.74 149.86) (xy 228.6 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eec19348-6a37-4026-ae1e-fdfb1b9a319e")
+		(uuid "ef29787b-e28c-4a8d-b502-29de7c2dacd8")
 	)
 	(wire
 		(pts
@@ -5750,6 +5964,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 154.94) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f110de6f-1f0d-48a5-a1e8-dc9eb46ce7ca")
+	)
+	(wire
+		(pts
 			(xy 74.93 182.88) (xy 144.78 182.88)
 		)
 		(stroke
@@ -5760,13 +5984,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 152.4) (xy 228.6 152.4)
+			(xy 175.26 152.4) (xy 205.74 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f154163f-eb85-4738-b027-d6bae1520f62")
+	)
+	(wire
+		(pts
+			(xy 205.74 175.26) (xy 228.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e2eac4-0936-4aac-901a-10fcf74ae1fd")
 	)
 	(wire
 		(pts
@@ -6246,15 +6480,6 @@
 				)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 144.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "478-04023J0R9BBSTRCT-ND"
 			(at 144.78 40.64 0)
 			(effects
@@ -6343,15 +6568,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 220.98 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 220.98 238.76 0)
 			(effects
@@ -6374,6 +6590,145 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x12_MountingPin_1")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
+		(at 180.34 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04293008-3e07-40b7-9b07-868aad08a8f1")
+		(property "Reference" "J2"
+			(at 179.07 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M55-7101242R"
+			(at 172.72 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3891-1-ND"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-7101242R"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88606809-f2c0-48b2-bcdf-71ab3fddd4e2")
+		)
+		(pin "10"
+			(uuid "5657d1db-e1f4-4d01-9396-7ebb498f521f")
+		)
+		(pin "11"
+			(uuid "3261a756-bc08-4e84-8a7e-3a65d0567c01")
+		)
+		(pin "12"
+			(uuid "b6695039-fb79-4990-829b-b59713500e46")
+		)
+		(pin "2"
+			(uuid "3f2d86d0-c452-443f-bf01-6e20e4d0d54c")
+		)
+		(pin "3"
+			(uuid "c18f81b2-d407-4b8b-a3f3-ce2a081061f8")
+		)
+		(pin "4"
+			(uuid "ffb3b843-7ab9-410e-a572-5b5930bdc264")
+		)
+		(pin "5"
+			(uuid "7ddaa07c-04ce-4e53-a886-7c2e2ae06c42")
+		)
+		(pin "6"
+			(uuid "5768420f-d278-49ee-8a67-0c54affec2e5")
+		)
+		(pin "7"
+			(uuid "aeda1902-75a2-4cec-9d11-da0539219d27")
+		)
+		(pin "8"
+			(uuid "6186ae3b-2a34-4593-adf6-9ccf22cc2d1c")
+		)
+		(pin "9"
+			(uuid "4eda033e-c4c2-4952-852e-84f533c61fa0")
+		)
+		(pin "SH"
+			(uuid "0950a1fe-d611-4d4f-9de0-0ffe05c71141")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6424,15 +6779,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 91.44 190.5 0)
 			(effects
 				(font
@@ -6603,112 +6949,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 111.76 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0afb4b62-8b1d-4328-ae1d-ef83f0b12ef9")
-		(property "Reference" "J6"
-			(at 114.3 47.2831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 114.3 49.8231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "H11891CT-ND"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Hirose"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "U.FL-R-SMT-1(10)"
-			(at 111.76 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576c4ab0-a53c-4fd2-b9b7-c1c210906a56")
-		)
-		(pin "2"
-			(uuid "207e5585-4b99-48eb-b6a0-31aa7581984a")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 161.29 246.38 0)
 		(unit 1)
@@ -6755,15 +6995,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 161.29 246.38 0)
 			(effects
 				(font
@@ -6853,15 +7084,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 205.74 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 205.74 222.25 0)
 			(effects
@@ -6884,6 +7106,284 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x12_MountingPin_1")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
+		(at 261.62 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "104f36a6-7807-436b-865c-4857382f7f9d")
+		(property "Reference" "J5"
+			(at 260.35 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M55-7101242R"
+			(at 254 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3891-1-ND"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-7101242R"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b3408a2-6c2c-43c7-b0b8-133708d883bd")
+		)
+		(pin "10"
+			(uuid "8a3d4a6c-f780-4267-87cc-36986446e790")
+		)
+		(pin "11"
+			(uuid "d5284a67-550d-42eb-a4be-b8daa37c6237")
+		)
+		(pin "12"
+			(uuid "b0009682-2a94-42d5-a111-1f9bf6617639")
+		)
+		(pin "2"
+			(uuid "7532d644-ed58-4ea1-b9ea-2f62c02e5675")
+		)
+		(pin "3"
+			(uuid "ab19c2b8-ff07-4541-8ff6-81cb41f1a16c")
+		)
+		(pin "4"
+			(uuid "874f2e6b-3923-4f30-a5bd-981300d113c4")
+		)
+		(pin "5"
+			(uuid "cd4c1a04-9702-4196-8730-fc1eec180903")
+		)
+		(pin "6"
+			(uuid "87ffb3e6-e08c-45b4-b7a0-1efbf188fb1b")
+		)
+		(pin "7"
+			(uuid "57eb872b-43be-41f3-884c-8c1957e1c2c3")
+		)
+		(pin "8"
+			(uuid "f2ffe8a6-8c8f-4088-85dc-c284c3665d2d")
+		)
+		(pin "9"
+			(uuid "7f3e4252-edca-4164-af41-522eedb13361")
+		)
+		(pin "SH"
+			(uuid "bae9ddfc-7da5-4c35-a3bd-8e7715c65ea0")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x12_MountingPin_1")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
+		(at 210.82 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20986c97-629b-4ca5-9dfb-f62a894477a1")
+		(property "Reference" "J3"
+			(at 209.55 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M55-7101242R"
+			(at 203.2 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3891-1-ND"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-7101242R"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53be3ba6-4c7f-4a4e-a7f9-58a08fa7daba")
+		)
+		(pin "10"
+			(uuid "dc0b2961-24c0-47a7-b168-9e6530cff5ae")
+		)
+		(pin "11"
+			(uuid "d3a00f33-e72b-487f-89dc-ec5efee2b228")
+		)
+		(pin "12"
+			(uuid "001d1caf-22ef-4d45-8c98-47883193a1e1")
+		)
+		(pin "2"
+			(uuid "f2605df0-e21f-4ff8-96db-cebd84a5c74c")
+		)
+		(pin "3"
+			(uuid "eba3fd34-e461-44d1-a541-7b8f0d56e32f")
+		)
+		(pin "4"
+			(uuid "4f4759a8-33e9-4d10-98f0-93c584c790d3")
+		)
+		(pin "5"
+			(uuid "27d09cfe-9328-43af-b008-16df2ca29f0d")
+		)
+		(pin "6"
+			(uuid "a6f1936c-b7de-437c-a735-7e7a34581e10")
+		)
+		(pin "7"
+			(uuid "06c586ce-c5ac-4190-a383-bf76fe2c4ef0")
+		)
+		(pin "8"
+			(uuid "de165c7b-e9ce-4710-af50-45f40326da8b")
+		)
+		(pin "9"
+			(uuid "02d131ac-0b09-426d-99ca-4c883bcf66e1")
+		)
+		(pin "SH"
+			(uuid "58ae56d7-b21c-4054-82a8-93cad79c878f")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6947,15 +7447,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "478-04025J1R0PBSTR\\500CT-ND"
@@ -7036,15 +7527,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 248.92 165.1 0)
 			(effects
 				(font
@@ -7399,15 +7881,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 161.29 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 161.29 236.22 0)
 			(effects
@@ -7482,15 +7955,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 176.53 241.3 0)
 			(effects
 				(font
@@ -7586,15 +8050,6 @@
 				)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 152.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "490-6563-1-ND"
 			(at 152.4 35.56 0)
 			(effects
@@ -7623,144 +8078,6 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:J-HARWIN-M55-6001242R")
-		(at 252.73 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "537f3fbf-459d-46ae-b76a-237157a04de5")
-		(property "Reference" "CF1"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-HARWIN-M55-6001242R"
-			(at 246.38 73.66 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/C047XX_M55_Archer_Kontrol.pdf"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "952-3851-1-ND"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Harwin Inc."
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M55-6021242R"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90c46176-ec31-4ca7-b794-321df0f260c4")
-		)
-		(pin "10"
-			(uuid "39326b8c-2f49-48c6-9c7d-effb5a92fe42")
-		)
-		(pin "11"
-			(uuid "5ca65c54-7859-4ceb-9780-da2a0e8f0508")
-		)
-		(pin "12"
-			(uuid "f417ff5c-8bc8-4026-91f4-0c3abe609454")
-		)
-		(pin "2"
-			(uuid "b97c71a7-3783-4d39-8707-a070d8457374")
-		)
-		(pin "3"
-			(uuid "faddc401-3eaa-498f-9e94-3e8996429079")
-		)
-		(pin "4"
-			(uuid "de4e3f47-00ae-4ed4-9943-145d6cf4352e")
-		)
-		(pin "5"
-			(uuid "7cd92921-e427-42a2-972d-59cddf4318a8")
-		)
-		(pin "6"
-			(uuid "9899a4c2-3323-4225-b7f5-24642ed7ed7e")
-		)
-		(pin "7"
-			(uuid "8d67e600-837a-4724-801b-725c02567df2")
-		)
-		(pin "8"
-			(uuid "70a5062d-6b2e-4ab5-98f3-cd78c7952733")
-		)
-		(pin "9"
-			(uuid "c1ae106a-5385-441c-ae08-4addb0e3f154")
-		)
-		(pin "SH"
-			(uuid "40be7dc7-c2a0-499d-af78-039542f71af5")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "CF1")
 					(unit 1)
 				)
 			)
@@ -7811,15 +8128,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 220.98 165.1 0)
 			(effects
 				(font
@@ -7902,15 +8210,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
 			(at 62.23 144.78 0)
 			(effects
 				(font
@@ -8130,15 +8429,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 248.92 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 248.92 254 0)
 			(effects
@@ -8161,145 +8451,6 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:Harwin M55-7101242R")
-		(at 180.34 162.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6635df58-3809-49df-b24d-71b937012b4b")
-		(property "Reference" "J2"
-			(at 181.61 147.32 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Harwin M55-7101242R"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Harwin Inc."
-			(at 179.07 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "952-3891-1-ND"
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Harwin Inc."
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M55-7101242R"
-			(at 180.34 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cc93c14-86c6-455b-a332-5cc44677b9bf")
-		)
-		(pin "10"
-			(uuid "7ecb9022-2112-40b2-8be7-99b71e834d5c")
-		)
-		(pin "11"
-			(uuid "00084dcf-82f6-44a1-bd6f-83b5a61b8890")
-		)
-		(pin "12"
-			(uuid "ff0a4f49-8502-4ae6-b9db-8fed651b24c8")
-		)
-		(pin "2"
-			(uuid "f8ef89f3-1635-4da3-bd78-b1145779cc5b")
-		)
-		(pin "3"
-			(uuid "ddf77cb1-b0a9-469a-ae34-f8ae610de2db")
-		)
-		(pin "4"
-			(uuid "18ab494e-3ee9-4678-b5e9-7da2893bc154")
-		)
-		(pin "5"
-			(uuid "acccadc4-d748-4256-a2c6-2071ff31f7ca")
-		)
-		(pin "6"
-			(uuid "075bd105-61cc-4d7d-b6db-8249cbd3099e")
-		)
-		(pin "7"
-			(uuid "39ef8dd6-2fa0-4cb6-bc06-907265db83ca")
-		)
-		(pin "8"
-			(uuid "a5dc1e95-588b-423d-a077-15a7153f8443")
-		)
-		(pin "9"
-			(uuid "65b15547-f703-4ef4-84b5-e05fe353a12c")
-		)
-		(pin "SH"
-			(uuid "978a32dd-fbe9-4bcd-8ba4-727ee3ac91c3")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8357,15 +8508,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "Digikey"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 88.9 48.26 0)
 			(effects
@@ -8403,6 +8545,145 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x12_MountingPin_1")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
+		(at 233.68 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d0297b-d220-4409-9996-75c0516cbde5")
+		(property "Reference" "J4"
+			(at 232.41 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M55-7101242R"
+			(at 226.06 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3891-1-ND"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-7101242R"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0df826-624f-4c54-92a0-621525f5191d")
+		)
+		(pin "10"
+			(uuid "e2a9c77e-5c9b-4925-82a2-460e957dafc0")
+		)
+		(pin "11"
+			(uuid "71e7458f-e778-455e-947c-9c64f0f09544")
+		)
+		(pin "12"
+			(uuid "1368636a-ed54-49cb-a6b9-40f253b5660c")
+		)
+		(pin "2"
+			(uuid "2edac176-85f5-40d3-8aa3-129fa692e582")
+		)
+		(pin "3"
+			(uuid "c72a22f0-3ecf-4190-8035-385b7d8e4f07")
+		)
+		(pin "4"
+			(uuid "25300a19-0e46-4d1b-9b34-81d9c7b6589e")
+		)
+		(pin "5"
+			(uuid "7c09f127-0003-406d-af44-c0c85800632a")
+		)
+		(pin "6"
+			(uuid "c408eb71-7923-4a22-ad0c-29298d11b04f")
+		)
+		(pin "7"
+			(uuid "c2c3e5dc-b417-4479-b707-ea963c269955")
+		)
+		(pin "8"
+			(uuid "5d25980e-f211-4962-98a9-2643960b4f23")
+		)
+		(pin "9"
+			(uuid "b336ab69-93ff-44b0-9095-9795f93f7a45")
+		)
+		(pin "SH"
+			(uuid "bbfd0de2-0c45-4c08-9f1f-421a6761af01")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8454,15 +8735,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 220.98 246.38 0)
 			(effects
 				(font
@@ -8543,15 +8815,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 198.12 165.1 0)
 			(effects
 				(font
@@ -8656,6 +8919,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 111.76 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "894b834e-9083-4941-9598-47581cae251d")
+		(property "Reference" "J6"
+			(at 114.3 47.2831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U.FL-R-SMT-1"
+			(at 114.3 49.8231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4832/EDC3-302540-10.tif.pdf"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "H11891CT-ND"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Hirose"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "U.FL-R-SMT-1(10)"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9029a938-d401-46c4-b644-f050ae854f34")
+		)
+		(pin "2"
+			(uuid "d90b5a68-1137-4e27-b942-547bf972695c")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 176.53 246.38 0)
 		(unit 1)
@@ -8702,15 +9071,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 176.53 246.38 0)
 			(effects
 				(font
@@ -8864,15 +9224,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 91.44 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 91.44 187.96 0)
 			(effects
@@ -8898,110 +9249,6 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
-		(at 63.5 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dc0fcf3-4fe3-44fd-82d1-8a7e19409786")
-		(property "Reference" "CM1"
-			(at 63.9826 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "J-MOLEX-SMPM-73300-003X"
-			(at 63.9826 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "WM10772-ND"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "DigiKey"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "952-3851-1-ND"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SHLD"
-			(uuid "b89b7c0e-a9b7-4525-8bbc-37f09a7e189d")
-		)
-		(pin "SIG"
-			(uuid "b1598eda-478f-4693-b07f-f011218128e5")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "CM1")
 					(unit 1)
 				)
 			)
@@ -9127,15 +9374,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 193.04 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 193.04 231.14 0)
 			(effects
@@ -9164,35 +9402,34 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:Harwin M55-7101242R")
-		(at 210.82 162.56 0)
-		(mirror y)
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
+		(at 63.5 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a72f2274-d756-44ee-ad24-4bdfb765d538")
-		(property "Reference" "J3"
-			(at 212.09 147.32 0)
+		(uuid "a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
+		(property "Reference" "CM1"
+			(at 58.42 29.21 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.0795)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Harwin M55-7101242R"
-			(at 215.9 144.78 0)
+		(property "Value" "2477330-1"
+			(at 58.42 31.75 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
-			(at 210.82 162.56 0)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
+			(at 63.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9200,8 +9437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Harwin Inc."
-			(at 209.55 162.56 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,8 +9446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 162.56 0)
+		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,8 +9455,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 210.82 162.56 0)
+		(property "DIS" "DigiKey"
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,8 +9464,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "952-3891-1-ND"
-			(at 210.82 162.56 0)
+		(property "DPN" "343-2477330-1CT-ND"
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,8 +9473,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Harwin Inc."
-			(at 210.82 162.56 0)
+		(property "MFR" "TE Connectivity Linx"
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,8 +9482,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "M55-7101242R"
-			(at 210.82 162.56 0)
+		(property "MPN" "2477330-1"
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,49 +9491,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6f62dab2-7ece-4f03-9a8e-300144963cf8")
+		(pin "SHLD"
+			(uuid "2e430466-abb5-48f0-82ec-bc31afe0c116")
 		)
-		(pin "10"
-			(uuid "7a96def2-7e25-4c83-a524-91bdfa10753b")
-		)
-		(pin "11"
-			(uuid "20bc5b23-7fc3-43a8-bc11-4a274ff2b5d9")
-		)
-		(pin "12"
-			(uuid "77596b25-1237-4c4c-a476-7f3b0c5e6f20")
-		)
-		(pin "2"
-			(uuid "708c1068-2b7b-4c0f-bf05-f58546743f7d")
-		)
-		(pin "3"
-			(uuid "1ac08001-1237-486b-9046-e99629adc517")
-		)
-		(pin "4"
-			(uuid "1baed0c7-ff8d-4f9f-bf0a-d5e929584696")
-		)
-		(pin "5"
-			(uuid "211604f9-8721-4bac-8a7b-8af87ac1fdfe")
-		)
-		(pin "6"
-			(uuid "f25eb27a-24b6-40c3-9e2b-da60f2a2d2e9")
-		)
-		(pin "7"
-			(uuid "fd9be861-7b9f-4835-9e24-75230e52adb4")
-		)
-		(pin "8"
-			(uuid "bf65a025-67fb-47ad-9b79-46b96542bf1e")
-		)
-		(pin "9"
-			(uuid "3d4c50ca-0c00-47f5-96da-61aa01b89000")
-		)
-		(pin "SH"
-			(uuid "3a240cbc-d012-4ade-80dc-f81d7a17d9e2")
+		(pin "SIG"
+			(uuid "0a0929d3-13b5-4d58-91e7-c43e57a84091")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J3")
+					(reference "CM1")
 					(unit 1)
 				)
 			)
@@ -9422,15 +9626,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 278.13 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 278.13 238.76 0)
 			(effects
@@ -9504,15 +9699,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 248.92 238.76 0)
 			(effects
 				(font
@@ -9603,15 +9789,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 278.13 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 278.13 246.38 0)
 			(effects
@@ -9684,15 +9861,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 167.64 165.1 0)
 			(effects
 				(font
@@ -9786,15 +9954,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 220.98 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 220.98 231.14 0)
 			(effects
@@ -9869,15 +10028,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 176.53 236.22 0)
 			(effects
 				(font
@@ -9979,145 +10129,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:Harwin M55-7101242R")
-		(at 261.62 162.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cad9e6bb-2e84-418a-a3b0-a2c30a0cb6fc")
-		(property "Reference" "J5"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Harwin M55-7101242R"
-			(at 271.78 144.78 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Harwin Inc."
-			(at 260.35 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "952-3891-1-ND"
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Harwin Inc."
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M55-7101242R"
-			(at 261.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b0d7c84-c7e1-4cc7-987b-6ddf81a22767")
-		)
-		(pin "10"
-			(uuid "355803d2-f480-4a28-9091-bb89f988e77d")
-		)
-		(pin "11"
-			(uuid "79bbdc27-4211-4b27-95e1-0edc8af9c869")
-		)
-		(pin "12"
-			(uuid "7e880eba-1615-4e7f-bdd0-14c13213e6bc")
-		)
-		(pin "2"
-			(uuid "c6da6761-6be7-4ca7-8b97-d19ef0602c59")
-		)
-		(pin "3"
-			(uuid "8b679dad-d22a-4f62-8982-1d2b58b19f1c")
-		)
-		(pin "4"
-			(uuid "16b694cb-2119-494f-be69-47d8a18f2e8e")
-		)
-		(pin "5"
-			(uuid "eb5d18b4-bf48-4338-84d8-3fabc3f8514a")
-		)
-		(pin "6"
-			(uuid "40d4af9d-291c-412e-9859-b30ef30f4e94")
-		)
-		(pin "7"
-			(uuid "30926bd0-48f5-4173-84cc-4f275becfe02")
-		)
-		(pin "8"
-			(uuid "7e191dad-04da-4259-b582-554d54476c32")
-		)
-		(pin "9"
-			(uuid "3d5cf49c-4969-4d24-9ed5-2c4057b8c9d4")
-		)
-		(pin "SH"
-			(uuid "57572928-f08e-4967-a4c6-0316d1980894")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:M1.6_Mounting_Hole")
 		(at 193.04 238.76 0)
 		(unit 1)
@@ -10164,15 +10175,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 193.04 238.76 0)
 			(effects
 				(font
@@ -10263,15 +10265,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 193.04 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 193.04 246.38 0)
 			(effects
@@ -10346,15 +10339,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -10445,15 +10429,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 161.29 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 161.29 241.3 0)
 			(effects
@@ -10482,147 +10457,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:Harwin M55-7101242R")
-		(at 233.68 162.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4f9d602-1c6c-42fa-8265-a603dcd77750")
-		(property "Reference" "J4"
-			(at 234.95 147.32 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Harwin M55-7101242R"
-			(at 243.84 144.78 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-Harwin-M55-7101242R"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Harwin Inc."
-			(at 232.41 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "952-3891-1-ND"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Harwin Inc."
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M55-7101242R"
-			(at 233.68 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c18b8bc2-d910-4871-a1c0-33d8b1b152f9")
-		)
-		(pin "10"
-			(uuid "0b478b63-71ba-45d0-9563-3e5c949d1932")
-		)
-		(pin "11"
-			(uuid "3e272b17-bca0-4327-9d99-3b3196767806")
-		)
-		(pin "12"
-			(uuid "38dbf3d3-1076-4dc0-ab27-5c2916a33994")
-		)
-		(pin "2"
-			(uuid "270e25b5-b216-4e3a-8b25-ea4627602686")
-		)
-		(pin "3"
-			(uuid "289637cf-2fa4-4679-a8e4-15a6750b3f34")
-		)
-		(pin "4"
-			(uuid "694e1e44-c730-4216-ae00-97e3bfe7463d")
-		)
-		(pin "5"
-			(uuid "88ee4e09-b854-4a30-b358-ee4ba050e28f")
-		)
-		(pin "6"
-			(uuid "f4b362a9-ef18-492c-b7a4-c21601d3c2e1")
-		)
-		(pin "7"
-			(uuid "62a224ea-3399-4cc2-b1c1-3475ffaa3c24")
-		)
-		(pin "8"
-			(uuid "f489ce7c-2b01-454f-b8da-9f36270f09ba")
-		)
-		(pin "9"
-			(uuid "b2dc9922-20f4-4f14-bf75-e2b2056a4293")
-		)
-		(pin "SH"
-			(uuid "365bfd54-df0e-457d-ae92-10095ba2a899")
-		)
-		(instances
-			(project "oresat0.5-pluz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 250.19 111.76 0)
+		(at 255.27 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10630,7 +10466,7 @@
 		(dnp no)
 		(uuid "e220d965-b2a1-4baf-bb50-c862f5c30e1e")
 		(property "Reference" "#GND08"
-			(at 250.19 118.11 0)
+			(at 255.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 114.3 0)
+			(at 255.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +10483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +10492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,15 +10641,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 248.92 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 248.92 231.14 0)
 			(effects
@@ -10887,15 +10714,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10992,6 +10810,144 @@
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
+		(at 255.27 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f89e01a0-fdfe-4a4f-aea3-72ce815b54b6")
+		(property "Reference" "CF1"
+			(at 248.92 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M55-6001242R"
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12 Position Receptacle Connector 0.050\" (1.27mm) Surface Mount Gold"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3835-1-ND"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-6001242R"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e421014b-2181-4dcd-9df6-8458bdcb56b3")
+		)
+		(pin "10"
+			(uuid "0cd4ba5b-fc1f-4e8d-b5f9-eab26bf18900")
+		)
+		(pin "11"
+			(uuid "31935c0a-bd34-4969-b5d6-5a969e3113b4")
+		)
+		(pin "12"
+			(uuid "0df75ce9-ca6d-496d-b76d-c7a092d3a4d1")
+		)
+		(pin "2"
+			(uuid "7cc5a9b6-ea17-4fef-84ef-ea628128884d")
+		)
+		(pin "3"
+			(uuid "38c4a8d8-c3d1-4e9d-9a4f-046b361f79c6")
+		)
+		(pin "4"
+			(uuid "7baea956-3c4b-4649-8197-febc1679403a")
+		)
+		(pin "5"
+			(uuid "6efa9369-b61a-49b9-8462-43d98521f6f3")
+		)
+		(pin "6"
+			(uuid "b9148d1a-55bc-4769-a3b7-1e12909ca7f4")
+		)
+		(pin "7"
+			(uuid "087a0517-2dfc-4edf-b168-adacb2ac3960")
+		)
+		(pin "8"
+			(uuid "723cec20-7b98-4499-b5e5-1f6385f6d170")
+		)
+		(pin "9"
+			(uuid "809a0cfb-7702-4838-a185-46526372ac75")
+		)
+		(pin "SH"
+			(uuid "af36774f-0f05-4d3c-be49-41b1ee26c448")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "CF1")
 					(unit 1)
 				)
 			)

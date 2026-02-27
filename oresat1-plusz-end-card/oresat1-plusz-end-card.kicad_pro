@@ -61,71 +61,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|170308900|65896400|0319a3b2-4b91-47cd-be5e-b215bbb7442a|23d22318-a970-42d1-b99f-7d9a276e44f9",
-          ""
-        ],
-        [
-          "clearance|170327500|72862500|f626dfdc-a42e-49fe-92eb-181cb51736dc|dd81f792-3a25-482c-b21e-05ec2d4eb5d6",
-          ""
-        ],
-        [
-          "clearance|170498900|69791100|0a2d5840-6970-43d2-82e7-0456d6756871|565201b3-becc-437f-a898-b54dee9f0930",
-          ""
-        ],
-        [
           "clearance|170500000|69810000|0dbdafc1-3779-4a4e-be99-282bf37ff8b4|565201b3-becc-437f-a898-b54dee9f0930",
-          ""
-        ],
-        [
-          "clearance|170500000|69810000|481396cc-c7fc-49b4-82ac-ec15605fc923|565201b3-becc-437f-a898-b54dee9f0930",
-          ""
-        ],
-        [
-          "clearance|170500000|72720000|1577ecf3-d211-41eb-98e2-31d7f6ac2842|6157a02c-a2ec-4fb8-ab70-2e6d4bdefec5",
-          ""
-        ],
-        [
-          "clearance|170625000|69985000|910d5aed-ecf7-4f20-97cc-2597a922d436|43ccafec-53f0-4f45-9c5e-3b395d44cbe9",
-          ""
-        ],
-        [
-          "clearance|170645000|74870000|fee6e0a9-3581-4681-828a-d7e7c0b72a48|cc1b77af-799a-48de-a9a3-c6ffc84bdf10",
-          ""
-        ],
-        [
-          "clearance|170672500|73832500|dd81f792-3a25-482c-b21e-05ec2d4eb5d6|cc1b77af-799a-48de-a9a3-c6ffc84bdf10",
-          ""
-        ],
-        [
-          "clearance|170688900|67696400|4dfa4993-dbe4-4fd3-90a5-331a06e7c5a4|23d22318-a970-42d1-b99f-7d9a276e44f9",
-          ""
-        ],
-        [
-          "clearance|171320000|71530000|7409b7ef-8956-4da6-ad96-be089f976da1|0ccc54f6-dbba-411f-b0a7-722f16e7d5f1",
-          ""
-        ],
-        [
-          "clearance|171320000|71870000|7409b7ef-8956-4da6-ad96-be089f976da1|f626dfdc-a42e-49fe-92eb-181cb51736dc",
-          ""
-        ],
-        [
-          "clearance|171460000|71700000|04705237-69e7-45cd-84f8-d1193118e056|0ccc54f6-dbba-411f-b0a7-722f16e7d5f1",
-          ""
-        ],
-        [
-          "clearance|182175000|73550000|07b2a2f7-5d55-4cd5-8c4f-44c1f1b31c89|9b28a6fb-436a-4428-870e-20a8e42683c0",
-          ""
-        ],
-        [
-          "clearance|182175000|74050000|07b2a2f7-5d55-4cd5-8c4f-44c1f1b31c89|2b9230b0-50c2-46f4-883b-04299ff56c52",
-          ""
-        ],
-        [
-          "hole_clearance|152674808|80267938|93b6cd91-de35-495a-b17f-45a9b9aab532|0ccb4dd3-c184-472c-bbdf-5c1e5312d9ef",
-          ""
-        ],
-        [
-          "track_dangling|145300000|80100001|93b6cd91-de35-495a-b17f-45a9b9aab532|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -682,8 +618,8 @@
         },
         {
           "group_by": false,
-          "label": "DIST",
-          "name": "DIST",
+          "label": "DIS",
+          "name": "DIS",
           "show": true
         },
         {
@@ -699,7 +635,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -715,6 +651,30 @@
           "label": "Description",
           "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Value_1",
+          "name": "Value_1",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "EXCLUDE_FROM_BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "EXCLUDE_FROM_BOARD",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIBRARIES",
+          "name": "${LIBRARIES}",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -722,7 +682,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Value_1"
     },
     "connection_grid_size": 50.0,
     "drawing": {
