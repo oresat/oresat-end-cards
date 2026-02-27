@@ -7634,16 +7634,6 @@
 				(hide yes)
 			)
 		)
-		(property "Value_1" ""
-			(at 289.56 76.2 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "49251f4c-209b-4e4a-821e-532cd2ac8c34")
 		)
@@ -8947,16 +8937,6 @@
 				(hide yes)
 			)
 		)
-		(property "Value_1" ""
-			(at 317.5 63.5 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "49251f4c-209b-4e4a-821e-532cd2ac8c35")
 		)
@@ -9941,16 +9921,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 317.5 76.2 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -11528,16 +11498,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -13211,16 +13171,6 @@
 				(hide yes)
 			)
 		)
-		(property "Value_1" ""
-			(at 289.56 63.5 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "49251f4c-209b-4e4a-821e-532cd2ac8c38")
 		)
@@ -14696,16 +14646,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 119.38 168.91 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
 				)
 				(justify left bottom)
 				(hide yes)
