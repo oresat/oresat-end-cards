@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.6,
-          "width": 1.325
+          "drill": 6.0,
+          "height": 2.25,
+          "width": 7.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -619,6 +619,26 @@
       {
         "netclass": "RF",
         "pattern": "/S_BAND_FEED"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/UHF-UNBAL"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/LBAND"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/L1BAND"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/+UHP"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/-UHP"
       }
     ]
   },

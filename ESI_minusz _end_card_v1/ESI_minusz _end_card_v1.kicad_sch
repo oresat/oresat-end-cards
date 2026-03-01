@@ -652,6 +652,318 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2543,6 +2855,17 @@
 				)
 			)
 			(symbol "Balun_1_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -3.81 -5.08) (xy -1.524 -5.08) (xy -1.524 -3.048)
@@ -2553,6 +2876,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center -2.286 4.318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(arc
@@ -2675,15 +3009,15 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 6.35)
-					(end -3.81 -6.35)
+				(circle
+					(center 2.286 4.318)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -3272,7 +3606,7 @@
 	)
 	(text "To L band monopole"
 		(exclude_from_sim no)
-		(at 111.76 182.88 0)
+		(at 102.87 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,17 +3660,6 @@
 			)
 		)
 		(uuid "909df57e-89fc-4f90-9ed6-62010ce78599")
-	)
-	(text "To UHF band monopole"
-		(exclude_from_sim no)
-		(at 123.19 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "983f4dd9-7863-45c5-a39f-11fab77dcfb1")
 	)
 	(text "(SPARE1+SPARE2)"
 		(exclude_from_sim no)
@@ -3441,6 +3764,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07e9b021-4eeb-4e34-880c-2edb1a12c145")
+	)
+	(junction
+		(at 96.52 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f9fe1b7-266c-4ab5-af15-01a844e446f0")
 	)
 	(junction
 		(at 276.86 39.37)
@@ -4060,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 217.17) (xy 116.84 217.17)
+			(xy 74.93 217.17) (xy 96.52 217.17)
 		)
 		(stroke
 			(width 0)
@@ -4280,6 +4609,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 217.17) (xy 116.84 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61458bd8-998c-4b3f-9410-6a59c4bc74d1")
+	)
+	(wire
+		(pts
 			(xy 82.55 90.17) (xy 82.55 87.63)
 		)
 		(stroke
@@ -4377,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "72ef74e7-af39-441f-bbca-e9fd3e1167e6")
+	)
+	(wire
+		(pts
+			(xy 135.89 217.17) (xy 129.54 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577514c-9b1b-4f2b-b2a9-040404c809c3")
 	)
 	(wire
 		(pts
@@ -4530,6 +4879,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 232.41) (xy 120.65 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f500d62-ba42-4bd6-b66d-31a5ecd82094")
+	)
+	(wire
+		(pts
 			(xy 198.12 173.99) (xy 228.6 173.99)
 		)
 		(stroke
@@ -4640,7 +4999,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 185.42) (xy 105.41 185.42)
+			(xy 73.66 185.42) (xy 101.6 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4970,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 187.96) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e513e540-f24d-41e6-9620-d8255138232a")
+	)
+	(wire
+		(pts
 			(xy 224.79 158.75) (xy 229.87 158.75)
 		)
 		(stroke
@@ -4987,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "e99b58c4-2394-44c0-9822-3f27a42d43a2")
+	)
+	(wire
+		(pts
+			(xy 135.89 227.33) (xy 129.54 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea79a708-7495-4a2a-88d5-1f23b04afcfa")
 	)
 	(wire
 		(pts
@@ -6162,6 +6541,71 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:tape-measure-antenna")
+		(at 135.89 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3505fa06-e438-4665-8514-3cd3d84d75c4")
+		(property "Reference" "J7"
+			(at 138.43 223.7105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-UHF"
+			(at 140.97 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:tape-measure-slot-antenna"
+			(at 135.89 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "734ff16c-bf80-40df-83fa-d96a65fb422d")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 208.28 259.08 0)
 		(unit 1)
@@ -6846,6 +7290,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 96.52 220.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74796fa8-37f5-4aec-9c23-afcb5d8b4f10")
+		(property "Reference" "C1"
+			(at 101.6 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10p"
+			(at 101.6 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
+			(at 95.5548 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "263d9da5-4873-47f3-961d-afa72de4f7d6")
+		)
+		(pin "2"
+			(uuid "fe3de337-6e56-4c94-ba35-a8982ea75bd8")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 316.23 238.76 0)
 		(unit 1)
@@ -6910,13 +7421,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b8bccd3-b8da-420d-8fdb-5b21062a0bf8")
+		(property "Reference" "#PWR019"
+			(at 96.52 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45127530-df93-4294-8f28-cc76f67ef050")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 120.65 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81017123-d4a2-4a96-b359-c1eebe7ec51f")
 		(property "Reference" "J2"
@@ -7010,6 +7586,71 @@
 			(project "oresat0.5-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84ab22ae-e4ed-4575-ac44-05ccb055d0bb")
+		(property "Reference" "#PWR018"
+			(at 120.65 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58efbd2f-7854-4867-8ef3-4432818b9dde")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7207,72 +7848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:tape-measure-antenna")
-		(at 105.41 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8cfa437e-3fb0-4a7c-a01f-ccbd6b7f4e85")
-		(property "Reference" "J4"
-			(at 107.95 181.8005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:tape-measure-slot-antenna"
-			(at 105.41 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "832d8c8c-037a-44f4-aa16-77577604afbb")
-		)
-		(instances
-			(project "oresat0.5-minusz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 285.75 63.5 0)
 		(mirror y)
@@ -7333,6 +7908,73 @@
 			(project "oresat0.5-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:tape-measure-antenna")
+		(at 135.89 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9234d763-1c87-4797-a2dd-b8798424c1f7")
+		(property "Reference" "J6"
+			(at 138.43 212.2804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+UHF"
+			(at 138.43 214.8204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:tape-measure-slot-antenna"
+			(at 135.89 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4b0914-cca0-48c0-9485-076a3daac920")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7776,32 +8418,32 @@
 	)
 	(symbol
 		(lib_id "oresat-passives:Balun")
-		(at 170.18 213.36 0)
+		(at 123.19 222.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5e6eabb-b6fc-49f5-9801-d16bd15c824b")
 		(property "Reference" "U1"
-			(at 170.18 201.93 0)
+			(at 123.19 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BALUN"
-			(at 170.18 204.47 0)
+		(property "Value" "NCS2-62+"
+			(at 123.19 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 213.36 0)
+		(property "Footprint" "oresat-passives:2450FB15A050E_JOT"
+			(at 123.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,8 +8451,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 213.36 0)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/NCS2-62+.pdf"
+			(at 123.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +8461,43 @@
 			)
 		)
 		(property "Description" "6 pin ballun with two grounds and an NC."
-			(at 170.18 197.612 0)
+			(at 123.19 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "3157-NCS2-62+TR-ND"
+			(at 123.19 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Mini-Circuits"
+			(at 123.19 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCS2-62+"
+			(at 123.19 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 123.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,72 +8934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:tape-measure-antenna")
-		(at 116.84 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be383882-c717-4f97-85ec-cdb047fd0a65")
-		(property "Reference" "J6"
-			(at 119.38 213.5505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 116.84 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:tape-measure-slot-antenna"
-			(at 116.84 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e449c6b-d2bb-430b-9606-7a6e955ec19b")
-		)
-		(instances
-			(project "oresat0.5-minusz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 276.86 53.34 0)
 		(mirror y)
@@ -8645,6 +9257,71 @@
 			(project "oresat0.5-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d70b8948-c467-4f2c-b3de-b2d9aaa97edf")
+		(property "Reference" "#PWR017"
+			(at 101.6 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5ffc72-2e68-4808-82c6-60f564a994dc")
+		)
+		(instances
+			(project "ESI_minusz _end_card_v1"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9329,6 +10006,75 @@
 			(project "oresat0.5-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa9d433f-8763-417b-8e79-b47031fcdcd7")
+		(property "Reference" "R2"
+			(at 104.14 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 104.14 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
+			(at 102.616 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2877989-9f25-49eb-bc3f-f958bf408bed")
+		)
+		(pin "1"
+			(uuid "16638fe9-71ee-4460-8210-82ef41bf7caa")
+		)
+		(instances
+			(project ""
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
