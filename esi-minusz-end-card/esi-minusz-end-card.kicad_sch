@@ -10105,7 +10105,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat1-minusz-end-card-sch-opd.kicad_sch"
+		(property "Sheetfile" "esi-minusz-end-card-sch-opd.kicad_sch"
 			(at 137.16 83.1346 0)
 			(effects
 				(font
@@ -10245,7 +10245,7 @@
 			)
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minuz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(page "2")
 				)

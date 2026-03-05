@@ -229,8 +229,8 @@
 	(net 71 "unconnected-(CF1-Pin_10-Pad10)")
 	(net 72 "unconnected-(CF1-Pin_12-Pad12)")
 	(net 73 "unconnected-(U1-NC-Pad5)")
-	(net 74 "/+UHF")
-	(net 75 "/-UHF")
+	(net 74 "Net-(J6-Pad1)")
+	(net 75 "Net-(J7-Pad1)")
 	(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "05a5b189-29b8-4ba9-95d7-1add6569d9e5")
@@ -338,7 +338,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/f68742b2-2ab8-422e-b50e-5cdfc79bccef")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.105568 -1.185)
@@ -663,7 +663,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/a270a6c6-403b-419c-b9cd-098e6fa45ba0")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -727,7 +727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -756,7 +756,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/64128776-0d9a-447d-8032-1ed34a0e2f62")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -829,7 +829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -858,7 +858,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8c7dad28-974e-459d-b220-50be528749ce")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1011,7 +1011,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/e002ae97-f590-4dc5-ac64-23702e0759c2")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -1340,7 +1340,7 @@
 		)
 		(path "/e1b35f90-33d8-431a-b9fa-ec99019ac7dd")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr dnp)
 		(fp_rect
 			(start -1 4.2)
@@ -1778,7 +1778,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/df420301-488a-4a15-863b-03630dc07b0d")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1868,7 +1868,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/98a141aa-e7be-44a3-a2de-f641120ee2b4")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1932,7 +1932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1961,7 +1961,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8b1e05cd-a535-4227-b767-e561503a9609")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2113,7 +2113,7 @@
 		)
 		(path "/a5b818b5-0c38-4f83-b935-4580cdb02cc7")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_rect
 			(start -1 4.2)
 			(end 1 6)
@@ -2602,7 +2602,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/4a01ace2-e54e-4bfb-97ea-4f233ed7392b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.91 -1.56)
@@ -3001,7 +3001,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/ba136638-36a4-4fbf-9c7c-5821ba937237")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.735 1.11)
@@ -3309,7 +3309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3338,7 +3338,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/33374a46-e99a-4cb2-9f3f-96968006903a")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3491,7 +3491,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/2e97633f-c436-4674-b6ec-2320e006823c")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -3820,7 +3820,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/51220a7b-754b-446e-9fb0-d04fc2764e0d")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -4149,7 +4149,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/ea4819ef-d7bf-4173-853b-6726c4498b89")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -4478,7 +4478,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/056d57a9-bab0-427b-b0b5-b43a13d81bd9")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -4756,7 +4756,7 @@
 		)
 		(path "/14ade277-1528-4a24-b4f9-a50dbdb65221")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_poly
 			(pts
@@ -6615,7 +6615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6693,7 +6693,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/aa1f24d6-c7a9-42fb-b172-b6efa3da1925")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -7099,7 +7099,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/e61e26f1-eb9f-4d1a-9111-513219f77581")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -7485,7 +7485,7 @@
 		)
 		(path "/f1a3c071-29b5-4ec2-8efa-3633eb51bb0d")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start -14.2875 -6.731)
 			(end -13.0175 -6.731)
@@ -8252,7 +8252,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/112792a3-9e7a-428a-a70c-93529535b22b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8397,7 +8397,7 @@
 		)
 		(path "/a5e6eabb-b6fc-49f5-9801-d16bd15c824b")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7493 1.1303)
@@ -8605,7 +8605,7 @@
 			(at -0.9 -0.66 270)
 			(size 1 0.36)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 74 "/+UHF")
+			(net 74 "Net-(J6-Pad1)")
 			(pintype "passive")
 			(uuid "a1a785ed-92d6-4a7d-b61d-aed976c089a0")
 		)
@@ -8622,7 +8622,7 @@
 			(at -0.9 0.66 270)
 			(size 1 0.36)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 75 "/-UHF")
+			(net 75 "Net-(J7-Pad1)")
 			(pintype "passive")
 			(uuid "fd522c61-e162-47d7-9f95-5f91909c4398")
 		)
@@ -8763,7 +8763,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/2a88cec5-2a2a-4ad5-9266-4c60abf3c497")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -9092,7 +9092,7 @@
 		)
 		(path "/a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr dnp)
 		(fp_rect
 			(start -1 4.2)
@@ -9584,7 +9584,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/36dc0e93-0ad1-46b9-b8d8-8b7fdf0c2b4d")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -9835,7 +9835,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9862,7 +9862,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fa9d433f-8763-417b-8e79-b47031fcdcd7")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start -1.395 -0.795)
 			(end -1.395 0.795)
@@ -10031,7 +10031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10060,7 +10060,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/95c0fb75-b87b-41fe-9172-c59e53ba578c")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -10213,7 +10213,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/e555a1ad-363c-46ce-bcd8-e4fdadc991a7")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -10541,7 +10541,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/b2332298-f4f2-4e9c-8565-1e43f3f79f91")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 -0.85)
@@ -10855,7 +10855,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/7218b781-5588-43da-a449-581e1568542b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -11184,7 +11184,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/adcb53c0-71d4-4c86-a6de-519f35e30963")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -11434,7 +11434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11463,7 +11463,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/75c9f052-744c-481e-8ba4-486a506a047a")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -11616,7 +11616,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/019ab1cf-e5a5-4cbd-9ed3-34a7ad5d6e4f")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.735 1.11)
@@ -12004,7 +12004,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/10c28c53-2d2a-4f86-a71b-9b2e21cb7098")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -12281,7 +12281,7 @@
 		)
 		(path "/9234d763-1c87-4797-a2dd-b8798424c1f7")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 9 90)
@@ -12301,7 +12301,7 @@
 			(drill oval 6 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 74 "/+UHF")
+			(net 74 "Net-(J6-Pad1)")
 			(pintype "passive")
 			(uuid "b5576e1c-1e05-4881-b932-ec14341ba7d1")
 		)
@@ -12416,7 +12416,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/a7062883-b2b2-4e10-88df-01c520e5b1f7")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -12746,7 +12746,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/508c29eb-56b7-46ee-b7b0-196be894ae9d")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -13021,7 +13021,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/14e21b7e-8c76-4d9d-a8b3-d64845042182")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -13168,7 +13168,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/5f35d23a-63b5-4ebe-a2bc-39449ac22490")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -13497,7 +13497,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/c3adc1d5-b38b-43a4-a4c9-3f577d0265da")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -13826,7 +13826,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/b053e06e-3223-43cd-b3d9-7ae14a4d822d")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -14102,7 +14102,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/4ecb4b98-97d3-4c01-9cfc-30cd68304da4")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -14246,7 +14246,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/a7b0cff3-cb63-4497-99b0-11ba0f7b511c")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -14573,7 +14573,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/2485555a-1f7c-495d-bd6c-fb98641a1a8c")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -1.105568 -1.185)
@@ -14952,7 +14952,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/4ba49103-7591-44f7-a4e9-ca1003ee4fec")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -15281,7 +15281,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/c5575303-511c-49e6-9c12-1ebfe414c630")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -15530,7 +15530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15608,7 +15608,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/705d4759-b8e6-4805-8e46-6821ac73bfcc")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -15937,7 +15937,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15964,7 +15964,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/74796fa8-37f5-4aec-9c23-afcb5d8b4f10")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start 0.795 0.395)
 			(end 0.795 -0.395)
@@ -16122,7 +16122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16151,7 +16151,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/95897b61-3a58-49f4-a776-9ccd6034877b")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -16304,7 +16304,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/6f36f62a-58e3-4449-9304-683ebb7c26dc")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -16633,7 +16633,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/28f8cf5f-f911-4db7-81b0-629962b13d77")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -16883,7 +16883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16912,7 +16912,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ed05d34f-f90d-456a-b504-fa852d43713a")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -17064,7 +17064,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/7f42209a-1244-49d0-ad3d-c4d6a6b4ad6b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -17393,7 +17393,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/b395ffb0-8fd9-4286-8439-cc4b08e9690b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -17644,7 +17644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17673,7 +17673,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/35e46d32-97c0-4b94-b46e-2184b84e4aed")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -17816,7 +17816,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/c5adffa7-d6fb-459a-8840-059549636cae")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -18146,7 +18146,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/58f86f68-5dde-43d0-b37d-ef0b22f5fbc4")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -18395,7 +18395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18473,7 +18473,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/ca520c47-069d-439d-82b1-cb859121664b")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -18826,7 +18826,7 @@
 		)
 		(path "/3505fa06-e438-4665-8514-3cd3d84d75c4")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 9 90)
@@ -18846,7 +18846,7 @@
 			(drill oval 6 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 75 "/-UHF")
+			(net 75 "Net-(J7-Pad1)")
 			(pintype "passive")
 			(uuid "b7f87816-7e12-4f98-8997-f40594b4bcce")
 		)
@@ -18959,7 +18959,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/e20c4aea-a4a2-4701-8728-f1e4063eb288")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 2.11)
@@ -19596,7 +19596,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/80d10982-1324-40ab-a29d-f01c5398c992")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -19925,7 +19925,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/81017123-d4a2-4a96-b359-c1eebe7ec51f")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.515 -0.94)
@@ -20502,7 +20502,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/b4f3cab8-2dbc-455b-85a6-fbc4c003f888")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -20829,7 +20829,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/279ae81d-fa75-478e-a761-4b242f15d3bb")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -1.105568 -1.185)
@@ -21118,7 +21118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21147,7 +21147,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/3b87795a-db62-46ef-94fd-576d09fe3fa9")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -21301,7 +21301,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/a7625184-51c9-4df5-bdd9-61dc6e909e28")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -21630,7 +21630,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/1808efc8-68bd-46d9-926b-aa326dead693")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -21958,7 +21958,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/c7a0a32c-18e5-46bf-a028-6779c5641348")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -22208,7 +22208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22286,7 +22286,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/82de024f-0d19-4aa4-a582-0987213f73ed")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -22693,7 +22693,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/8347d34b-fda6-4bad-9aa4-e9c5ef456569")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -23022,7 +23022,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/092ea5f8-5540-4898-b54d-0265a56f8a00")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -23349,7 +23349,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/cab2e89a-201d-47fc-bdb7-bf2f2eb061b0")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.105568 -1.185)
@@ -23649,7 +23649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23678,7 +23678,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7410d2fc-ec83-4f10-8e93-ce821658383d")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -23832,7 +23832,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/b79b5852-0d65-48dd-b48f-231f5d43d4e1")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -24107,7 +24107,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/a693fe02-1acb-466c-88b2-666687ea1fd9")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -24251,7 +24251,7 @@
 		)
 		(path "/16362778-a030-42ff-8979-85b24be83d11/d29bfc20-ba1b-42d0-87e1-5945c2528030")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.91 -1.56)
@@ -24650,7 +24650,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/ebbb0244-9f54-46ec-8b12-c7832a24720f")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -24980,7 +24980,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/9a40f9fb-5adb-4a4b-8b4e-c8410295affe")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -25310,7 +25310,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/84cd8cd2-0b01-4e1a-b020-271ad992667c")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -25561,7 +25561,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25590,7 +25590,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/8519cb58-3e53-40c2-8e0b-b87edb351d4f")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -25753,7 +25753,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/9f6bd369-14fe-495e-b138-73092277ca95")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start 5.67 4.5)
 			(end -5.67 4.5)
@@ -26184,7 +26184,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16362778-a030-42ff-8979-85b24be83d11/ce315c90-5929-4740-aaa4-0d05dd1aa691")
 		(sheetname "/OPD/")
-		(sheetfile "oresat1-minusz-end-card-sch-opd.kicad_sch")
+		(sheetfile "esi-minusz-end-card-sch-opd.kicad_sch")
 		(fp_line
 			(start 0.5 7.1)
 			(end 0.4 7.5)
@@ -26512,7 +26512,7 @@
 		)
 		(path "/c38057af-3ce1-4d80-a3a8-2b733c8113d0")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -26807,7 +26807,7 @@
 		)
 		(path "/2bb01186-a25e-4be0-9734-b6999475ff77")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -27102,7 +27102,7 @@
 		)
 		(path "/e62f764a-5809-43e7-bba2-8c55dd970ad3")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -27396,7 +27396,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/703a3cfb-55c7-4066-8a14-41282fa2f545")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start -4.445 1.27)
 			(end -4.445 0)
@@ -27967,7 +27967,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27996,7 +27996,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/c929440b-96ca-4dc6-9ce8-7658f8faf630")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -28159,7 +28159,7 @@
 		)
 		(path "/ba3c29cf-30bf-427e-86ce-1ef4138df725")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -28454,7 +28454,7 @@
 		)
 		(path "/6d20b8e9-32f0-4849-a04a-db634aa7f19e")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -28749,7 +28749,7 @@
 		)
 		(path "/cdb44065-4f4f-49c5-90f3-505c208a6705")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.75 0)
@@ -28958,7 +28958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28987,7 +28987,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/57be90a3-7bf2-4690-913f-ac47b4758ccd")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -29150,7 +29150,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/13d9936e-ec5f-4a08-83ad-8fbe0bd02868")
 		(sheetname "/")
-		(sheetfile "ESI_minusz _end_card_v1.kicad_sch")
+		(sheetfile "esi-minusz-end-card.kicad_sch")
 		(fp_line
 			(start -5.67 4.5)
 			(end -5.67 4)
