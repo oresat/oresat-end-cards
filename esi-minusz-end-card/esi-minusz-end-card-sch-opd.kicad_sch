@@ -3007,7 +3007,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "-Y Solar Module \nis removed in \nOreSat1"
+	(text "-Y Solar Module \nUART switch"
 		(exclude_from_sim no)
 		(at 324.358 223.266 0)
 		(effects
@@ -3066,7 +3066,7 @@
 		)
 		(uuid "6c09145a-15a0-41c3-a464-cbbc4fd86507")
 	)
-	(text "+Y Solar Module \nis removed in \nOreSat1"
+	(text "+Y Solar Module \nUART switch\n"
 		(exclude_from_sim no)
 		(at 215.646 223.52 0)
 		(effects
@@ -7964,7 +7964,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2485555a-1f7c-495d-bd6c-fb98641a1a8c")
 		(property "Reference" "U202"
 			(at 219.456 206.248 0)
@@ -8088,7 +8088,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "279ae81d-fa75-478e-a761-4b242f15d3bb")
 		(property "Reference" "U204"
 			(at 328.93 205.994 0)
@@ -8652,7 +8652,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "36dc0e93-0ad1-46b9-b8d8-8b7fdf0c2b4d")
 		(property "Reference" "C204"
 			(at 327.152 176.276 0)
@@ -12363,7 +12363,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b053e06e-3223-43cd-b3d9-7ae14a4d822d")
 		(property "Reference" "C202"
 			(at 217.932 176.276 0)
