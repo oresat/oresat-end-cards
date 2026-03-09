@@ -3792,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 90.17 119.38)
+			(xy 74.93 119.38) (xy 152.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3862,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 124.46) (xy 90.17 124.46)
+			(xy 74.93 124.46) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4432,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 130.81) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e356201-7056-4ad5-b304-ad719aaaae6e")
-	)
-	(wire
-		(pts
 			(xy 67.31 185.42) (xy 74.93 185.42)
 		)
 		(stroke
@@ -4462,16 +4452,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 133.35) (xy 152.4 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502907cf-2153-4d07-b0b0-1a7dc0990b19")
-	)
-	(wire
-		(pts
 			(xy 74.93 104.14) (xy 74.93 101.6)
 		)
 		(stroke
@@ -4482,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 129.54) (xy 90.17 129.54)
+			(xy 74.93 129.54) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4769,16 +4749,6 @@
 			(type default)
 		)
 		(uuid "8a801bae-05bb-4ae3-a4be-237567c9b839")
-	)
-	(wire
-		(pts
-			(xy 149.86 128.27) (xy 152.4 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc85517-1b3b-4c52-a4e0-e3d0e17f5b08")
 	)
 	(wire
 		(pts
@@ -5650,16 +5620,6 @@
 		)
 		(uuid "09650a2c-79d3-4d42-805a-556f5b3ced2d")
 	)
-	(label "OPD_SDA"
-		(at 149.86 133.35 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "1021142d-bf39-4925-a4d0-bead9a7ca73b")
-	)
 	(label "CAN1_L"
 		(at 78.74 182.88 0)
 		(effects
@@ -5770,16 +5730,6 @@
 		)
 		(uuid "aa46de52-8452-4d50-b9a8-43898763e410")
 	)
-	(label "OPD_SCL"
-		(at 149.86 130.81 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0b3d9b5-22b8-4982-b9e5-b1caa51edb29")
-	)
 	(label "~{SD}"
 		(at 228.6 162.56 0)
 		(effects
@@ -5790,6 +5740,16 @@
 		)
 		(uuid "b7831781-8ea2-4f4c-96af-130b27c650d4")
 	)
+	(label "C3_UART_RX"
+		(at 99.06 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7112c65-f088-413d-b273-77a882952264")
+	)
 	(label "MAG-SDA"
 		(at 77.47 96.52 0)
 		(effects
@@ -5799,16 +5759,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc374c9c-2868-40a2-86e3-9f17c315a537")
-	)
-	(label "OPD_PWR"
-		(at 149.86 128.27 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "d102e2c8-202d-416e-9bb1-8cf33df542c9")
 	)
 	(label "CAN1_H"
 		(at 78.74 180.34 0)
@@ -5840,6 +5790,16 @@
 		)
 		(uuid "e79a2790-fb36-4938-a2c8-732b7b6c34d4")
 	)
+	(label "C3_UART_TX"
+		(at 99.06 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b8d46b-6ebf-4339-90ba-e39a048ef793")
+	)
 	(label "CAN1_H"
 		(at 228.6 182.88 0)
 		(effects
@@ -5849,61 +5809,6 @@
 			(justify left bottom)
 		)
 		(uuid "f708dd84-bc8c-4c9c-a958-583489679500")
-	)
-	(hierarchical_label "OPD_SDA"
-		(shape bidirectional)
-		(at 90.17 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a418807-4832-476e-b0f2-61587e7b64ac")
-	)
-	(hierarchical_label "C3-UART-TX"
-		(shape output)
-		(at 99.06 187.96 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "4af152b7-526f-4552-b3ca-4d1127a912ed")
-	)
-	(hierarchical_label "C3-UART-RX"
-		(shape input)
-		(at 99.06 190.5 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "d7332100-c7da-4c2a-96e1-3003c6fc5da1")
-	)
-	(hierarchical_label "OPD_PWR"
-		(shape output)
-		(at 90.17 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "daed18c3-aec5-450e-a3d7-3ad07e7cb69f")
-	)
-	(hierarchical_label "OPD_SCL"
-		(shape output)
-		(at 90.17 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3d668ff-b782-4f0d-9625-7f9897bd9f09")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -10646,7 +10551,7 @@
 			)
 		)
 		(pin "OPD_PWR" input
-			(at 152.4 128.27 180)
+			(at 152.4 129.54 180)
 			(uuid "265c6e8a-dc7f-4e10-8035-c0a9018c2fcb")
 			(effects
 				(font
@@ -10656,7 +10561,7 @@
 			)
 		)
 		(pin "OPD_SCL" input
-			(at 152.4 130.81 180)
+			(at 152.4 124.46 180)
 			(uuid "309abe1c-07a2-43c8-b2d2-2a1efa7b2289")
 			(effects
 				(font
@@ -10666,7 +10571,7 @@
 			)
 		)
 		(pin "OPD_SDA" bidirectional
-			(at 152.4 133.35 180)
+			(at 152.4 119.38 180)
 			(uuid "fd19e5a5-a958-4d83-8999-bbf8dd22c2ab")
 			(effects
 				(font
