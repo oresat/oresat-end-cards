@@ -3229,7 +3229,7 @@
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -6299,7 +6299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/Accu-P.pdf"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -6335,6 +6335,24 @@
 			)
 		)
 		(property "MFR" "KYOCERA AVX"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -6423,6 +6441,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 220.98 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 220.98 238.76 0)
 			(effects
 				(font
@@ -6531,6 +6558,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88606809-f2c0-48b2-bcdf-71ab3fddd4e2")
 		)
@@ -6584,7 +6620,7 @@
 		(at 91.44 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "06fd0ec4-d30c-4f79-905e-3d95f678ba13")
@@ -6623,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 91.44 190.5 0)
 			(effects
 				(font
@@ -6643,6 +6679,15 @@
 		)
 		(property "MFR" ""
 			(at 91.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 91.44 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,6 +6911,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 161.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -6939,6 +6993,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 205.74 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 205.74 222.25 0)
 			(effects
 				(font
@@ -7039,6 +7102,15 @@
 			)
 		)
 		(property "MPN" "M55-7101242R"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 261.62 162.56 0)
 			(effects
 				(font
@@ -7186,6 +7258,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53be3ba6-4c7f-4a4e-a7f9-58a08fa7daba")
 		)
@@ -7268,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/Accu-P.pdf"
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -7312,6 +7393,24 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8208a23-95cf-4d77-948a-b391661e4d7c")
 		)
@@ -7332,7 +7431,7 @@
 		(at 248.92 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3cf4085a-2d0b-4c72-909b-29b556e08e11")
@@ -7371,7 +7470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 248.92 165.1 0)
 			(effects
 				(font
@@ -7391,6 +7490,15 @@
 		)
 		(property "MFR" ""
 			(at 248.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 248.92 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,6 +7852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 161.29 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -7818,6 +7935,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 176.53 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 176.53 241.3 0)
 			(effects
 				(font
@@ -7913,6 +8039,24 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 152.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 152.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d369ba-b372-4323-b339-1d9aefaace7b")
 		)
@@ -7999,6 +8143,24 @@
 			)
 		)
 		(property "MPN" "TFM-120-01-L-D-RA"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 62.23 144.78 0)
 			(effects
 				(font
@@ -8141,7 +8303,7 @@
 		(at 248.92 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8201,6 +8363,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 248.92 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 248.92 254 0)
 			(effects
 				(font
@@ -8290,6 +8461,15 @@
 		)
 		(property "MPN" "RMCF0603ZT0R00"
 			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 88.9 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,6 +8575,15 @@
 			)
 		)
 		(property "MPN" "M55-7101242R"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 233.68 162.56 0)
 			(effects
 				(font
@@ -8515,6 +8704,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 220.98 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 220.98 246.38 0)
 			(effects
 				(font
@@ -8688,6 +8886,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9029a938-d401-46c4-b644-f050ae854f34")
 		)
@@ -8776,6 +8983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 176.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -8855,7 +9071,7 @@
 		(at 91.44 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "984cc93b-95b8-4372-92a8-d87e701a9ee9")
@@ -8894,7 +9110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 91.44 187.96 0)
 			(effects
 				(font
@@ -8914,6 +9130,15 @@
 		)
 		(property "MFR" ""
 			(at 91.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 91.44 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,6 +9296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 193.04 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9170,6 +9404,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "SHLD"
 			(uuid "2e430466-abb5-48f0-82ec-bc31afe0c116")
 		)
@@ -9255,7 +9498,7 @@
 		(at 278.13 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9323,6 +9566,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 278.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9337,7 +9589,7 @@
 		(at 248.92 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4244523-9939-44ac-93b9-17f2e6697783")
@@ -9404,6 +9656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 248.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9418,7 +9679,7 @@
 		(at 278.13 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9478,6 +9739,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 278.13 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 278.13 246.38 0)
 			(effects
 				(font
@@ -9568,6 +9838,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 220.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9642,6 +9921,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 176.53 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 176.53 236.22 0)
 			(effects
 				(font
@@ -9797,6 +10085,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 193.04 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9879,6 +10176,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 193.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -9893,7 +10199,7 @@
 		(at 278.13 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9953,6 +10259,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 278.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -10035,6 +10350,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 161.29 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 161.29 241.3 0)
 			(effects
 				(font
@@ -10187,7 +10511,7 @@
 		(at 248.92 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10255,6 +10579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 248.92 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "oresat0.5-pluz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
@@ -10269,7 +10602,7 @@
 		(at 248.92 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f036672b-ee05-4277-87ff-7086ef36c6ff")
@@ -10328,6 +10661,15 @@
 			)
 		)
 		(property "MFR" ""
+			(at 248.92 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10493,6 +10835,15 @@
 			)
 		)
 		(property "MPN" "M55-6001242R"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 255.27 90.17 0)
 			(effects
 				(font

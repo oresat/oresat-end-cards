@@ -2358,7 +2358,7 @@
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -2440,7 +2440,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
@@ -6866,6 +6866,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "dfd525fe-253c-4ace-a59d-f31cc632892e")
 		)
@@ -6979,6 +6988,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 160.02 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7156,6 +7174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "739bc18f-03d3-4438-8555-47cfab4b3f9b")
 		)
@@ -7329,6 +7356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 125.73 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cde1e3c3-4bcd-4093-ba2c-0a67847a858a")
 		)
@@ -7398,6 +7434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b83ca28-c773-463b-9da3-62034b3bc936")
 		)
@@ -7456,6 +7501,15 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 100.33 114.3 0)
 			(effects
 				(font
@@ -7634,6 +7688,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 289.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49251f4c-209b-4e4a-821e-532cd2ac8c34")
 		)
@@ -7750,6 +7813,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 135.89 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7924,6 +7996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 243.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "323fcff1-47f0-4201-a87f-0b9f0a53ad7b")
 		)
@@ -8040,6 +8121,15 @@
 			)
 		)
 		(property "MPN" "TS5A21366DCUR"
+			(at 353.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 353.06 210.82 0)
 			(effects
 				(font
@@ -8173,6 +8263,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 127 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e85b30aa-483b-4a03-9eeb-23be21334135")
 		)
@@ -8277,6 +8376,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 143.51 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8387,6 +8495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 127 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e4ce208-d144-4a6f-a74a-303c86577be1")
 		)
@@ -8476,6 +8593,24 @@
 		)
 		(property "MPN" "1N4151WS-E3-08"
 			(at 303.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 303.53 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 303.53 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,6 +8724,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 358.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8709,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -8755,6 +8899,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 267.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -8929,6 +9082,15 @@
 			)
 		)
 		(property "MPN" "DMP2240UDM"
+			(at 317.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 317.5 63.5 0)
 			(effects
 				(font
@@ -9187,6 +9349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 143.51 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c26afcc7-9a8f-413f-8d0a-27cb26601fac")
 		)
@@ -9291,6 +9462,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 125.73 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9400,6 +9580,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 303.53 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9575,6 +9764,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 93.98 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e041ee49-539f-4913-b151-79b5c959a639")
 		)
@@ -9636,6 +9834,15 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
+			(at 300.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 300.99 105.41 0)
 			(effects
 				(font
@@ -9748,6 +9955,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9916,6 +10132,15 @@
 			)
 		)
 		(property "MPN" "DMP2240UDM"
+			(at 317.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 317.5 76.2 0)
 			(effects
 				(font
@@ -10117,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 297.18 97.79 0)
 			(effects
 				(font
@@ -10163,6 +10388,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 297.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 297.18 97.79 0)
 			(effects
 				(font
@@ -10280,6 +10514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 198.12 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44bb3dd2-3b28-4033-94f5-9c564503dcee")
 		)
@@ -10333,7 +10576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 274.32 102.87 0)
 			(effects
 				(font
@@ -10388,6 +10631,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10520,6 +10772,15 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
+			(at 317.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 317.5 88.9 0)
 			(effects
 				(font
@@ -10763,6 +11024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 100.33 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1a54b52-b45f-42dc-a4c7-066079849aed")
 		)
@@ -10881,7 +11151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 274.32 86.36 0)
 			(effects
 				(font
@@ -10936,6 +11206,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11046,6 +11325,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 151.13 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11232,7 +11520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 307.34 110.49 0)
 			(effects
 				(font
@@ -11278,6 +11566,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 307.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 307.34 110.49 0)
 			(effects
 				(font
@@ -11393,6 +11690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 119.38 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72219198-d454-45c4-8cd2-0da12713d4f6")
 		)
@@ -11494,6 +11800,15 @@
 		)
 		(property "MPN" "DMP2240UDM"
 			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 119.38 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,6 +11962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20b871bf-f998-4129-b1ff-5086127068f1")
 		)
@@ -11748,6 +12072,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 104.14 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11858,6 +12191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 135.89 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59078524-cddc-4f68-9608-c24b15142e2d")
 		)
@@ -11910,7 +12252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 307.34 101.6 0)
 			(effects
 				(font
@@ -11956,6 +12298,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 307.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 307.34 101.6 0)
 			(effects
 				(font
@@ -12016,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -12071,6 +12422,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12181,6 +12541,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 119.38 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12358,6 +12727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 248.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5096a78b-2ea6-439f-95b7-0a391f5f6fbd")
 		)
@@ -12462,6 +12840,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 111.76 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12572,6 +12959,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 99.06 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32af9135-e015-4061-be42-c1a3d75bd14b")
 		)
@@ -12624,7 +13020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 224.79 104.14 0)
 			(effects
 				(font
@@ -12670,6 +13066,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 224.79 104.14 0)
 			(effects
 				(font
@@ -12788,6 +13193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 151.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d48f2c1-ab0a-495d-99f4-800eb481899c")
 		)
@@ -12876,6 +13290,24 @@
 			)
 		)
 		(property "MPN" "PAC100007508FA1000"
+			(at 330.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 330.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 330.2 132.08 0)
 			(effects
 				(font
@@ -12989,6 +13421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 144.78 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1626c2fd-a635-483c-9ec0-743effa81a8f")
 		)
@@ -13058,6 +13499,15 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
+			(at 229.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 229.87 92.71 0)
 			(effects
 				(font
@@ -13171,6 +13621,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 289.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49251f4c-209b-4e4a-821e-532cd2ac8c38")
 		)
@@ -13234,7 +13693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 219.71 104.14 0)
 			(effects
 				(font
@@ -13280,6 +13739,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 219.71 104.14 0)
 			(effects
 				(font
@@ -13397,6 +13865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1da117d-c2ca-43db-b41c-8e64e8240270")
 		)
@@ -13501,6 +13978,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 104.14 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13611,6 +14097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 111.76 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31a9c440-ca85-46f3-948f-ee2d798bba8b")
 		)
@@ -13663,7 +14158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 243.84 102.87 0)
 			(effects
 				(font
@@ -13718,6 +14213,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13822,6 +14326,15 @@
 			)
 		)
 		(property "MPN" "TS5A21366DCUR"
+			(at 298.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 298.45 210.82 0)
 			(effects
 				(font
@@ -14086,6 +14599,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 135.89 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc8c4d6f-f741-4084-8a2d-dc6cbb92e14c")
 		)
@@ -14257,6 +14779,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14543,6 +15074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 160.02 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90cc83b2-c102-468e-b083-f11584644000")
 		)
@@ -14651,6 +15191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 119.38 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "513c7c13-aed7-4333-8d5b-0e72125a8d75")
 		)
@@ -14723,6 +15272,15 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
+			(at 229.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -14832,6 +15390,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 135.89 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14998,6 +15565,15 @@
 			)
 		)
 		(property "MPN" "TS5A21366DCUR"
+			(at 193.04 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 193.04 210.82 0)
 			(effects
 				(font
