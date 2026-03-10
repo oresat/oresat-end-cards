@@ -10815,7 +10815,7 @@
 			)
 		)
 		(pin "OPD_PWR" input
-			(at 152.4 129.54 180)
+			(at 152.4 132.08 180)
 			(uuid "265c6e8a-dc7f-4e10-8035-c0a9018c2fcb")
 			(effects
 				(font
@@ -10825,7 +10825,7 @@
 			)
 		)
 		(pin "OPD_SCL" input
-			(at 152.4 124.46 180)
+			(at 152.4 127 180)
 			(uuid "309abe1c-07a2-43c8-b2d2-2a1efa7b2289")
 			(effects
 				(font
@@ -10835,7 +10835,7 @@
 			)
 		)
 		(pin "OPD_SDA" bidirectional
-			(at 152.4 119.38 180)
+			(at 152.4 121.92 180)
 			(uuid "fd19e5a5-a958-4d83-8999-bbf8dd22c2ab")
 			(effects
 				(font
