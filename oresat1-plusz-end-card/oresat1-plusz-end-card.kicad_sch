@@ -3450,12 +3450,6 @@
 		(uuid "5f268ebd-4f60-4058-baf2-6ebde4286555")
 	)
 	(junction
-		(at 68.58 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65cfb823-df1e-41e4-bd75-c4ee54002715")
-	)
-	(junction
 		(at 334.01 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4169,16 +4163,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.33) (xy 68.58 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bf3c20-8d25-4685-8166-c3e364958a80")
-	)
-	(wire
-		(pts
 			(xy 238.76 182.88) (xy 284.48 182.88)
 		)
 		(stroke
@@ -4306,16 +4290,6 @@
 			(type default)
 		)
 		(uuid "457e8b53-b524-4dbf-8a24-d672d66eebff")
-	)
-	(wire
-		(pts
-			(xy 68.58 104.14) (xy 68.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46091647-0803-4b0a-822a-fbb2df9dd576")
 	)
 	(wire
 		(pts
@@ -4649,7 +4623,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 223.52 100.33)
+			(xy 223.52 50.8) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4709,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 104.14) (xy 228.6 55.88)
+			(xy 228.6 106.68) (xy 228.6 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5309,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.33) (xy 223.52 100.33)
+			(xy 68.58 101.6) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5549,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 228.6 104.14)
+			(xy 68.58 106.68) (xy 228.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5628,7 +5602,7 @@
 		(uuid "20153837-6f47-450e-a7d3-9fb620a61629")
 	)
 	(label "MAG-POWER"
-		(at 71.12 104.14 0)
+		(at 71.12 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5708,7 +5682,7 @@
 		(uuid "a977eec5-f2f9-4678-b3c2-bbd571f3e8f9")
 	)
 	(label "MAG-SCL"
-		(at 71.12 100.33 0)
+		(at 71.12 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
