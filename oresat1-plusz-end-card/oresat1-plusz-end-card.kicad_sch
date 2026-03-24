@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f7595184-4323-4ed9-b19e-5e32e3c6e76f")
-	(paper "USLedger")
+	(paper "B")
 	(title_block
 		(title "OreSat1 +Z End Card")
-		(date "2026-02-18")
+		(date "2026-03-23")
 		(rev "v1.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -3239,6 +3239,17 @@
 		)
 		(uuid "dbc2c4b9-ff5c-4e23-98ce-25cd20b65063")
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 113.284 265.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc5cae4-1696-4f37-aafc-727e6ca6013b")
+	)
 	(text "Helical is soldered directly\nto RF_HELICAL_ANT trace."
 		(exclude_from_sim no)
 		(at 123.952 40.386 0)
@@ -3901,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62) (xy 279.4 134.62)
+			(xy 200.66 134.62) (xy 279.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3961,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 121.92) (xy 185.42 121.92)
+			(xy 373.38 121.92) (xy 200.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4101,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 137.16) (xy 276.86 137.16)
+			(xy 200.66 137.16) (xy 276.86 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4281,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 119.38) (xy 375.92 119.38)
+			(xy 200.66 119.38) (xy 375.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4672,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 209.55 144.78)
+			(xy 200.66 144.78) (xy 209.55 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 127) (xy 323.85 127)
+			(xy 200.66 127) (xy 323.85 127)
 		)
 		(stroke
 			(width 0)
@@ -4921,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 129.54) (xy 185.42 129.54)
+			(xy 321.31 129.54) (xy 200.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5111,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 212.09 142.24)
+			(xy 200.66 142.24) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5830,7 +5841,7 @@
 			(uuid "99d7ded5-995a-44c8-8f4b-d82ca46d5822")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "C2")
 					(unit 1)
@@ -5921,7 +5932,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW6")
 					(unit 1)
@@ -6160,7 +6171,7 @@
 			(uuid "d4a71487-92fb-415c-9c15-51ade07349ee")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "TP4")
 					(unit 1)
@@ -6226,7 +6237,7 @@
 			(uuid "b563cb7a-5905-4ec9-82ec-332e9513e3fe")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#VBUS01")
 					(unit 1)
@@ -6291,7 +6302,7 @@
 			(uuid "831e2be0-298a-44cb-8981-3af88c81c50b")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND0104")
 					(unit 1)
@@ -6382,7 +6393,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID3")
 					(unit 1)
@@ -6426,7 +6437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 205.74 222.25 0)
 			(effects
 				(font
@@ -6435,7 +6446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 205.74 222.25 0)
 			(effects
 				(font
@@ -6444,7 +6455,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "N/A"
 			(at 205.74 222.25 0)
 			(effects
 				(font
@@ -6453,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 205.74 222.25 0)
 			(effects
 				(font
@@ -6471,8 +6482,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "N/A"
+			(at 205.74 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 205.74 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "PCB1")
 					(unit 1)
@@ -6878,7 +6907,7 @@
 			(uuid "1db5f034-b657-4f21-94d3-fc53524d4bad")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "C1")
 					(unit 1)
@@ -6943,7 +6972,7 @@
 			(uuid "58e20411-506d-43d8-822e-bcbf529cc3a9")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND03")
 					(unit 1)
@@ -7009,7 +7038,7 @@
 			(uuid "6941f7da-4666-4368-9cc9-aa3971802fc3")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#FLG0102")
 					(unit 1)
@@ -7258,7 +7287,7 @@
 			(uuid "d105fa72-776f-4da7-835b-f338e4ae164c")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND0105")
 					(unit 1)
@@ -7323,7 +7352,7 @@
 			(uuid "c2df1e3e-a0da-400f-86b3-f8e531bfdc82")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND011")
 					(unit 1)
@@ -7414,7 +7443,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID1")
 					(unit 1)
@@ -7526,7 +7555,7 @@
 			(uuid "b95a4700-40db-4183-bf8b-2946aa78d066")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "L1")
 					(unit 1)
@@ -7752,7 +7781,7 @@
 			(uuid "307ca0e3-96b1-431a-bc22-2ca350aaddd4")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J1")
 					(unit 1)
@@ -7765,7 +7794,7 @@
 		(at 248.92 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7797,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 248.92 254 0)
 			(effects
 				(font
@@ -7806,7 +7835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 248.92 254 0)
 			(effects
 				(font
@@ -7815,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 248.92 254 0)
 			(effects
 				(font
@@ -7824,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 248.92 254 0)
 			(effects
 				(font
@@ -7842,8 +7871,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 248.92 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 248.92 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW12")
 					(unit 1)
@@ -8080,7 +8127,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW7")
 					(unit 1)
@@ -8145,7 +8192,7 @@
 			(uuid "4ffa169c-6126-476f-85ae-34e8af00976f")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND0102")
 					(unit 1)
@@ -8325,7 +8372,7 @@
 			(uuid "e6fbfd1a-906b-4871-b9cb-2897e8142bc8")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND02")
 					(unit 1)
@@ -8417,7 +8464,7 @@
 			(uuid "41e26acb-42cf-47c3-a3f4-d606d3b94cdb")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "TP3")
 					(unit 1)
@@ -8482,7 +8529,7 @@
 			(uuid "7cee16bf-348a-4678-818a-94215a2c9c3c")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND07")
 					(unit 1)
@@ -8573,7 +8620,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW1")
 					(unit 1)
@@ -8752,7 +8799,7 @@
 			(uuid "a1d433d4-db72-47b9-8448-ac617add4798")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND010")
 					(unit 1)
@@ -8765,7 +8812,7 @@
 		(at 278.13 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8797,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 278.13 238.76 0)
 			(effects
 				(font
@@ -8806,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 278.13 238.76 0)
 			(effects
 				(font
@@ -8815,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 278.13 238.76 0)
 			(effects
 				(font
@@ -8824,7 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 278.13 238.76 0)
 			(effects
 				(font
@@ -8842,8 +8889,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 278.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 278.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW14")
 					(unit 1)
@@ -8856,7 +8921,7 @@
 		(at 248.92 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4244523-9939-44ac-93b9-17f2e6697783")
@@ -8887,7 +8952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 248.92 238.76 0)
 			(effects
 				(font
@@ -8896,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 248.92 238.76 0)
 			(effects
 				(font
@@ -8905,7 +8970,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 248.92 238.76 0)
 			(effects
 				(font
@@ -8914,7 +8979,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 248.92 238.76 0)
 			(effects
 				(font
@@ -8932,8 +8997,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 248.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 248.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW10")
 					(unit 1)
@@ -9038,7 +9121,7 @@
 		(at 278.13 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9070,7 +9153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 278.13 246.38 0)
 			(effects
 				(font
@@ -9079,7 +9162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 278.13 246.38 0)
 			(effects
 				(font
@@ -9088,7 +9171,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 278.13 246.38 0)
 			(effects
 				(font
@@ -9097,7 +9180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 278.13 246.38 0)
 			(effects
 				(font
@@ -9115,8 +9198,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 278.13 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 278.13 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW4")
 					(unit 1)
@@ -9207,7 +9308,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW5")
 					(unit 1)
@@ -9272,7 +9373,7 @@
 			(uuid "449829ee-e1ef-453e-a44c-49d5547ea610")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND0101")
 					(unit 1)
@@ -9363,7 +9464,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW2")
 					(unit 1)
@@ -9454,7 +9555,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW3")
 					(unit 1)
@@ -9532,7 +9633,7 @@
 		(at 278.13 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9564,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -9573,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -9582,7 +9683,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -9591,7 +9692,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 278.13 231.14 0)
 			(effects
 				(font
@@ -9609,8 +9710,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 278.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 278.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW13")
 					(unit 1)
@@ -9701,7 +9820,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID2")
 					(unit 1)
@@ -9766,7 +9885,7 @@
 			(uuid "10609dd5-6143-4530-bbce-7f4cedd9b123")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND08")
 					(unit 1)
@@ -9831,7 +9950,7 @@
 			(uuid "1217c05e-16a8-4319-b073-852d887e6277")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND0103")
 					(unit 1)
@@ -9958,7 +10077,7 @@
 		(at 248.92 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9990,7 +10109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 248.92 231.14 0)
 			(effects
 				(font
@@ -9999,7 +10118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 248.92 231.14 0)
 			(effects
 				(font
@@ -10008,7 +10127,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 248.92 231.14 0)
 			(effects
 				(font
@@ -10017,7 +10136,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 248.92 231.14 0)
 			(effects
 				(font
@@ -10035,8 +10154,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 248.92 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 248.92 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW9")
 					(unit 1)
@@ -10049,7 +10186,7 @@
 		(at 248.92 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f036672b-ee05-4277-87ff-7086ef36c6ff")
@@ -10080,7 +10217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10089,7 +10226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M2 x 0.4 mm Thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10098,7 +10235,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "94100A150"
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10107,7 +10244,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "N/A"
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -10125,8 +10262,26 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "McMaster-Carr"
+			(at 248.92 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 248.92 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW11")
 					(unit 1)
@@ -10192,7 +10347,7 @@
 			(uuid "fc3fee29-250a-4499-8d7a-d0c046876783")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#FLG0101")
 					(unit 1)
@@ -10404,7 +10559,7 @@
 			(uuid "6ab8eac7-f8a2-42bc-9032-954b1d07c0a7")
 		)
 		(instances
-			(project "oresat0.5-pluz-end-card"
+			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#GND01")
 					(unit 1)
@@ -10413,32 +10568,33 @@
 		)
 	)
 	(sheet
-		(at 152.4 115.57)
-		(size 33.02 33.02)
+		(at 152.4 110.49)
+		(size 48.26 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 229 191 1.0000)
 		)
 		(uuid "00d1c146-41ee-47bc-806e-4a57139ad2b4")
-		(property "Sheetname" "OPD"
-			(at 152.4 114.8584 0)
+		(property "Sheetname" "+Z EC OreSat Power Domain (OPD)"
+			(at 159.766 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "oresat1-plusz-end-card-sch-opd.kicad_sch"
-			(at 152.4 149.1746 0)
+			(at 151.892 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10623,7 @@
 			)
 		)
 		(pin "MX-UART-RX" input
-			(at 185.42 121.92 0)
+			(at 200.66 121.92 0)
 			(uuid "f327f34a-1917-432a-a844-cf4925a1e60a")
 			(effects
 				(font
@@ -10477,7 +10633,7 @@
 			)
 		)
 		(pin "MX-UART-TX" input
-			(at 185.42 119.38 0)
+			(at 200.66 119.38 0)
 			(uuid "461f846b-9bdd-4c17-9ba6-283c5eadaf72")
 			(effects
 				(font
@@ -10487,7 +10643,7 @@
 			)
 		)
 		(pin "MY-UART-RX" input
-			(at 185.42 144.78 0)
+			(at 200.66 144.78 0)
 			(uuid "9214785f-92a5-4559-99b7-f4a30ee5f7df")
 			(effects
 				(font
@@ -10497,7 +10653,7 @@
 			)
 		)
 		(pin "MY-UART-TX" input
-			(at 185.42 142.24 0)
+			(at 200.66 142.24 0)
 			(uuid "2a9e5ba2-450d-43fb-941f-6781a408c657")
 			(effects
 				(font
@@ -10507,7 +10663,7 @@
 			)
 		)
 		(pin "PX-UART-RX" input
-			(at 185.42 137.16 0)
+			(at 200.66 137.16 0)
 			(uuid "69dae80a-4b34-44e4-a820-e5d8e31723f4")
 			(effects
 				(font
@@ -10517,7 +10673,7 @@
 			)
 		)
 		(pin "PX-UART-TX" input
-			(at 185.42 134.62 0)
+			(at 200.66 134.62 0)
 			(uuid "654e37e5-35ad-42c6-93d2-14209dced0a6")
 			(effects
 				(font
@@ -10527,7 +10683,7 @@
 			)
 		)
 		(pin "PY-UART-RX" input
-			(at 185.42 129.54 0)
+			(at 200.66 129.54 0)
 			(uuid "23bbb314-f245-48f7-91d5-3b818e45758f")
 			(effects
 				(font
@@ -10537,7 +10693,7 @@
 			)
 		)
 		(pin "PY-UART-TX" input
-			(at 185.42 127 0)
+			(at 200.66 127 0)
 			(uuid "b561066f-abc4-462a-acd7-fd00c3abcd9f")
 			(effects
 				(font
