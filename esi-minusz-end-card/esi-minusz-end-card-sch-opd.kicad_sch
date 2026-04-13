@@ -5,9 +5,9 @@
 	(uuid "947640a8-a956-4ad2-b1d8-06ab8dfa8f54")
 	(paper "B")
 	(title_block
-		(title "OreSat1 -Z End Card")
-		(date "2026-02-18")
-		(rev "v1.3")
+		(title "ESI -Z End Card")
+		(date "2026-04-02")
+		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -742,356 +742,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TS5A21366_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 -11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TS5A21366"
-				(at 6.35 -13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-				(at 0 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a21366.pdf?ts=1719378502445&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS5A21366%253Fbm-verify%253DAAQAAAAJ_____8Cml7QfglfdfpzACMiKmhlgM6D2P1j0V6NSbKXr_8mpDQxEVEF7WeZYkJ8DP1a7PfdrKpKXtt2NHpCjXrRj-qCw0HLUoA2us7Z2HHWOngmEE-23_cKBi6JWkQO86gU0sboAlAzYh5UoDgS_P8rLHTyLzuMDVn3dJ76goWgnJX1ONgEhjCc2z2aDZq5N0cKp2gwrqratDdWY9fOa1DzfeUFsCIoC7TNuh5Agt2Cf52P6N1AQV8xTcKgE7a_NHLGMzH0A9QuUSMfNV690TelArW7npp-bTlot59Fh8_UN_XR64ueG8uk"
-				(at -0.254 28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TS5A21366_1_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 0 -5.08) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TS5A21366_1_1_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "COM1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "COM2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "NO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "NO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2356,6 +2006,394 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-ics:TS5A21366"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "TS5A21366"
+				(at 3.81 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+				(at 0.254 18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a21366.pdf?ts=1719378502445&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS5A21366%253Fbm-verify%253DAAQAAAAJ_____8Cml7QfglfdfpzACMiKmhlgM6D2P1j0V6NSbKXr_8mpDQxEVEF7WeZYkJ8DP1a7PfdrKpKXtt2NHpCjXrRj-qCw0HLUoA2us7Z2HHWOngmEE-23_cKBi6JWkQO86gU0sboAlAzYh5UoDgS_P8rLHTyLzuMDVn3dJ76goWgnJX1ONgEhjCc2z2aDZq5N0cKp2gwrqratDdWY9fOa1DzfeUFsCIoC7TNuh5Agt2Cf52P6N1AQV8xTcKgE7a_NHLGMzH0A9QuUSMfNV690TelArW7npp-bTlot59Fh8_UN_XR64ueG8uk"
+				(at 0.254 22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 Circuit IC Switch 1:1 1Ohm 8-VSSOP"
+				(at 0 26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Texas Instruments"
+				(at -0.254 37.846 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TS5A21366DCUR"
+				(at -0.254 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIS" "DigiKey"
+				(at -0.254 35.306 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "296-24304-1-ND"
+				(at -0.254 32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS5A21366_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS5A21366_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3125,12 +3163,14 @@
 		)
 		(uuid "baf30b86-9773-4d9c-a38f-b052e412dc7f")
 	)
-	(text "Address TBD"
+	(text "-Z End Card OPD Address = 0x15"
 		(exclude_from_sim no)
-		(at 46.99 25.908 0)
+		(at 41.91 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -3636,6 +3676,16 @@
 			(type solid)
 		)
 		(uuid "0b51293b-2a6b-4aa5-8a87-dceffb848ad9")
+	)
+	(wire
+		(pts
+			(xy 90.17 161.29) (xy 93.98 161.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bc8c68b-44b1-4459-9d36-769775fbb26b")
 	)
 	(wire
 		(pts
@@ -5109,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 161.29) (xy 100.33 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fc7f73-491b-4510-b45b-fe5f139c3e72")
+	)
+	(wire
+		(pts
 			(xy 50.8 105.41) (xy 53.34 105.41)
 		)
 		(stroke
@@ -5706,6 +5766,16 @@
 			(type default)
 		)
 		(uuid "b93f4345-3e78-46ba-8b0c-62c1b96e4ec1")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 100.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3298bd-cfe6-4fa0-8998-cc1583180aed")
 	)
 	(wire
 		(pts
@@ -6892,7 +6962,7 @@
 			(uuid "17dd9bdb-2778-44a4-8c86-f4c34c9132e9")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR3")
 					(unit 1)
@@ -7006,7 +7076,7 @@
 			(uuid "66a1a5d6-d995-487c-93ce-1837421fe158")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U11")
 					(unit 1)
@@ -7060,7 +7130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 275.59 49.53 0)
 			(effects
 				(font
@@ -7097,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 275.59 49.53 0)
 			(effects
 				(font
@@ -7126,7 +7196,7 @@
 			(uuid "5fd29128-88d7-4f61-b45e-795d43a43559")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q5")
 					(unit 1)
@@ -7233,7 +7303,7 @@
 			(uuid "c77faf3c-5835-4402-91d1-c9ea7cbe2e10")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R81")
 					(unit 1)
@@ -7298,7 +7368,7 @@
 			(uuid "991ec0a2-09b1-470e-b59f-9c5c8ad5f8ac")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#VPD07")
 					(unit 1)
@@ -7407,7 +7477,7 @@
 			(uuid "20c6268e-1155-49d9-a55e-2b9e023f9a7e")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C23")
 					(unit 1)
@@ -7514,7 +7584,7 @@
 			(uuid "f77ecb57-8d7b-4d30-993b-726e5411b25f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R78")
 					(unit 1)
@@ -7580,7 +7650,7 @@
 			(uuid "2b83ca28-c773-463b-9da3-62034b3bc936")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP37")
 					(unit 1)
@@ -7646,7 +7716,7 @@
 			(uuid "3ed1f320-b2c6-49c1-a1b3-1ce0656093d1")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP35")
 					(unit 1)
@@ -7711,7 +7781,7 @@
 			(uuid "c86ea26b-4ecc-46d5-b824-1dd4e5b2ad7f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR203")
 					(unit 1)
@@ -7818,7 +7888,7 @@
 			(uuid "6715ff30-28dd-47ea-91ae-89ff20f1b3e7")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R83")
 					(unit 1)
@@ -7883,7 +7953,7 @@
 			(uuid "ad52bb65-0561-4efc-a9c8-0354642e4e3f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR0207")
 					(unit 1)
@@ -7948,7 +8018,7 @@
 			(uuid "b107984e-5841-4cd3-b3e1-8ac98f6d0f00")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR290")
 					(unit 1)
@@ -7957,7 +8027,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TS5A21366_1")
 		(lib_id "oresat-ics:TS5A21366")
 		(at 214.63 194.31 0)
 		(unit 1)
@@ -8072,7 +8141,7 @@
 			(uuid "41b3f665-af80-4ed8-ab70-1d12c7f835b5")
 		)
 		(instances
-			(project ""
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U202")
 					(unit 1)
@@ -8081,7 +8150,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TS5A21366_1")
 		(lib_id "oresat-ics:TS5A21366")
 		(at 323.85 194.31 0)
 		(unit 1)
@@ -8196,7 +8264,7 @@
 			(uuid "635ebc14-f262-48f6-aa63-9dcc65bc107f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U204")
 					(unit 1)
@@ -8303,7 +8371,7 @@
 			(uuid "f29892d6-6817-4822-84f6-7dac4a693e5e")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R55")
 					(unit 1)
@@ -8318,7 +8386,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2a88cec5-2a2a-4ad5-9266-4c60abf3c497")
 		(property "Reference" "R46"
 			(at 83.82 39.37 90)
@@ -8410,7 +8478,7 @@
 			(uuid "266ec7c4-78cc-4a37-a263-82f1791a9131")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R46")
 					(unit 1)
@@ -8464,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 303.53 49.53 0)
 			(effects
 				(font
@@ -8501,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 303.53 49.53 0)
 			(effects
 				(font
@@ -8530,7 +8598,7 @@
 			(uuid "5fd29128-88d7-4f61-b45e-795d43a4355a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q7")
 					(unit 1)
@@ -8545,7 +8613,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2e97633f-c436-4674-b6ec-2320e006823c")
 		(property "Reference" "R54"
 			(at 67.31 49.53 90)
@@ -8637,7 +8705,7 @@
 			(uuid "e258f154-d462-4bc6-953d-203100b59350")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R54")
 					(unit 1)
@@ -8746,7 +8814,7 @@
 			(uuid "ba3ef309-d73f-4f95-81ae-8f758915e859")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C204")
 					(unit 1)
@@ -8812,7 +8880,7 @@
 			(uuid "81cb8e20-e3f7-4256-ba26-498fdb8f453c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#VPD06")
 					(unit 1)
@@ -8878,7 +8946,7 @@
 			(uuid "cf26c017-403e-4057-8c40-fc538c6acf71")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR75")
 					(unit 1)
@@ -8943,7 +9011,7 @@
 			(uuid "a71200b3-f8a5-4979-b0a4-1d5fd58e6dc0")
 		)
 		(instances
-			(project ""
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#FLG0201")
 					(unit 1)
@@ -9008,7 +9076,7 @@
 			(uuid "e8c5e9fd-b5de-431e-b6ca-80e0028e641d")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#VPD010")
 					(unit 1)
@@ -9062,7 +9130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 275.59 62.23 0)
 			(effects
 				(font
@@ -9099,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 275.59 62.23 0)
 			(effects
 				(font
@@ -9128,7 +9196,7 @@
 			(uuid "5fd29128-88d7-4f61-b45e-795d43a4355b")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q5")
 					(unit 2)
@@ -9235,7 +9303,7 @@
 			(uuid "ab0c3f4b-2289-4096-a4b4-20bdc4cc6d27")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R45")
 					(unit 1)
@@ -9301,7 +9369,7 @@
 			(uuid "7be42a2d-73ef-416c-bafe-f0aafb7b8afc")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP62")
 					(unit 1)
@@ -9408,7 +9476,7 @@
 			(uuid "a905a1b5-11ae-4e7c-8760-5f80ccc17458")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R82")
 					(unit 1)
@@ -9517,7 +9585,7 @@
 			(uuid "91647df5-3961-4649-9a02-7a2b7a73c2f1")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C203")
 					(unit 1)
@@ -9624,7 +9692,7 @@
 			(uuid "4d88e0d7-7651-42e2-8f9d-7b77b8326388")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R24")
 					(unit 1)
@@ -9734,7 +9802,7 @@
 			(uuid "34f753a4-824c-47c3-90ec-794432b5cf37")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C3")
 					(unit 1)
@@ -9799,7 +9867,7 @@
 			(uuid "ec3a3b11-545f-43c7-ab50-04ebdff3c15a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR78")
 					(unit 1)
@@ -9864,7 +9932,7 @@
 			(uuid "afdf6924-437c-4f81-9240-1b40d11ebaea")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR291")
 					(unit 1)
@@ -9973,7 +10041,7 @@
 			(uuid "d7f39d21-30de-4b89-b76b-9e51ac3b7d12")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C201")
 					(unit 1)
@@ -10019,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -10028,7 +10096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -10037,17 +10105,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DIS" "DigiKey"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -10057,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "DPN" "31-DMN3028LQ-7CT-ND"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -10067,7 +10125,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MFR" "Diodes Incorporated"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN3028LQ-7"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -10087,7 +10155,7 @@
 			(uuid "5431e8db-ae0b-4287-9b71-a5887d474336")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q6")
 					(unit 1)
@@ -10193,7 +10261,7 @@
 			(uuid "ab7042bd-937f-427e-821c-d567d6c95dfa")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R117")
 					(unit 1)
@@ -10258,7 +10326,7 @@
 			(uuid "59def32f-c25b-4791-b568-4bc7098e0c83")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#VPD09")
 					(unit 1)
@@ -10324,7 +10392,7 @@
 			(uuid "e4a8f5e7-acda-4922-8589-a2c57bf6693a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR77")
 					(unit 1)
@@ -10429,7 +10497,7 @@
 			(uuid "da29aa6a-ee7c-4728-849f-3053edfed54a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R91")
 					(unit 1)
@@ -10494,7 +10562,7 @@
 			(uuid "b0b66cb5-8023-4b26-93be-a4d2aab61bf0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR79")
 					(unit 1)
@@ -10601,7 +10669,7 @@
 			(uuid "2cf9d238-9dc9-4faa-85ea-e748201514b0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R60")
 					(unit 1)
@@ -10666,7 +10734,7 @@
 			(uuid "45faad8d-5de6-4385-b9a9-249a7c85b46c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#VPD01")
 					(unit 1)
@@ -10712,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -10721,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -10730,17 +10798,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 257.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DIS" "DigiKey"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -10750,7 +10808,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "DPN" "31-DMN3028LQ-7CT-ND"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -10760,7 +10818,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MFR" "Diodes Incorporated"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN3028LQ-7"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -10780,7 +10848,7 @@
 			(uuid "44e857bb-eebe-4349-97b7-3f76a5466a0b")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q4")
 					(unit 1)
@@ -10886,7 +10954,7 @@
 			(uuid "6d2f7a44-e248-412a-a1c6-8883bed595b2")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R94")
 					(unit 1)
@@ -10993,7 +11061,7 @@
 			(uuid "9a6508f3-038b-4f67-a6b9-ba3b284c83a8")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R61")
 					(unit 1)
@@ -11058,7 +11126,7 @@
 			(uuid "3b8ab0f2-571e-4191-b1fb-878afa7b17a5")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR204")
 					(unit 1)
@@ -11124,7 +11192,7 @@
 			(uuid "44c21c77-2fed-4a5b-bb42-f4aa97c89f2c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR15")
 					(unit 1)
@@ -11190,9 +11258,119 @@
 			(uuid "1be5981c-2a8f-444f-ba5a-4a31b30e6f50")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 96.52 161.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9241aff4-017e-484c-93cc-81e07d6a1d37")
+		(property "Reference" "C2"
+			(at 98.298 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 94.488 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dda0118d-0ff2-4002-b657-7de30977b96c")
+		)
+		(pin "2"
+			(uuid "0e0b5dc6-c777-488b-a793-17370dfc0bb1")
+		)
+		(instances
+			(project "esi-minusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11255,7 +11433,7 @@
 			(uuid "b6af91df-2c3e-4d12-91c0-630c14111a49")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP156")
 					(unit 1)
@@ -11362,7 +11540,7 @@
 			(uuid "497ee5f9-3fff-458e-a8c4-a996e1dcf866")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R53")
 					(unit 1)
@@ -11416,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 64.77 163.83 0)
 			(effects
 				(font
@@ -11454,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 64.77 163.83 0)
 			(effects
 				(font
@@ -11482,7 +11660,7 @@
 			(uuid "a7a41def-21ad-4c6d-a9b5-76961e489bd6")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q1")
 					(unit 2)
@@ -11547,7 +11725,7 @@
 			(uuid "ba6dfb11-de87-40e2-a600-36baa1e4f06f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR202")
 					(unit 1)
@@ -11612,7 +11790,7 @@
 			(uuid "c865e744-a411-42f1-ba9e-21e7badb71c0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP161")
 					(unit 1)
@@ -11678,7 +11856,7 @@
 			(uuid "70f032b5-9a9c-4136-a54e-b7cfbbe2cf31")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR14")
 					(unit 1)
@@ -11744,7 +11922,7 @@
 			(uuid "20b871bf-f998-4129-b1ff-5086127068f1")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP38")
 					(unit 1)
@@ -11851,7 +12029,7 @@
 			(uuid "e814d1a2-8ebe-4f50-8004-8dd076a26ad0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R57")
 					(unit 1)
@@ -11958,7 +12136,7 @@
 			(uuid "99f8f9f8-9429-45d1-a4c3-514ea9f61afa")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R79")
 					(unit 1)
@@ -12063,7 +12241,7 @@
 			(uuid "4713b625-ac60-4e61-8ab4-51d4ac09e09c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R30")
 					(unit 1)
@@ -12108,7 +12286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -12117,7 +12295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -12126,17 +12304,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 227.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DIS" "DigiKey"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -12146,7 +12314,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "DPN" "31-DMN3028LQ-7CT-ND"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -12156,7 +12324,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MFR" "Diodes Incorporated"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN3028LQ-7"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -12176,7 +12354,7 @@
 			(uuid "e455068e-4347-423a-82b5-598218551097")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q2")
 					(unit 1)
@@ -12283,7 +12461,7 @@
 			(uuid "5f31b7d7-b4a1-4102-a2b6-d4e1be31bce3")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R52")
 					(unit 1)
@@ -12348,7 +12526,7 @@
 			(uuid "6d192d5b-d609-4f55-b75f-b4e00dcf763c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR205")
 					(unit 1)
@@ -12457,7 +12635,7 @@
 			(uuid "a671d2ca-d6de-4eda-96a8-6c62f032d1f9")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C202")
 					(unit 1)
@@ -12562,7 +12740,7 @@
 			(uuid "66ea05a8-ef66-4c16-b240-56591f01ec56")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "D13")
 					(unit 1)
@@ -12669,7 +12847,7 @@
 			(uuid "1243023c-d920-4aef-a136-66f1942cbfd0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R58")
 					(unit 1)
@@ -12776,7 +12954,7 @@
 			(uuid "78fa796a-d368-42ad-b734-bd69bff67343")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R80")
 					(unit 1)
@@ -12886,7 +13064,7 @@
 			(uuid "febb45aa-5c05-4a18-a31b-9a307389eabf")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C10")
 					(unit 1)
@@ -13000,7 +13178,7 @@
 			(uuid "7ad44c0c-8f81-4d11-9ce9-8eca759b1940")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U12")
 					(unit 1)
@@ -13109,7 +13287,7 @@
 			(uuid "bb1634f2-9122-4822-bfc9-9b02e2d0aa9f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "C22")
 					(unit 1)
@@ -13214,7 +13392,7 @@
 			(uuid "6ba46fcc-333a-4bac-bbe8-6b5d0416d2c8")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R96")
 					(unit 1)
@@ -13229,7 +13407,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c5adffa7-d6fb-459a-8840-059549636cae")
 		(property "Reference" "R56"
 			(at 49.53 49.53 90)
@@ -13321,7 +13499,7 @@
 			(uuid "c363767e-b9c7-47f7-b7ba-039990afe352")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R56")
 					(unit 1)
@@ -13428,7 +13606,7 @@
 			(uuid "9941443c-824d-40f2-aefa-f25ec9cc4708")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R59")
 					(unit 1)
@@ -13473,7 +13651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -13482,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -13491,17 +13669,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 227.33 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DIS" "DigiKey"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -13511,7 +13679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "DPN" "31-DMN3028LQ-7CT-ND"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -13521,7 +13689,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MFR" "Diodes Incorporated"
+			(at 227.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN3028LQ-7"
 			(at 227.33 88.9 0)
 			(effects
 				(font
@@ -13541,7 +13719,7 @@
 			(uuid "44cc9b95-690a-45d5-a839-4737610a791f")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q3")
 					(unit 1)
@@ -13550,7 +13728,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TS5A21366_1")
 		(lib_id "oresat-ics:TS5A21366")
 		(at 269.24 194.31 0)
 		(unit 1)
@@ -13665,7 +13842,7 @@
 			(uuid "2134b388-4d23-4f8a-923b-e6a3b4498951")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U203")
 					(unit 1)
@@ -13730,7 +13907,7 @@
 			(uuid "9323c75c-7178-4f59-a4d1-58570e4890c7")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR12")
 					(unit 1)
@@ -13835,7 +14012,7 @@
 			(uuid "5229bdd3-aae3-458c-9bcd-f9e926df0f3a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R1")
 					(unit 1)
@@ -13901,7 +14078,7 @@
 			(uuid "5557c549-a768-46d2-a2d1-5328bacbf97c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR101")
 					(unit 1)
@@ -13955,7 +14132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 303.53 62.23 0)
 			(effects
 				(font
@@ -13992,7 +14169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 303.53 62.23 0)
 			(effects
 				(font
@@ -14021,10 +14198,75 @@
 			(uuid "5fd29128-88d7-4f61-b45e-795d43a4355c")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q7")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82ddd3a-2001-4d6d-aca9-40afab0eba22")
+		(property "Reference" "#PWR026"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d1b3ef3-be12-496b-89d5-c098769155d0")
+		)
+		(instances
+			(project "esi-minusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
+					(reference "#PWR026")
+					(unit 1)
 				)
 			)
 		)
@@ -14087,7 +14329,7 @@
 			(uuid "00c51ff0-1761-4667-a6a3-f370053f61ce")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "TP3")
 					(unit 1)
@@ -14194,7 +14436,7 @@
 			(uuid "6cfe0757-7dda-4f8f-b9b7-5ce03e77f730")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R40")
 					(unit 1)
@@ -14348,7 +14590,7 @@
 			(uuid "2d9b8e42-1501-4950-b714-91539590eca0")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U2")
 					(unit 1)
@@ -14414,7 +14656,7 @@
 			(uuid "78add023-b812-4d97-a542-9b3aed5941e1")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR13")
 					(unit 1)
@@ -14479,7 +14721,7 @@
 			(uuid "27a28057-5f57-4898-9656-aaa13b866507")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR201")
 					(unit 1)
@@ -14586,7 +14828,7 @@
 			(uuid "b8b01c8a-3c33-43eb-ae70-a4fafb96b139")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R77")
 					(unit 1)
@@ -14651,7 +14893,7 @@
 			(uuid "e04c0bc4-6d98-4e25-a430-5faa270898c2")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR289")
 					(unit 1)
@@ -14705,7 +14947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -14742,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -14771,7 +15013,7 @@
 			(uuid "5fd29128-88d7-4f61-b45e-795d43a4355d")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "Q1")
 					(unit 1)
@@ -14877,7 +15119,7 @@
 			(uuid "e74df319-64b0-4164-8fbc-cf0f2345803b")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R95")
 					(unit 1)
@@ -14984,7 +15226,7 @@
 			(uuid "6d92a8ae-c7b1-4a33-99cb-e183a3def4f1")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "R39")
 					(unit 1)
@@ -15049,7 +15291,7 @@
 			(uuid "328b7ea9-bd3e-4b4d-8bde-fd537ddd38f4")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR0206")
 					(unit 1)
@@ -15058,7 +15300,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TS5A21366_1")
 		(lib_id "oresat-ics:TS5A21366")
 		(at 163.83 194.31 0)
 		(unit 1)
@@ -15173,7 +15414,7 @@
 			(uuid "b457d227-67d0-4fe1-87a7-5481d604a64a")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "U201")
 					(unit 1)
@@ -15239,7 +15480,7 @@
 			(uuid "6a1452d1-707a-4348-b876-76e3865ff62e")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR16")
 					(unit 1)
@@ -15304,7 +15545,7 @@
 			(uuid "167a5336-0a90-4926-b712-c10a23c26904")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11"
 					(reference "#PWR0106")
 					(unit 1)

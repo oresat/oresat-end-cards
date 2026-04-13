@@ -5,9 +5,9 @@
 	(uuid "f7595184-4323-4ed9-b19e-5e32e3c6e76f")
 	(paper "B")
 	(title_block
-		(title "OreSat1 -Z End Card")
-		(date "2026-02-18")
-		(rev "v1.3")
+		(title "ESI -Z End Card")
+		(date "2026-04-02")
+		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -2772,17 +2772,6 @@
 				)
 			)
 			(symbol "Balun_1_1"
-				(rectangle
-					(start -3.81 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
 						(xy -3.81 -5.08) (xy -1.524 -5.08) (xy -1.524 -3.048)
@@ -2793,17 +2782,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center -2.286 4.318)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(arc
@@ -2926,15 +2904,15 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.286 4.318)
-					(radius 0.254)
+				(rectangle
+					(start 3.81 6.35)
+					(end -3.81 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(polyline
@@ -3513,6 +3491,16 @@
 		)
 		(uuid "275d1967-242a-47f5-92ef-d9c4f9310610")
 	)
+	(text "0402"
+		(exclude_from_sim no)
+		(at 101.6 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52b186c3-e57a-4208-a5ca-19d638c3e4c5")
+	)
 	(text "To L band monopole"
 		(exclude_from_sim no)
 		(at 102.87 184.15 0)
@@ -3548,9 +3536,9 @@
 		)
 		(uuid "8868ba5c-16e2-45c1-8c23-749ffc77b1b8")
 	)
-	(text "Press-fit nuts for monopole\ndeployer and CFC lens holder"
+	(text "Press-fit nuts for deployer - press in from TOP of board."
 		(exclude_from_sim no)
-		(at 320.294 229.362 0)
+		(at 336.55 236.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,7 +3568,7 @@
 		)
 		(uuid "a3427e42-0079-4618-b3cd-7c607771511f")
 	)
-	(text "UHF Feed System (436.5 MHz)"
+	(text "UHF (70 cm) Feed System (400 - 440 MHz)"
 		(exclude_from_sim no)
 		(at 67.31 209.042 0)
 		(effects
@@ -3619,7 +3607,7 @@
 		)
 		(uuid "bc181184-fc04-4138-9f8f-af3e56ac3f81")
 	)
-	(text "To GPS antenna on -Z End Cap \nvia U.FL to U.FL coax cable"
+	(text "To GPS antenna on -Z End Cap \nvia U.FL to U.FL coax cable\n(See End Cap schematic for cable part number)"
 		(exclude_from_sim no)
 		(at 127 164.465 0)
 		(effects
@@ -6258,7 +6246,7 @@
 		)
 		(uuid "2b1b8659-cc4c-4754-9d4f-b5a9d3a5abe0")
 	)
-	(label "MX_UART_TX"
+	(label "MY_UART_TX"
 		(at 358.14 162.56 0)
 		(effects
 			(font
@@ -6321,7 +6309,7 @@
 		)
 		(uuid "4fca1d84-3f5f-43a1-9486-5528dc7965d0")
 	)
-	(label "MX_UART_TX"
+	(label "PY_UART_TX"
 		(at 308.61 162.56 0)
 		(effects
 			(font
@@ -6426,7 +6414,7 @@
 		)
 		(uuid "92c4dd05-dafd-4958-ad29-d306161f644e")
 	)
-	(label "MX_UART_RX"
+	(label "PY_UART_RX"
 		(at 308.61 165.1 0)
 		(effects
 			(font
@@ -6544,7 +6532,7 @@
 		)
 		(uuid "c04cde7e-8820-4563-a8fc-b92149ab2ab7")
 	)
-	(label "MX_UART_RX"
+	(label "MY_UART_RX"
 		(at 358.14 165.1 0)
 		(effects
 			(font
@@ -6687,7 +6675,7 @@
 			(uuid "ae0fe440-a7f1-4ad8-9aca-f3788e6e3cd9")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR4")
 					(unit 1)
@@ -6753,7 +6741,7 @@
 			(uuid "e09fd5ce-b6d5-4edc-89a3-cc50024b29d8")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR1")
 					(unit 1)
@@ -6818,7 +6806,7 @@
 			(uuid "269e2c69-ccef-4046-8f5d-923b24f135ee")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR0103")
 					(unit 1)
@@ -6862,7 +6850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
 			(at 234.95 161.29 0)
 			(effects
 				(font
@@ -6871,7 +6859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
 			(at 234.95 161.29 0)
 			(effects
 				(font
@@ -6956,7 +6944,7 @@
 			(uuid "7803d06e-4a6b-4486-b8b5-4ff2d2e60508")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J5")
 					(unit 1)
@@ -7019,7 +7007,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "PCB1")
 					(unit 1)
@@ -7084,7 +7072,7 @@
 			(uuid "6e1ee77a-2ac4-4c2a-8527-c896f679b246")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR10")
 					(unit 1)
@@ -7150,7 +7138,7 @@
 			(uuid "7c40d8d0-fee5-4c1b-908a-5db1884ee7db")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR102")
 					(unit 1)
@@ -7160,7 +7148,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 304.8 252.73 0)
+		(at 341.63 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7169,7 +7157,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb01186-a25e-4be0-9734-b6999475ff77")
 		(property "Reference" "HW3"
-			(at 308.61 251.4599 0)
+			(at 345.44 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7166,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 308.61 253.9999 0)
+			(at 345.44 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7175,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 304.8 257.175 0)
+			(at 341.63 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7184,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7193,7 @@
 			)
 		)
 		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7202,7 @@
 			)
 		)
 		(property "DIS" "McMaster-Carr"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7211,7 @@
 			)
 		)
 		(property "DPN" "94100A150"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +7220,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7229,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 304.8 252.73 0)
+			(at 341.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7238,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW3")
 					(unit 1)
@@ -7316,7 +7304,7 @@
 			(uuid "734ff16c-bf80-40df-83fa-d96a65fb422d")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J7")
 					(unit 1)
@@ -7379,7 +7367,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID3")
 					(unit 1)
@@ -7442,7 +7430,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID1")
 					(unit 1)
@@ -7486,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
 			(at 331.47 160.02 0)
 			(effects
 				(font
@@ -7495,7 +7483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
 			(at 331.47 160.02 0)
 			(effects
 				(font
@@ -7711,7 +7699,7 @@
 			(uuid "47002b07-dbfa-43e2-9d8b-96a6e0f712e7")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR8")
 					(unit 1)
@@ -7839,7 +7827,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID6")
 					(unit 1)
@@ -7904,7 +7892,7 @@
 			(uuid "483ce9f1-3991-4238-8212-9630527d988d")
 		)
 		(instances
-			(project "oresat1-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR0102")
 					(unit 1)
@@ -7948,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
 			(at 381 160.02 0)
 			(effects
 				(font
@@ -7957,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
 			(at 381 160.02 0)
 			(effects
 				(font
@@ -8052,7 +8040,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 304.8 245.11 0)
+		(at 313.69 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8061,7 +8049,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d20b8e9-32f0-4849-a04a-db634aa7f19e")
 		(property "Reference" "HW2"
-			(at 308.61 243.8399 0)
+			(at 317.5 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8058,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 308.61 246.3799 0)
+			(at 317.5 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8067,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 304.8 249.555 0)
+			(at 313.69 254.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8076,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8085,7 @@
 			)
 		)
 		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8094,7 @@
 			)
 		)
 		(property "DIS" "McMaster-Carr"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8103,7 @@
 			)
 		)
 		(property "DPN" "94100A150"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8112,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8121,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 304.8 245.11 0)
+			(at 313.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8130,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW2")
 					(unit 1)
@@ -8251,7 +8239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
 			(at 367.03 41.91 0)
 			(effects
 				(font
@@ -8260,7 +8248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "12 Position Receptacle Connector 0.050\" (1.27mm) Surface Mount Gold"
 			(at 367.03 41.91 0)
 			(effects
 				(font
@@ -8345,7 +8333,7 @@
 			(uuid "1d888e54-b5c1-4a0d-b8b0-b71f4109114b")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "CF1")
 					(unit 1)
@@ -8408,7 +8396,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID2")
 					(unit 1)
@@ -8450,7 +8438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 96.52 220.98 0)
 			(effects
 				(font
@@ -8459,7 +8447,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-16008-1-ND"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C100J5GACAUTO"
 			(at 96.52 220.98 0)
 			(effects
 				(font
@@ -8475,7 +8499,7 @@
 			(uuid "fe3de337-6e56-4c94-ba35-a8982ea75bd8")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "C1")
 					(unit 1)
@@ -8540,7 +8564,7 @@
 			(uuid "45127530-df93-4294-8f28-cc76f67ef050")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR019")
 					(unit 1)
@@ -8646,7 +8670,7 @@
 			(uuid "2ad2f930-0b54-4af4-8c45-0d9d3f2a9ec2")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J2")
 					(unit 1)
@@ -8711,7 +8735,7 @@
 			(uuid "58efbd2f-7854-4867-8ef3-4432818b9dde")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR018")
 					(unit 1)
@@ -8774,7 +8798,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID4")
 					(unit 1)
@@ -8840,7 +8864,7 @@
 			(uuid "3c7c6a40-f2fd-47e5-911b-7718b7203992")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR6")
 					(unit 1)
@@ -8907,7 +8931,7 @@
 			(uuid "cf4b0914-cca0-48c0-9485-076a3daac920")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J6")
 					(unit 1)
@@ -8972,7 +8996,7 @@
 			(uuid "4140573a-c23f-4977-a4d8-420c45c4220f")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#FLG01")
 					(unit 1)
@@ -9016,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.harwin.com/m/2cac2cb517718988/original/PD010-Product-Datasheet-KONTROL-M55-range-BBi.pdf"
 			(at 280.67 161.29 0)
 			(effects
 				(font
@@ -9025,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount, Right Angle 12 position 0.050\" (1.27mm)"
 			(at 280.67 161.29 0)
 			(effects
 				(font
@@ -9110,7 +9134,7 @@
 			(uuid "e8d80969-d7c5-4967-99e3-a8047b4c53dd")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J3")
 					(unit 1)
@@ -9215,7 +9239,7 @@
 			(uuid "f89bd383-58ff-4eae-9e77-fdc898e7cc43")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "CM3")
 					(unit 1)
@@ -9331,7 +9355,7 @@
 			(uuid "80ce3c77-d1a2-4012-a60a-e6d52612aedc")
 		)
 		(instances
-			(project ""
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "U1")
 					(unit 1)
@@ -9346,7 +9370,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
 		(property "Reference" "CM1"
 			(at 73.66 158.75 0)
@@ -9436,7 +9460,7 @@
 			(uuid "0a0929d3-13b5-4d58-91e7-c43e57a84091")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "CM1")
 					(unit 1)
@@ -9501,7 +9525,7 @@
 			(uuid "77260f54-4478-4a30-9545-be5c9c4b5d36")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR9")
 					(unit 1)
@@ -9567,109 +9591,9 @@
 			(uuid "0c65665e-3629-4b31-8a34-7ede7e59c122")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 332.74 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba3c29cf-30bf-427e-86ce-1ef4138df725")
-		(property "Reference" "HW6"
-			(at 336.55 251.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 336.55 253.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 332.74 257.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "McMaster-Carr"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "94100A150"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "N/A"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 332.74 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat0.5-minusz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "HW6")
 					(unit 1)
 				)
 			)
@@ -9798,7 +9722,7 @@
 			(uuid "bf4e0a26-cad3-41d2-8c78-9159cc784efc")
 		)
 		(instances
-			(project ""
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR0101")
 					(unit 1)
@@ -9864,7 +9788,7 @@
 			(uuid "88214e20-eea5-41b2-9ca7-725387dccbff")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR5")
 					(unit 1)
@@ -9874,7 +9798,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 304.8 237.49 0)
+		(at 313.69 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9883,7 +9807,7 @@
 		(fields_autoplaced yes)
 		(uuid "c38057af-3ce1-4d80-a3a8-2b733c8113d0")
 		(property "Reference" "HW1"
-			(at 308.61 236.2199 0)
+			(at 317.5 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9816,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 308.61 238.7599 0)
+			(at 317.5 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +9825,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 304.8 241.935 0)
+			(at 313.69 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9843,7 @@
 			)
 		)
 		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +9852,7 @@
 			)
 		)
 		(property "DIS" "McMaster-Carr"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +9861,7 @@
 			)
 		)
 		(property "DPN" "94100A150"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +9870,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9955,7 +9879,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 304.8 237.49 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +9888,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW1")
 					(unit 1)
@@ -10027,7 +9951,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "FID5")
 					(unit 1)
@@ -10037,7 +9961,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 332.74 237.49 0)
+		(at 341.63 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10046,7 +9970,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdb44065-4f4f-49c5-90f3-505c208a6705")
 		(property "Reference" "HW4"
-			(at 336.55 236.2199 0)
+			(at 345.44 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +9979,7 @@
 			)
 		)
 		(property "Value" "M2-Press-Fit-Nut"
-			(at 336.55 238.7599 0)
+			(at 345.44 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +9988,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 332.74 241.935 0)
+			(at 341.63 254.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +9997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10006,7 @@
 			)
 		)
 		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10015,7 @@
 			)
 		)
 		(property "DIS" "McMaster-Carr"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10024,7 @@
 			)
 		)
 		(property "DPN" "94100A150"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10033,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10042,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 332.74 237.49 0)
+			(at 341.63 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10051,7 @@
 			)
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "HW4")
 					(unit 1)
@@ -10324,7 +10248,7 @@
 			(uuid "0b5ffc72-2e68-4808-82c6-60f564a994dc")
 		)
 		(instances
-			(project "ESI_minusz _end_card_v1"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR017")
 					(unit 1)
@@ -10389,7 +10313,7 @@
 			(uuid "d60e6b86-e9ec-45dd-ae48-eb9f6c11a8f1")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR11")
 					(unit 1)
@@ -10494,7 +10418,7 @@
 			(uuid "dbdf2ebe-2d0f-4d39-9167-2bc4c571e05c")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "CM2")
 					(unit 1)
@@ -10560,109 +10484,9 @@
 			(uuid "0e7ffbe6-f848-4729-9300-64fec3649f7d")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:M2-Press-Fit-Nut")
-		(at 332.74 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e62f764a-5809-43e7-bba2-8c55dd970ad3")
-		(property "Reference" "HW5"
-			(at 336.55 243.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2-Press-Fit-Nut"
-			(at 336.55 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-misc:M2-Press-Fit-Nut"
-			(at 332.74 249.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mcmaster.com/94100A150/"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M2x0.4 thread 18-8 Stainless Steel Press-Fit Nut for Soft Metal and Plastic"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "McMaster-Carr"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "94100A150"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "N/A"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat0.5-minusz-end-card"
-				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "HW5")
 					(unit 1)
 				)
 			)
@@ -10725,7 +10549,7 @@
 			(uuid "c8b76741-3464-4a5e-93d6-7892d621a95e")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "#FLG02")
 					(unit 1)
@@ -10944,7 +10768,7 @@
 			(uuid "e0e5653a-3ea3-445f-b69e-d23daa4934fb")
 		)
 		(instances
-			(project "oresat0.5-minusz-end-card"
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "J1")
 					(unit 1)
@@ -10959,7 +10783,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fa9d433f-8763-417b-8e79-b47031fcdcd7")
 		(property "Reference" "R2"
 			(at 104.14 191.77 0)
@@ -11013,7 +10837,7 @@
 			(uuid "16638fe9-71ee-4460-8210-82ef41bf7caa")
 		)
 		(instances
-			(project ""
+			(project "esi-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
 					(reference "R2")
 					(unit 1)
