@@ -1,0 +1,76 @@
+(footprint "FIDUCIAL-1.0X2.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "54a951ed-ef52-4ee1-8214-4c28865083ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6cb5fee8-86c4-4353-a6e3-23179d1d0cfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec2605a6-70d4-46a8-a8ef-c3b9b6af565d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aea4bdba-ba91-4e05-a385-3c176054b489")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "cefb5520-2b14-4bc5-b37d-d7aab74e16fa")
+	)
+	(pad "FIDUCIAL" smd roundrect
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "e8380cb8-f22b-4d74-b27a-781785ac9398")
+	)
+	(embedded_fonts no)
+)

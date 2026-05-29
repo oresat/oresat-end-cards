@@ -1,0 +1,245 @@
+(footprint "R107064070_SOLDER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.3 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e52613d9-1849-4651-95c0-f49014b3e4aa")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "75719281-b879-4712-896c-7cf0ec082833")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4a80cf4-7867-4604-babe-6d3964c697ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80126c1c-fe82-461c-99ae-c1be9cfccaa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "P$1" smd rect
+		(at 0 1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "aab730e2-855b-4e0a-b4ed-662366d71808")
+	)
+	(pad "P$2" smd rect
+		(at -1.9 0 90)
+		(size 1.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "2b9fcea8-1461-47d2-b834-d488bf18f7f4")
+	)
+	(pad "P$3" smd rect
+		(at 1.9 0 90)
+		(size 1.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0635)
+		(solder_paste_margin 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "f2278003-acca-4ec6-8fad-826561e701f9")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9022090e-3ae8-4dbf-8ef7-88436d5c7170")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.35 0.3) (xy 1.35 0.3) (xy 1.35 -0.6) (xy -1.35 -0.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "4e4b6da2-de71-4e21-bf63-a63daed6b448")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.35 1.25) (xy -0.6 1.25) (xy -0.6 0.3) (xy -1.35 0.3)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "4ffa2407-3b46-44f4-998f-a6d6b6a8a7ad")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.8 2.1) (xy -0.6 2.1) (xy -0.6 1.25) (xy -0.8 1.25)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "3f1615ef-ef68-4c94-b5bf-2bfcc901be6e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.6 1.25) (xy 1.35 1.25) (xy 1.35 0.3) (xy 0.6 0.3)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "cad0995e-4fdd-4181-8a33-c0f4227786df")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.6 2.1) (xy 0.8 2.1) (xy 0.8 1.25) (xy 0.6 1.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

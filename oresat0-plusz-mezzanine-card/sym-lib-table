@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "plusz-end-card-with-turnstile-mezzanine-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/plusz-end-card-with-turnstile-mezzanine-eagle-import.kicad_sym")(options "")(descr ""))
+)
