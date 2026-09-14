@@ -160,6 +160,506 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PWR_FLAG_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG02"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at -0.0001 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-connectors:SMA-142-0711-821"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMA-142-0711-821"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-connectors:SMA-142-0711-821"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at -2.286 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMA-142-0711-821_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMA-142-0711-821_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-symbols:Balun"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -478,211 +978,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-symbols:Conn_Coaxial_142-0711-201"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial_142-0711-201"
-				(at 2.921 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at -2.286 7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_142-0711-201_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_142-0711-201_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1082,6 +1377,12 @@
 		(uuid "0c580674-69b3-400b-a79e-f2f5d1b493d2")
 	)
 	(junction
+		(at 93.98 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41793d06-f22a-46fd-a5de-41f8fbf855e3")
+	)
+	(junction
 		(at 82.55 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1091,13 +1392,23 @@
 		(at 109.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d907b1c2-1f9e-4870-aa43-c801ad752739")
+		(uuid "cf9799e4-d1a3-457b-a9d2-4029ead4713a")
 	)
 	(junction
 		(at 109.22 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e98c11fa-88c6-41bd-8750-fc5b1aed6b10")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02938131-ffa5-4f06-b17e-d02c17fca346")
 	)
 	(wire
 		(pts
@@ -1131,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 109.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83707c08-56bd-47e7-8dc6-ae7c8d08b160")
-	)
-	(wire
-		(pts
 			(xy 116.84 100.33) (xy 109.22 100.33)
 		)
 		(stroke
@@ -1161,6 +1462,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 87.63) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbf18e0-81a4-4439-aa6a-0cff72fce5c2")
+	)
+	(wire
+		(pts
 			(xy 109.22 100.33) (xy 109.22 102.87)
 		)
 		(stroke
@@ -1168,6 +1479,16 @@
 			(type default)
 		)
 		(uuid "bc6d6129-aedc-40cc-8bd2-0674bd475929")
+	)
+	(wire
+		(pts
+			(xy 109.22 110.49) (xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d688eedc-837d-4b05-bb52-ecba3133353f")
 	)
 	(wire
 		(pts
@@ -1188,6 +1509,177 @@
 			(type default)
 		)
 		(uuid "fdf130da-ddfc-4cc0-999d-960aecde21b5")
+	)
+	(symbol
+		(lib_id "oresat-connectors:SMA-142-0711-821")
+		(at 129.54 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012b69c5-f9e5-4378-938a-4bfe24f61ee3")
+		(property "Reference" "J1"
+			(at 133.35 89.1931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA-142-0711-821"
+			(at 133.35 91.7331 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-connectors:SMA-142-0711-821"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 127.254 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "af03fac1-9a28-49b3-86e8-e026536041ee")
+		)
+		(pin "5"
+			(uuid "54eea3b6-7938-4685-9596-a1917dc3906f")
+		)
+		(pin "1"
+			(uuid "7f74a0dd-c6ac-4636-95ed-536f7e0114ac")
+		)
+		(pin "2"
+			(uuid "bafa37c6-efc8-4498-beeb-cc554ea9839a")
+		)
+		(pin "3"
+			(uuid "252305cc-dfd2-45f6-8580-c5f0eedfb2f7")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03941e3e-bf6d-4fef-9c80-6f191cf21d2f")
+		(property "Reference" "R3"
+			(at 120.65 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 120.65 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+			(at 120.65 91.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26757438-4780-4138-99e8-f25b026a69d4")
+		)
+		(pin "1"
+			(uuid "42cb9372-d9d8-4414-a61d-f756c6021b2d")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1273,8 +1765,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-symbols:Conn_Coaxial_142-0711-201")
-		(at 121.92 100.33 0)
+		(lib_id "Device:R")
+		(at 109.22 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1283,9 +1775,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13715abc-610b-44e1-8832-3b631e44f6ca")
-		(property "Reference" "J3"
-			(at 125.73 99.3531 0)
+		(uuid "184f0fc0-ebe8-4224-8a11-7a204e7e7b46")
+		(property "Reference" "R2"
+			(at 111.76 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1295,8 +1787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial_142-0711-201"
-			(at 125.73 101.8931 0)
+		(property "Value" "0"
+			(at 111.76 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1306,8 +1798,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-connectors:SMA 142-0711-201"
-			(at 121.92 100.33 0)
+		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+			(at 107.442 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1318,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 100.33 0)
+			(at 109.22 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,8 +1820,89 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 119.634 92.964 0)
+		(property "Description" "Resistor"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7894c68e-144e-49f0-917a-bdd1f9f83b03")
+		)
+		(pin "1"
+			(uuid "35d7f1dc-393d-4c66-9326-bff73f67729f")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-symbols:GND")
+		(at 129.54 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "316fa7a4-73e5-41bf-a036-ca2a14d8dbd4")
+		(property "Reference" "#PWR06"
+			(at 129.54 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 107.95 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1340,18 +1913,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0eec7681-be43-4d31-aa7f-b04206cd3c93")
-		)
-		(pin "2"
-			(uuid "533d30d7-07c7-4e3a-aa0f-a4c81e7e48aa")
-		)
-		(pin "3"
-			(uuid "df09830a-90ea-484c-ba4f-ae17cd5b8e30")
+			(uuid "ff52b14c-dd76-4ae4-b508-5817cc55841b")
 		)
 		(instances
 			(project "balun-eval-board"
 				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
-					(reference "J3")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1516,7 +2083,7 @@
 	)
 	(symbol
 		(lib_id "oresat-symbols:Test-Point-1mm-round")
-		(at 109.22 102.87 0)
+		(at 109.22 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1528,7 +2095,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ddcad6-d061-4187-a742-a81238a64632")
 		(property "Reference" "TP2"
-			(at 106.68 102.8699 0)
+			(at 106.68 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1539,7 +2106,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 109.22 95.25 0)
+			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1550,7 +2117,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 109.22 92.71 0)
+			(at 109.22 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1561,7 +2128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 102.87 0)
+			(at 109.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1572,7 +2139,7 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
-			(at 109.22 102.87 0)
+			(at 109.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,9 +2162,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-symbols:GND")
-		(at 121.92 85.09 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 120.65 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1606,10 +2172,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69818b62-7938-4f1e-9e26-694928c71ede")
-		(property "Reference" "#PWR05"
-			(at 121.92 80.01 0)
-			(hide yes)
+		(uuid "67eb676c-e635-4c2c-9b0c-764759d17bca")
+		(property "Reference" "R4"
+			(at 120.65 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1618,18 +2183,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 82.55 0)
+		(property "Value" "0"
+			(at 120.65 96.52 90)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 83.82 0)
+		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+			(at 120.65 102.108 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +2205,170 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 83.82 0)
+			(at 120.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6bb6beb-e6ca-44c1-8c54-cc02e0d7679d")
+		)
+		(pin "1"
+			(uuid "e1142ca1-a1c3-4334-a54c-dfdade6455af")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76da775f-21b6-4d90-9f5c-bb4632040cf7")
+		(property "Reference" "R1"
+			(at 111.76 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 111.76 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-B-NOSILK"
+			(at 107.442 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13886dd9-3089-44e7-9d61-994db5480b82")
+		)
+		(pin "1"
+			(uuid "1faa0c98-fe95-46c9-acc4-0415e227789a")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-symbols:GND")
+		(at 129.54 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8734e666-1bdf-4663-a48f-c9bba7166c19")
+		(property "Reference" "#PWR05"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 97.79 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,7 +2379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 85.09 0)
+			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +2390,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe2641c7-a568-4318-a26d-d43cd485876c")
+			(uuid "91f4db67-ccda-4542-98f5-6969c108e15f")
 		)
 		(instances
 			(project "balun-eval-board"
@@ -1674,9 +2402,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-symbols:Conn_Coaxial_142-0711-201")
-		(at 121.92 90.17 0)
-		(mirror x)
+		(lib_id "oresat-symbols:GND")
+		(at 63.5 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1685,93 +2412,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "714850a1-a35b-4572-ac6b-ffc1cfdc0421")
-		(property "Reference" "J2"
-			(at 125.73 91.1469 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial_142-0711-201"
-			(at 125.73 88.6069 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-connectors:SMA 142-0711-201"
-			(at 121.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 119.634 97.536 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95093883-fcaa-4256-9cc6-f82e33d7c656")
-		)
-		(pin "2"
-			(uuid "6172dec0-8cc8-4fb1-ba39-87c70107df8b")
-		)
-		(pin "3"
-			(uuid "de7c2070-f9b6-4075-b196-4e1f1c71251e")
-		)
-		(instances
-			(project "balun-eval-board"
-				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-symbols:GND")
-		(at 63.5 95.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83c1fdfe-3023-4b78-8577-263334e64988")
-		(property "Reference" "#PWR01"
+		(uuid "87b684f8-80c0-4400-a26a-0c2c109c568f")
+		(property "Reference" "#PWR04"
 			(at 63.5 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1783,7 +2425,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 98.044 0)
+			(at 63.5 97.79 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1826,12 +2468,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "760d3e59-3208-433e-b20d-c3f420ae9e92")
+			(uuid "214c5b79-d7fc-4739-8cfd-c40f1efe1a66")
 		)
 		(instances
 			(project "balun-eval-board"
 				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1917,9 +2559,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-symbols:GND")
-		(at 121.92 105.41 0)
-		(mirror y)
+		(lib_id "oresat-connectors:SMA-142-0711-821")
+		(at 129.54 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1928,30 +2569,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92481d13-855b-4749-b943-c3e337e10a6c")
-		(property "Reference" "#PWR04"
-			(at 121.92 110.49 0)
-			(hide yes)
+		(uuid "a5b446bd-3550-47a9-a65f-7513411bc08f")
+		(property "Reference" "J2"
+			(at 133.35 99.3531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 107.95 0)
+		(property "Value" "SMA-142-0711-821"
+			(at 133.35 101.8931 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 106.68 0)
+		(property "Footprint" "oresat-connectors:SMA-142-0711-821"
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 106.68 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1972,8 +2614,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 105.41 0)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 127.254 92.964 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1982,14 +2624,26 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "4"
+			(uuid "b5815de6-fc5b-4399-9c67-9a35b321c21a")
+		)
+		(pin "5"
+			(uuid "cadc827a-09a2-4a5d-a258-3310a5b99314")
 		)
 		(pin "1"
-			(uuid "46403553-97f7-4b08-8529-c1eb5f59b8f1")
+			(uuid "583d2ba5-3496-4fc1-afb0-6938252d27ed")
+		)
+		(pin "2"
+			(uuid "74452034-4a11-426b-bdcf-ab35ddf94ae6")
+		)
+		(pin "3"
+			(uuid "e84ee5cc-0a85-43fb-8322-27819e81bb06")
 		)
 		(instances
 			(project "balun-eval-board"
 				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
-					(reference "#PWR04")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2089,7 +2743,89 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-symbols:Conn_Coaxial_142-0711-201")
+		(lib_name "PWR_FLAG_1")
+		(lib_id "power:PWR_FLAG")
+		(at 93.98 104.14 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d714423c-18a9-4da8-ba37-2bf9de93939e")
+		(property "Reference" "#FLG02"
+			(at 92.075 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 90.17 104.1399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa58d5f2-1801-47f9-9932-ffa6b7638ea6")
+		)
+		(instances
+			(project "balun-eval-board"
+				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:SMA-142-0711-821")
 		(at 63.5 90.17 0)
 		(mirror y)
 		(unit 1)
@@ -2100,8 +2836,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d807e73e-b53a-4f03-8703-5112fda12cf6")
-		(property "Reference" "J4"
+		(uuid "e6019386-06d5-4cdb-aae1-7bcb3fe556fe")
+		(property "Reference" "J3"
 			(at 59.69 89.1931 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2112,7 +2848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial_142-0711-201"
+		(property "Value" "SMA-142-0711-821"
 			(at 59.69 91.7331 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-connectors:SMA 142-0711-201"
+		(property "Footprint" "oresat-connectors:SMA-142-0711-821"
 			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2156,19 +2892,25 @@
 				)
 			)
 		)
+		(pin "4"
+			(uuid "1c878135-9cef-432b-ae99-12d506afa15e")
+		)
+		(pin "5"
+			(uuid "b6ab7434-368e-443a-9a93-f4e10756ab22")
+		)
 		(pin "1"
-			(uuid "50ac6477-8461-4326-a500-9b887a4012dd")
+			(uuid "a5a1e970-c970-4a11-9e68-694d4e38e385")
 		)
 		(pin "2"
-			(uuid "05a9895d-bb78-4176-81bf-1498bcb312b4")
+			(uuid "c5edd976-c4eb-48fd-b1ba-60744618adbf")
 		)
 		(pin "3"
-			(uuid "942bbeb5-9748-42d1-9803-da73919056ac")
+			(uuid "90c9c182-bae5-41bb-96ac-6028cae7026a")
 		)
 		(instances
 			(project "balun-eval-board"
 				(path "/8436592f-ebd9-43cb-82bb-370e94da9621"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2176,7 +2918,7 @@
 	)
 	(symbol
 		(lib_id "oresat-symbols:Test-Point-1mm-round")
-		(at 109.22 87.63 0)
+		(at 109.22 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2187,7 +2929,7 @@
 		(dnp no)
 		(uuid "ef4f948e-b80a-45a5-8d2a-74d23926c768")
 		(property "Reference" "TP1"
-			(at 105.41 87.6299 0)
+			(at 105.41 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2198,7 +2940,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 109.22 80.01 0)
+			(at 109.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2209,7 +2951,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 109.22 77.47 0)
+			(at 109.22 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2220,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 87.63 0)
+			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +2973,7 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
-			(at 109.22 87.63 0)
+			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
