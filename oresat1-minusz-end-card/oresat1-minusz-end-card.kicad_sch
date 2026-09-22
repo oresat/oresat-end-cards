@@ -684,6 +684,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "J-MOLEX-SMPM-73300-002X_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "733000020"
+				(at 5.08 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J-MOLEX-SMPM-73300-002X_1_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "SIG"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SHLD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "J-MOLEX-SMPM-73300-002X_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "733000020"
+				(at 5.08 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J-MOLEX-SMPM-73300-002X_2_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "SIG"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SHLD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -976,24 +1246,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "SHLD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "SHLD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "SIG"
@@ -1003,7 +1255,25 @@
 							)
 						)
 					)
-					(number "SIG"
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SHLD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -3109,17 +3379,6 @@
 		)
 		(uuid "333fde37-22c3-4785-bd00-4af192b2985b")
 	)
-	(text "+Y SM is DNP"
-		(exclude_from_sim no)
-		(at 182.88 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-		)
-		(uuid "456a3383-8f42-43ef-ba20-f7218134ce38")
-	)
 	(text "To L band monopole"
 		(exclude_from_sim no)
 		(at 111.76 182.88 0)
@@ -3248,17 +3507,6 @@
 			(justify left bottom)
 		)
 		(uuid "cbb0cc94-b547-4410-bfc6-ef2fd763bcb0")
-	)
-	(text "-Y SM is DNP"
-		(exclude_from_sim no)
-		(at 182.626 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-		)
-		(uuid "de7a6d66-9c70-4c25-903e-5f8021c6f96d")
 	)
 	(text "L Band Feed System (1.265 GHz)"
 		(exclude_from_sim no)
@@ -3479,10 +3727,6 @@
 		(uuid "f3ff2c00-ebc5-4b2f-8f85-965a628be6af")
 	)
 	(no_connect
-		(at 173.99 77.47)
-		(uuid "36430994-6b93-44d0-b0f2-3f12be53f7f5")
-	)
-	(no_connect
 		(at 73.66 80.01)
 		(uuid "4deca5a4-c936-490d-99b1-40f4dd7966f4")
 	)
@@ -3501,10 +3745,6 @@
 	(no_connect
 		(at 73.66 77.47)
 		(uuid "7ad8abaf-0de4-4786-8d47-eb4661230a34")
-	)
-	(no_connect
-		(at 173.99 62.23)
-		(uuid "826ceb64-abcd-450f-b07f-6aeba80d3728")
 	)
 	(no_connect
 		(at 73.66 107.95)
@@ -3539,20 +3779,12 @@
 		(uuid "ef4700d5-568f-48b4-a785-c801e9a918c4")
 	)
 	(no_connect
-		(at 173.99 64.77)
-		(uuid "f4f76a03-f032-4e3b-abe5-2eaf84cd4b46")
-	)
-	(no_connect
 		(at 73.66 52.07)
 		(uuid "f764f245-9775-4c5f-87ec-890460db1095")
 	)
 	(no_connect
 		(at 73.66 49.53)
 		(uuid "f80d5f69-19c9-4595-a805-7246e2e7e46e")
-	)
-	(no_connect
-		(at 173.99 80.01)
-		(uuid "f9d29d64-a63b-4c2c-a5e8-4cbd1f73f63a")
 	)
 	(no_connect
 		(at 73.66 44.45)
@@ -3657,16 +3889,6 @@
 			(type default)
 		)
 		(uuid "1738de72-96ed-4a9d-9291-a0b2e566ea7a")
-	)
-	(wire
-		(pts
-			(xy 172.72 80.01) (xy 173.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1925e6af-f439-4c67-a034-fa183d8d7e3e")
 	)
 	(wire
 		(pts
@@ -3810,16 +4032,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 64.77) (xy 173.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c52c35d-8eec-4213-9561-783bd3d23062")
-	)
-	(wire
-		(pts
 			(xy 203.2 166.37) (xy 229.87 166.37)
 		)
 		(stroke
@@ -3827,16 +4039,6 @@
 			(type default)
 		)
 		(uuid "2c9a80b7-d432-40a8-9677-3687f871be25")
-	)
-	(wire
-		(pts
-			(xy 172.72 77.47) (xy 173.99 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd226d4-e31c-4c6d-a50e-eca2f32e0402")
 	)
 	(wire
 		(pts
@@ -4887,16 +5089,6 @@
 			(type default)
 		)
 		(uuid "f39faf10-01b2-4b27-8864-e6ece6208c96")
-	)
-	(wire
-		(pts
-			(xy 172.72 62.23) (xy 173.99 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d49df0-8aeb-49d5-b4e5-f1f03fb0141c")
 	)
 	(wire
 		(pts
@@ -7926,7 +8118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5b818b5-0c38-4f83-b935-4580cdb02cc7")
-		(property "Reference" "CM3"
+		(property "Reference" "J3"
 			(at 74.93 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7937,7 +8129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2477330-1"
+		(property "Value" "733000020"
 			(at 74.93 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7959,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
 			(at 69.85 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -7970,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
+		(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
 			(at 69.85 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -8025,22 +8217,23 @@
 				)
 			)
 		)
-		(pin "SHLD"
+		(pin "2"
 			(uuid "5637023b-f8e0-4516-9e11-091d91ce9151")
 		)
-		(pin "SIG"
+		(pin "1"
 			(uuid "f89bd383-58ff-4eae-9e77-fdc898e7cc43")
 		)
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "CM3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "J-MOLEX-SMPM-73300-002X_1")
 		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
 		(at 68.58 154.94 0)
 		(unit 1)
@@ -8051,7 +8244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
-		(property "Reference" "CM1"
+		(property "Reference" "J1"
 			(at 73.66 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +8255,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2477330-1"
+		(property "Value" "733000020"
 			(at 73.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
 			(at 68.58 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
+		(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
 			(at 68.58 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8150,16 +8343,16 @@
 				)
 			)
 		)
-		(pin "SHLD"
+		(pin "2"
 			(uuid "2e430466-abb5-48f0-82ec-bc31afe0c116")
 		)
-		(pin "SIG"
+		(pin "1"
 			(uuid "0a0929d3-13b5-4d58-91e7-c43e57a84091")
 		)
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "CM1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9066,6 +9259,7 @@
 		)
 	)
 	(symbol
+		(lib_name "J-MOLEX-SMPM-73300-002X_2")
 		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-002X")
 		(at 68.58 185.42 0)
 		(unit 1)
@@ -9076,7 +9270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1b35f90-33d8-431a-b9fa-ec99019ac7dd")
-		(property "Reference" "CM2"
+		(property "Reference" "J2"
 			(at 73.66 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,7 +9281,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2477330-1"
+		(property "Value" "733000020"
 			(at 73.66 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
 			(at 68.58 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9120,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
+		(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
 			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9175,16 +9369,16 @@
 				)
 			)
 		)
-		(pin "SHLD"
+		(pin "2"
 			(uuid "d4edfc80-a47a-4f2f-aba3-53c936f60ec4")
 		)
-		(pin "SIG"
+		(pin "1"
 			(uuid "dbdf2ebe-2d0f-4d39-9167-2bc4c571e05c")
 		)
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "CM2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9888,26 +10082,6 @@
 				(justify right)
 			)
 		)
-		(pin "MY-UART-RX" input
-			(at 172.72 80.01 0)
-			(uuid "ab5e4e99-8d0c-4e9c-8709-1e1d5a9d1fd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MY-UART-TX" input
-			(at 172.72 77.47 0)
-			(uuid "99c429ad-6564-4b15-85aa-70a549642916")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PX-UART-RX" input
 			(at 172.72 57.15 0)
 			(uuid "ff290b0e-ce67-4945-a3dc-15d7b380d17f")
@@ -9921,26 +10095,6 @@
 		(pin "PX-UART-TX" input
 			(at 172.72 54.61 0)
 			(uuid "405713eb-e90a-48d4-a146-cc446893c0c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PY-UART-RX" input
-			(at 172.72 64.77 0)
-			(uuid "bb4896b4-f395-417a-8739-d4bf058bb52b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PY-UART-TX" input
-			(at 172.72 62.23 0)
-			(uuid "328171e2-8da0-43bb-a037-19e917ad2fd8")
 			(effects
 				(font
 					(size 1.27 1.27)
