@@ -80,7 +80,7 @@
       "drc_exclusions": [
         [
           "copper_edge_clearance|141999206|125241572|a82a1a43-64e5-444d-b4ec-93a7ae579a56|fd3ba223-6ea2-4b43-8a88-8b98885af31f",
-          ""
+          "Not great, but will be OK. First TH takes most current anyway."
         ],
         [
           "courtyards_overlap|101595000|102476160|5389fcef-0e26-4865-9772-00c88991803a|bf1af1b9-f6ff-404a-91eb-37e641aa235c",
@@ -112,30 +112,6 @@
         ],
         [
           "courtyards_overlap|195405000|95497913|3f6a1fe8-0193-4af1-ae19-4027b8fc3cb4|5389fcef-0e26-4865-9772-00c88991803a",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|108840290|131522720|b5a69c48-c7d2-4d75-9035-aa7ab829ac81|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|125075530|88973620|9c23c378-f67d-490f-8dde-de1689e05441|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|137412902|133834934|639a91df-96c3-4ce7-a539-d2f5cf43d46c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|159612902|129233485|9cec4996-1f90-4426-86e5-7bb7ac1465cc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|171950274|88973620|7bf04b32-003f-4059-8941-cc071313e3b0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|188159710|131522720|50057c95-34a1-4ff1-819b-444394cae475|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -189,14 +165,6 @@
         [
           "silk_over_copper|154770002|142854870|d8ac9287-5496-4dd5-95f5-5d0036e39a8b|20275e27-a0aa-4091-9c34-1d14ded64f6f",
           ""
-        ],
-        [
-          "starved_thermal|169025000|75400000|df745131-e5d2-42cf-a527-9d624dd14eee|bd352ec1-06a3-444b-be07-f67f7360c161|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|171975000|75400000|df745131-e5d2-42cf-a527-9d624dd14eee|88c9a9e1-8700-4898-90fe-e6c46b56bf70|F.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -248,7 +216,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -257,7 +225,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -661,14 +629,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -781,174 +749,7 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [
-      {
-        "exclude_dnp": false,
-        "fields_ordered": [
-          {
-            "group_by": false,
-            "label": "DNP",
-            "name": "${DNP}",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Qty",
-            "name": "${QUANTITY}",
-            "show": true
-          },
-          {
-            "group_by": true,
-            "label": "Reference",
-            "name": "Reference",
-            "show": true
-          },
-          {
-            "group_by": true,
-            "label": "Value",
-            "name": "Value",
-            "show": false
-          },
-          {
-            "group_by": true,
-            "label": "Footprint",
-            "name": "Footprint",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "#",
-            "name": "${ITEM_NUMBER}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "MFR",
-            "name": "MFR",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "MPN",
-            "name": "MPN",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "DIS",
-            "name": "DIS",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "DPN",
-            "name": "DPN",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Description",
-            "name": "Description",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Datasheet",
-            "name": "Datasheet",
-            "show": false
-          }
-        ],
-        "filter_string": "",
-        "group_symbols": true,
-        "include_excluded_from_bom": false,
-        "name": "bom-export-preset",
-        "sort_asc": true,
-        "sort_field": "${DNP}"
-      },
-      {
-        "exclude_dnp": false,
-        "fields_ordered": [
-          {
-            "group_by": false,
-            "label": "DNP",
-            "name": "${DNP}",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Qty",
-            "name": "${QUANTITY}",
-            "show": true
-          },
-          {
-            "group_by": true,
-            "label": "Reference",
-            "name": "Reference",
-            "show": true
-          },
-          {
-            "group_by": true,
-            "label": "Value",
-            "name": "Value",
-            "show": true
-          },
-          {
-            "group_by": true,
-            "label": "Footprint",
-            "name": "Footprint",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "#",
-            "name": "${ITEM_NUMBER}",
-            "show": false
-          },
-          {
-            "group_by": false,
-            "label": "MFR",
-            "name": "MFR",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "MPN",
-            "name": "MPN",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "DIS",
-            "name": "DIS",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "DPN",
-            "name": "DPN",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Description",
-            "name": "Description",
-            "show": true
-          },
-          {
-            "group_by": false,
-            "label": "Datasheet",
-            "name": "Datasheet",
-            "show": true
-          }
-        ],
-        "filter_string": "",
-        "group_symbols": true,
-        "include_excluded_from_bom": false,
-        "name": "bom-preset",
-        "sort_asc": true,
-        "sort_field": "${DNP}"
-      }
-    ],
+    "bom_presets": [],
     "bom_settings": {
       "exclude_dnp": true,
       "fields_ordered": [
