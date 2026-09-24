@@ -69,7 +69,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -119,7 +119,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3346,8 +3346,8 @@
 		)
 	)
 	(rectangle
-		(start 326.39 99.06)
-		(end 347.98 114.3)
+		(start 317.5 100.33)
+		(end 345.44 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -3356,6 +3356,18 @@
 			(type none)
 		)
 		(uuid "12827ed5-7de6-437f-ba14-b73b90968064")
+	)
+	(rectangle
+		(start 317.5 121.92)
+		(end 345.44 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b293f792-f831-49a9-b983-6d0ccd428bf7")
 	)
 	(text "-X Solar Module \nUART switch"
 		(exclude_from_sim no)
@@ -3393,7 +3405,7 @@
 	)
 	(text "DNP for testing\nInstall for flight"
 		(exclude_from_sim no)
-		(at 339.598 110.998 0)
+		(at 331.216 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3449,6 +3461,16 @@
 		)
 		(uuid "59c8c803-f263-403a-81b3-a26c0c2c62fc")
 	)
+	(text "1206"
+		(exclude_from_sim no)
+		(at 336.042 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bd0fb4f-d2e4-4023-83f0-62db28ee2529")
+	)
 	(text "PAC100007508FA1000"
 		(exclude_from_sim no)
 		(at 318.77 142.24 0)
@@ -3473,10 +3495,12 @@
 	)
 	(text "Address 0x14"
 		(exclude_from_sim no)
-		(at 104.14 25.908 0)
+		(at 114.808 26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -3516,6 +3540,16 @@
 			)
 		)
 		(uuid "c61f0418-de8d-4308-bb83-29c0a3c1588a")
+	)
+	(text "\"DEPLOY\""
+		(exclude_from_sim no)
+		(at 363.474 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd61abd1-de4d-4a24-91fc-aaea3ca3e6ab")
 	)
 	(text "Helical Antenna Deployer"
 		(exclude_from_sim no)
@@ -4137,16 +4171,6 @@
 			(type solid)
 		)
 		(uuid "13e56b57-0f34-4c7e-8ed7-f338ddf43a5d")
-	)
-	(polyline
-		(pts
-			(xy 345.44 146.05) (xy 317.5 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1458fe45-6dd0-4a2d-b0d7-eff9ce98d786")
 	)
 	(wire
 		(pts
@@ -5228,16 +5252,6 @@
 		)
 		(uuid "772d24e3-fc6c-49e4-8f7d-a74e16338458")
 	)
-	(polyline
-		(pts
-			(xy 345.44 116.84) (xy 345.44 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e3cd32-b99d-415f-85e2-dacaf4f907aa")
-	)
 	(wire
 		(pts
 			(xy 179.07 87.63) (xy 195.58 87.63)
@@ -5618,19 +5632,9 @@
 		)
 		(uuid "a77943df-fd1a-44fb-9c50-ff774b60c448")
 	)
-	(polyline
-		(pts
-			(xy 317.5 146.05) (xy 317.5 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8601f37-390b-4dd0-a014-cf596be32d72")
-	)
 	(wire
 		(pts
-			(xy 331.47 107.95) (xy 331.47 123.19)
+			(xy 331.47 106.68) (xy 331.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5970,23 +5974,13 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 88.9) (xy 331.47 102.87)
+			(xy 331.47 88.9) (xy 331.47 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2dc376d-7fc7-4387-a352-d733872552ad")
-	)
-	(polyline
-		(pts
-			(xy 317.5 116.84) (xy 345.44 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6050b30-d5e1-40db-8dca-525314875226")
 	)
 	(wire
 		(pts
@@ -6797,6 +6791,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -6808,6 +6804,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -6819,6 +6817,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -6954,7 +6954,7 @@
 		(dnp no)
 		(uuid "00cebf69-230a-48a8-8fd3-0bbe6833df2e")
 		(property "Reference" "C4"
-			(at 151.638 124.206 0)
+			(at 148.59 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6965,7 +6965,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 147.828 124.206 0)
+			(at 147.828 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12380,7 +12380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 331.47 105.41 0)
+		(at 331.47 104.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12391,7 +12391,7 @@
 		(dnp no)
 		(uuid "92d2952f-f9cd-40e2-b3e4-1cf82bee9857")
 		(property "Reference" "R106"
-			(at 334.01 104.775 0)
+			(at 333.756 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12402,7 +12402,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 334.01 107.315 0)
+			(at 333.756 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12413,7 +12413,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:1206-C"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12424,7 +12424,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12435,7 +12435,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +12446,7 @@
 			)
 		)
 		(property "DPN" "738-RMCF1206ZG0R00CT-ND"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,7 +12457,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +12468,7 @@
 			)
 		)
 		(property "MPN" "RMCF1206ZG0R00"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12479,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 331.47 105.41 0)
+			(at 331.47 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13019,7 @@
 		(dnp no)
 		(uuid "a4cc7f63-58ce-4c70-bc77-a8b3e0c7b026")
 		(property "Reference" "R105"
-			(at 271.018 71.12 0)
+			(at 269.494 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13030,7 +13030,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 271.018 73.66 0)
+			(at 268.224 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14353,7 +14353,7 @@
 		(dnp no)
 		(uuid "b79b5852-0d65-48dd-b48f-231f5d43d4e1")
 		(property "Reference" "C10"
-			(at 152.908 173.736 0)
+			(at 149.098 169.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14364,7 +14364,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.098 173.736 0)
+			(at 148.844 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14493,7 +14493,7 @@
 		(dnp no)
 		(uuid "b834a139-ed2a-43bd-ba09-9b9792684e1e")
 		(property "Reference" "R1"
-			(at 330.2 124.46 0)
+			(at 336.296 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14504,7 +14504,7 @@
 			)
 		)
 		(property "Value" "7.5  1W"
-			(at 332.74 123.19 90)
+			(at 342.392 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16661,7 +16661,7 @@
 		(dnp no)
 		(uuid "e165da03-cc06-4818-9fd8-1378cf0e1a63")
 		(property "Reference" "C204"
-			(at 275.336 57.658 0)
+			(at 281.178 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16672,7 +16672,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 275.336 53.848 0)
+			(at 281.178 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

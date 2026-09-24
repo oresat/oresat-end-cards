@@ -742,7 +742,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -792,7 +792,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -8490,7 +8490,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 248.92 254 0)
 			(hide yes)
 			(show_name no)
@@ -9699,7 +9699,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 278.13 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 248.92 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 278.13 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -10682,7 +10682,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 278.13 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -11212,7 +11212,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 248.92 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -11342,7 +11342,7 @@
 				)
 			)
 		)
-		(property "DIS" "McMaster-Carr"
+		(property "DIS" "McMaster Carr"
 			(at 248.92 246.38 0)
 			(hide yes)
 			(show_name no)
