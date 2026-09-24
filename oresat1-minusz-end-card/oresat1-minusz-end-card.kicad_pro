@@ -83,66 +83,6 @@
           ""
         ],
         [
-          "copper_edge_clearance|167833009|61700003|480159dd-9c83-436d-b575-fb7432f27f52|222352e3-3998-4a4b-9ed8-4f5505b0d171",
-          ""
-        ],
-        [
-          "copper_edge_clearance|169410000|65900000|e68a36c7-0b3c-4329-8a74-eb3215840ae0|c3be0f1b-6917-403e-83a2-02156edf8f40",
-          ""
-        ],
-        [
-          "copper_edge_clearance|170310009|65900003|e68a36c7-0b3c-4329-8a74-eb3215840ae0|f3141c75-6f99-4ea6-a8a7-268fbee85d15",
-          ""
-        ],
-        [
-          "copper_edge_clearance|171516009|65900000|e68a36c7-0b3c-4329-8a74-eb3215840ae0|68470d15-4e60-4567-8223-9fb00edc1b8b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|172090000|65400000|baf89da9-d38e-4f0a-bdf3-9cca1e748501|d7c18bc2-ad7e-4517-a28e-72960a6feb65",
-          ""
-        ],
-        [
-          "copper_edge_clearance|174910000|61700000|20b2e5a5-af78-42af-9712-901b7ecc26ab|8faa3156-b209-49a1-98e4-f8b619d237dd",
-          ""
-        ],
-        [
-          "copper_edge_clearance|174910000|61700000|20b2e5a5-af78-42af-9712-901b7ecc26ab|cc19cda0-e9c4-4d83-8f7f-623f322a5eb8",
-          ""
-        ],
-        [
-          "copper_edge_clearance|176310002|65900000|a0050a03-1680-4c53-9bab-cf964a03705e|c6299e75-75f7-44d7-a3bb-0aef18f4cf85",
-          ""
-        ],
-        [
-          "copper_edge_clearance|177516002|65900000|a0050a03-1680-4c53-9bab-cf964a03705e|a88492e1-5649-4444-8f61-31fc0c0fe7f5",
-          ""
-        ],
-        [
-          "copper_edge_clearance|178090000|65400000|4e80bf36-b69d-4308-a134-6a2773a9a616|f300f0b1-494d-401a-a885-406879cac7ac",
-          ""
-        ],
-        [
-          "copper_edge_clearance|180910000|61700000|127442fe-3f91-4c7b-978b-37c787b235e2|04d1d244-5dfd-4191-a220-eca2f749cd5b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|180910000|61700000|127442fe-3f91-4c7b-978b-37c787b235e2|e4365b18-c746-490a-acd6-c73c8b803da8",
-          ""
-        ],
-        [
-          "copper_edge_clearance|182310002|65900000|d89cd667-3fd1-40d0-ba53-88ffc2d084d5|7e0f9586-15ec-490f-a14b-703865d518c5",
-          ""
-        ],
-        [
-          "copper_edge_clearance|183516002|65900000|d89cd667-3fd1-40d0-ba53-88ffc2d084d5|a771cb1a-fa7a-468d-a528-f5d89307fe31",
-          ""
-        ],
-        [
-          "copper_edge_clearance|184090000|65400000|52f2106b-607f-400a-ad06-8a92bd1cc3e4|68b40e23-2af7-4213-96f7-62a1e19cb891",
-          ""
-        ],
-        [
           "courtyards_overlap|101595000|102476160|5389fcef-0e26-4865-9772-00c88991803a|bf1af1b9-f6ff-404a-91eb-37e641aa235c",
           ""
         ],
@@ -172,54 +112,6 @@
         ],
         [
           "courtyards_overlap|195405000|95497913|3f6a1fe8-0193-4af1-ae19-4027b8fc3cb4|5389fcef-0e26-4865-9772-00c88991803a",
-          ""
-        ],
-        [
-          "hole_clearance|168910000|65900000|222352e3-3998-4a4b-9ed8-4f5505b0d171|1961f7c7-53b4-4ef5-a82e-8571ee17fee0",
-          ""
-        ],
-        [
-          "hole_clearance|168910000|65900000|c3be0f1b-6917-403e-83a2-02156edf8f40|1961f7c7-53b4-4ef5-a82e-8571ee17fee0",
-          ""
-        ],
-        [
-          "hole_clearance|172090000|65900000|68470d15-4e60-4567-8223-9fb00edc1b8b|37107bee-df0b-45f4-b169-40b830439558",
-          ""
-        ],
-        [
-          "hole_clearance|172090000|65900000|d7c18bc2-ad7e-4517-a28e-72960a6feb65|37107bee-df0b-45f4-b169-40b830439558",
-          ""
-        ],
-        [
-          "hole_clearance|174910000|65900000|8faa3156-b209-49a1-98e4-f8b619d237dd|1a883ca7-87e0-4b0e-a224-c72b3038481a",
-          ""
-        ],
-        [
-          "hole_clearance|174910000|65900000|cc19cda0-e9c4-4d83-8f7f-623f322a5eb8|1a883ca7-87e0-4b0e-a224-c72b3038481a",
-          ""
-        ],
-        [
-          "hole_clearance|178090000|65900000|a88492e1-5649-4444-8f61-31fc0c0fe7f5|0736cae2-445a-4edc-a8a7-497276045b30",
-          ""
-        ],
-        [
-          "hole_clearance|178090000|65900000|f300f0b1-494d-401a-a885-406879cac7ac|0736cae2-445a-4edc-a8a7-497276045b30",
-          ""
-        ],
-        [
-          "hole_clearance|180910000|65900000|04d1d244-5dfd-4191-a220-eca2f749cd5b|e680caf9-2058-4efe-83f2-74ccd67076a4",
-          ""
-        ],
-        [
-          "hole_clearance|180910000|65900000|e4365b18-c746-490a-acd6-c73c8b803da8|e680caf9-2058-4efe-83f2-74ccd67076a4",
-          ""
-        ],
-        [
-          "hole_clearance|184090000|65900000|68b40e23-2af7-4213-96f7-62a1e19cb891|844f650f-342e-43a8-b7cc-851314d60870",
-          ""
-        ],
-        [
-          "hole_clearance|184090000|65900000|a771cb1a-fa7a-468d-a528-f5d89307fe31|844f650f-342e-43a8-b7cc-851314d60870",
           ""
         ],
         [
@@ -299,31 +191,11 @@
           ""
         ],
         [
-          "silk_over_copper|171260000|73410000|ad47392e-84cb-4f86-9666-e8bedfad2035|eab63432-3f3a-4349-8f36-14f1f7e28d19",
+          "starved_thermal|169025000|75400000|df745131-e5d2-42cf-a527-9d624dd14eee|bd352ec1-06a3-444b-be07-f67f7360c161|F.Cu",
           ""
         ],
         [
-          "starved_thermal|168468009|63478003|df745131-e5d2-42cf-a527-9d624dd14eee|222352e3-3998-4a4b-9ed8-4f5505b0d171|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172532009|63478003|df745131-e5d2-42cf-a527-9d624dd14eee|d7c18bc2-ad7e-4517-a28e-72960a6feb65|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|174468002|63477993|df745131-e5d2-42cf-a527-9d624dd14eee|cc19cda0-e9c4-4d83-8f7f-623f322a5eb8|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|178532002|63477993|df745131-e5d2-42cf-a527-9d624dd14eee|f300f0b1-494d-401a-a885-406879cac7ac|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|180468002|63477993|df745131-e5d2-42cf-a527-9d624dd14eee|e4365b18-c746-490a-acd6-c73c8b803da8|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|184532002|63477993|df745131-e5d2-42cf-a527-9d624dd14eee|68b40e23-2af7-4213-96f7-62a1e19cb891|B.Cu",
+          "starved_thermal|171975000|75400000|df745131-e5d2-42cf-a527-9d624dd14eee|88c9a9e1-8700-4898-90fe-e6c46b56bf70|F.Cu",
           ""
         ]
       ],
@@ -550,7 +422,15 @@
         ""
       ],
       [
+        "power_pin_not_driven|1511300|1993900|aba9d426-9eae-4a69-9330-230890af9729|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1638300|1816100|bf252968-005e-41e7-aec8-945924b690fb|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2032000|1993900|eed48e4b-3d34-48b6-9378-e15d66a47654|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
         ""
       ],
       [
@@ -835,7 +715,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "RF",
+        "name": "RF-50-OSH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -853,16 +733,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RF",
-        "pattern": "/S_BAND"
+        "netclass": "RF-50-OSH",
+        "pattern": "/L1BAND"
       },
       {
-        "netclass": "RF",
-        "pattern": "/S_BAND_U_FL"
+        "netclass": "RF-50-OSH",
+        "pattern": "/LBAND"
       },
       {
-        "netclass": "RF",
-        "pattern": "/S_BAND_FEED"
+        "netclass": "RF-50-OSH",
+        "pattern": "/UHF"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "*RF_*"
       }
     ]
   },
@@ -1219,7 +1103,7 @@
         "uuid": "f7595184-4323-4ed9-b19e-5e32e3c6e76f"
       }
     ],
-    "used_designators": "R1-34,R92-93,R97-101,#FLG1-3,PCB1,C1-7,C205,#PWR1-34,D1-3,U1-5,#VPD1-5,CF1,FID1-6,H1-8,HW1-6,J1-9,Q1-7,TP1-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

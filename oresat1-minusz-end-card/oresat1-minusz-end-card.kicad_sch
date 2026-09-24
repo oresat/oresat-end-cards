@@ -8118,7 +8118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5b818b5-0c38-4f83-b935-4580cdb02cc7")
-		(property "Reference" "J3"
+		(property "Reference" "CM3"
 			(at 74.93 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8226,7 @@
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J3")
+					(reference "CM3")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
-		(property "Reference" "J1"
+		(property "Reference" "CM1"
 			(at 73.66 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8352,7 @@
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J1")
+					(reference "CM1")
 					(unit 1)
 				)
 			)
@@ -9270,7 +9270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1b35f90-33d8-431a-b9fa-ec99019ac7dd")
-		(property "Reference" "J2"
+		(property "Reference" "CM2"
 			(at 73.66 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9378,7 @@
 		(instances
 			(project "oresat1-minusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f"
-					(reference "J2")
+					(reference "CM2")
 					(unit 1)
 				)
 			)
