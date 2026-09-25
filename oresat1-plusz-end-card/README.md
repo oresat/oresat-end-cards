@@ -18,7 +18,7 @@ urlcolor: blue
 
 ## Board Description
 
-The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backaplane. It's special because it hosts whatever antenna is on the +Z face, and also interfaces with the solar modules on the +Z "U" of the CubeSat. The +Z End Card:
+The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backplane. It's special because it hosts whatever antenna is on the +Z face, and also interfaces with the solar modules on the +Z "U" of the CubeSat. The +Z End Card:
 
 - Connects to the backplane with a main connector and two RF SMPM connectors
 - Connects four +Z solar modules to the backplane

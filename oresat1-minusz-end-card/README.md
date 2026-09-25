@@ -18,7 +18,7 @@ urlcolor: blue
 
 ## Board Description
 
-The OreSat1 -Z End Card fits in the very "bottom" slot (Slot #20?) in the OreSat1 2U backaplane. It's special because it hosts whatever antenna is on the -Z face of the satellite, which in this case is an L band monopole, a UHF band monopole, and an L1 band GPS patch antenna. The -Z End Card:
+The OreSat1 -Z End Card fits in the very "bottom" slot (Slot #20?) in the OreSat1 2U backplane. It's special because it hosts whatever antenna is on the -Z face of the satellite, which in this case is an L band monopole, a UHF band monopole, and an L1 band GPS patch antenna. The -Z End Card:
 
 - Connects to the backplane with a main connector and three RF SMPM connectors
 - Connects two -Z solar modules to the backplane (two of the solar module spots are taken up by the copper radiator panels for the CFC assembly)
