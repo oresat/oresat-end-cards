@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat1 +Z End Card")
-		(date "2026-09-22")
+		(date "2026-09-25")
 		(rev "v1.2")
 		(company "Portland State Aerospace Society")
 	)
@@ -3205,6 +3205,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -5534,6 +5649,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 105.41) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986e9940-8192-4eed-9141-7f69991eec25")
+	)
+	(wire
+		(pts
 			(xy 233.68 92.71) (xy 233.68 86.36)
 		)
 		(stroke
@@ -5984,7 +6109,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 102.87)
+			(xy 100.33 105.41) (xy 100.33 100.33)
 		)
 		(stroke
 			(width 0.1524)
@@ -7899,7 +8024,7 @@
 		(dnp no)
 		(uuid "14e21b7e-8c76-4d9d-a8b3-d64845042182")
 		(property "Reference" "TP35"
-			(at 101.854 106.172 0)
+			(at 102.362 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8971,7 +9096,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:VPD")
-		(at 100.33 102.87 0)
+		(at 100.33 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8981,7 +9106,7 @@
 		(dnp no)
 		(uuid "39b19cc1-0c5a-4cc6-8465-87a852052b02")
 		(property "Reference" "#VPD06"
-			(at 100.33 102.87 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +9117,7 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 100.33 100.076 0)
+			(at 100.33 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9003,7 +9128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 102.87 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 102.87 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +9150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPD\""
-			(at 100.33 102.87 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9962,6 +10087,84 @@
 			(project "oresat1-plusz-end-card"
 				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/00d1c146-41ee-47bc-806e-4a57139ad2b4"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50323114-0668-4a15-a11a-e21c1e3faa31")
+		(property "Reference" "#FLG01"
+			(at 106.045 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+			(at 104.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da519f26-3e96-47e7-9daf-498ed70763a7")
+		)
+		(instances
+			(project "oresat1-plusz-end-card"
+				(path "/f7595184-4323-4ed9-b19e-5e32e3c6e76f/00d1c146-41ee-47bc-806e-4a57139ad2b4"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -16150,7 +16353,7 @@
 		(dnp no)
 		(uuid "cec23704-bb17-447d-9a84-e878e79c8c8b")
 		(property "Reference" "C5"
-			(at 100.584 108.712 0)
+			(at 102.87 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16161,7 +16364,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 100.584 112.522 0)
+			(at 102.87 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -68273,16 +68273,6 @@
 		(layer "Edge.Cuts")
 		(uuid "a7839887-19a9-4d74-8592-c58c4c162013")
 	)
-	(gr_line
-		(start 148.5 102.5)
-		(end 172 74.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "cec0f607-89d5-4e0c-b990-a65a68e97ac7")
-	)
 	(gr_text "DEPLOY"
 		(at 127.725 147.675 0)
 		(layer "F.SilkS")
