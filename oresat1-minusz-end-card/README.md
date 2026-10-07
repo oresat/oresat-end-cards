@@ -1,5 +1,5 @@
 ---
-title: "**OreSat1 +Z End Card**"
+title: "**OreSat1 -Z End Card**"
 subtitle: |
   **Fabrication and Assembly Information**\
   For build TIME-STAMP
@@ -18,20 +18,19 @@ urlcolor: blue
 
 ## Board Description
 
-The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backplane. It's special because it hosts whatever antenna is on the +Z face, and also interfaces with the solar modules on the +Z "U" of the CubeSat. The +Z End Card:
+The OreSat1 -Z End Card fits in the very "bottom" slot (Slot #20?) in the OreSat1 2U backplane. It's special because it hosts whatever antenna is on the -Z face of the satellite, which in this case is an L band monopole, a UHF band monopole, and an L1 band GPS patch antenna. The -Z End Card:
 
-- Connects to the backplane with a main connector and two RF SMPM connectors
-- Connects four +Z solar modules to the backplane
-- Mounts and matches to the S band helical antenna
-- Routes an SMPM connector to a U.FL connector to jump up to the +Z End Cap's S band patch antenna
+- Connects to the backplane with a main connector and three RF SMPM connectors
+- Connects two -Z solar modules to the backplane (two of the solar module spots are taken up by the copper radiator panels for the CFC assembly)
+- Routes an SMPM connector to a U.FL connector to jump up to the -Z End Cap's L1 band GPS patch antenna
 - Has an OPD circuit to control:
-   - Deploying the helical antenna
-   - Switching C3-UART to any of the +Z solar modules
+   - Deploying the monopole antennas
+   - Switching C3-UART to any of the -Z solar modules
 
 ## Documentation Links
 
-- +Z End Card Git repository: <https://github.com/oresat/oresat-end-cards>
-- **TODO:** +Z End Card Design Notes + Design Review Notes
+- -Z End Card Git repository: <https://github.com/oresat/oresat-end-cards>
+- **TODO:** -Z End Card Design Notes + Design Review Notes
 
 ## Documentation Files
 
@@ -79,17 +78,17 @@ The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backplane. I
    - Drill Positional Tolerance: 0.051 mm (2.0 mil)
    - Drill Size tolerance: +/- 0.064 mm (2.5 mil)
 - Plated/Un-plated holes
-  - There are 35 un-plated (NPT) holes
-  - There are 454 plated through (PTH) holes
+  - There are 16 un-plated (NPT) holes
+  - There are 434 plated through (PTH) holes
   - PTH minimum diameter: 0.254 mm (10 mil)
   - PTH minimum annulus: 0.102 mm (4 mil) radius
 - Outline/Routing
   - Requires a 1.0 mm or smaller diameter routing bit
 - Slots
-  - There are no slots.
+  - There are two 1.0 mm plated slots.
 - Cutouts
-  - There is one cutout
-- There are 3 fiducials on the top layer.
+  - There is are two cutouts.
+- There are 3 fiducials on the top layer and 3 fiducials on the bottom layer.
 - Panel tabs ("mouse bites")
    - Card edges must be smooth; no mouse bites or other intrusions into the card outline.
    - If external mouse bites are required, minimize and customer will remove by hand before assembly.
@@ -153,7 +152,7 @@ The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backplane. I
 
 ## Assembly Info
 
-- All components are on the top side of the board.
+- Components are on the top and bottom side of the board.
 - This PCBA is mostly surface mount (SMT) with a few (THT) components.
 
 ## Assembly Requirements
@@ -168,10 +167,10 @@ The +Z End Card fits in the very "top" slot (Slot #1) in the OreSat backplane. I
 
 ## Component Specific Assembly Information
 
-- SMPM connectors (CM1, CM2) should be hand-added (there is no solder paste for their footprints).
-- HELICAL_ANT must be hand added according to the Helical Antenna SOP.
+- SMPM connectors (CM1 - CM3) should be hand-addedaccording to SOP (there is no solder paste for their footprints).
+- Monopole antennas must be hand added according to the Antenna SOP.
 - Resistor R1 must be hand added according to the OreSat End Card Deployment Resistor Mounting SOP.
-- Press fit nuts may be *carefully* added after SMT assembly is completed, although it's better if they're added before assembly.
+- Press fit nuts HW1 - HW6 may be *carefully* added after SMT assembly is completed.
 
 ## Assembly Files
 
