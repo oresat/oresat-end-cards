@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.127,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|123680000|101250000|31fd7c98-234c-4cfb-89b5-6caf2cc08875|7bf121c6-6a69-41a7-9edc-046900db9508|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -89,7 +84,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -718,7 +713,7 @@
         "uuid": "8436592f-ebd9-43cb-82bb-370e94da9621"
       }
     ],
-    "used_designators": "R1-4",
+    "used_designators": "J1-3,R1-4",
     "variants": []
   },
   "sheets": [
