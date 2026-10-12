@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.127,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -289,7 +289,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|939800|1041400|17dff9bf-6ebe-4662-b935-320f3ccab7e0|00000000-0000-0000-0000-000000000000|/8436592f-ebd9-43cb-82bb-370e94da9621|/8436592f-ebd9-43cb-82bb-370e94da9621|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -551,7 +556,7 @@
         "microvia_drill": 0.1,
         "name": "RF-50-max",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.38,
         "tuning_profile": "",
@@ -569,7 +574,7 @@
         "microvia_drill": 0.1,
         "name": "RF-50-min",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.38,
         "tuning_profile": "",
@@ -583,7 +588,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RF-50-max",
+        "pattern": "Net-*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
