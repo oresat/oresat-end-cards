@@ -123,7 +123,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2498,6 +2497,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e61ca0e0-6ee4-409a-9625-2bfba935376b")
+	)
+	(gr_text "<-- No copper pour around pads\n	 because they will be used for \n	 for antenna elements"
+		(at 127.3 80.78 0)
+		(layer "F.SilkS")
+		(uuid "7a136a94-62d6-4570-b205-8d70bac5501b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "NCS-62+ BalUn Dev Board\nVersion 1.0\n10/11/2026\nJJDLSR\n"
 		(at 146.26 96.52 0)
