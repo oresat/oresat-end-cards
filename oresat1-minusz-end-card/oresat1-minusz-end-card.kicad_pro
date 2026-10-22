@@ -272,6 +272,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -283,6 +284,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -294,6 +296,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -390,7 +393,15 @@
         ""
       ],
       [
+        "power_pin_not_driven|2057400|1778000|bf252968-005e-41e7-aec8-945924b690fb|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
+        ""
+      ],
+      [
         "power_pin_not_driven|2159000|1816100|dbcfecaa-90f5-4db5-97d8-a1c0eca2cd3a|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2578100|1778000|dbcfecaa-90f5-4db5-97d8-a1c0eca2cd3a|00000000-0000-0000-0000-000000000000|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/16362778-a030-42ff-8979-85b24be83d11|",
         ""
       ]
     ],
@@ -604,6 +615,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -669,8 +681,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "RF-50-OSH",
@@ -882,7 +894,7 @@
         "uuid": "f7595184-4323-4ed9-b19e-5e32e3c6e76f"
       }
     ],
-    "used_designators": "#PWR80,C5",
+    "used_designators": "#PWR80,C5,TP157-159",
     "variants": []
   },
   "sheets": [

@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat1 -Z End Card")
-		(date "2026-09-25")
+		(date "2026-10-21")
 		(rev "v1.4")
 		(company "Portland State Aerospace Society")
 	)
@@ -3401,6 +3401,17 @@
 			(justify left bottom)
 		)
 		(uuid "6d847a4a-4451-400b-b6a7-3223c1140722")
+	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 113.03 265.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82a55690-c3a5-4adc-8028-e7ba32fbf9ab")
 	)
 	(text "+X Solar Module"
 		(exclude_from_sim no)
