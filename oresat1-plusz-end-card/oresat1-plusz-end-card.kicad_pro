@@ -51,20 +51,20 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.1,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "border_display_style": 0,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.2,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.127,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -84,7 +84,7 @@
         ],
         [
           "hole_clearance|152674808|80267938|520b476c-8242-4266-bd92-3fb58c50bfca|a9630456-30f2-467b-97b2-85162601c556",
-          "Known issue, OK to exclude."
+          ""
         ],
         [
           "silk_edge_clearance|112559000|57679800|778256d1-761f-4aef-969f-047951d4b9b8|26579341-a327-4640-82b6-a15b11427492",
@@ -152,7 +152,7 @@
         ],
         [
           "track_dangling|145300000|80100001|520b476c-8242-4266-bd92-3fb58c50bfca|00000000-0000-0000-0000-000000000000",
-          "Meant for SMT helical spring; ok to exclude."
+          ""
         ]
       ],
       "meta": {
@@ -260,6 +260,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -271,6 +272,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -282,6 +284,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -374,19 +377,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_mismatch|2057400|2222500|0cc9f9e8-5bbb-4a89-9332-5d6156333b7c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "same_local_global_label|901700|1193800|ec70488f-4bd7-4104-b9ef-cfef56088f56|a819431b-8e52-4e0d-807a-816ec3845d09|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f",
-        ""
-      ],
-      [
-        "same_local_global_label|901700|1244600|9bd2515b-bad3-4e60-abed-3e65d8c54d92|8b88544b-8a1b-450c-a89d-5f9b1e57615e|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f",
-        ""
-      ],
-      [
-        "same_local_global_label|901700|1295400|639c666a-4dd6-42ec-85c7-35363721475f|ded073ce-155e-4012-8d98-76cb62cef23f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f|/f7595184-4323-4ed9-b19e-5e32e3c6e76f",
+        "same_local_global_label|2679700|469900|b2587d74-b980-4ad4-984a-e9a1bcdd5c7a|4f545d55-8f15-4a10-a8ff-295cd5cea848|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/00d1c146-41ee-47bc-806e-4a57139ad2b4|/f7595184-4323-4ed9-b19e-5e32e3c6e76f/00d1c146-41ee-47bc-806e-4a57139ad2b4|/f7595184-4323-4ed9-b19e-5e32e3c6e76f",
         ""
       ],
       [
@@ -604,6 +595,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -669,8 +661,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "RF-50-OSH",
@@ -831,7 +823,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value_1"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -892,7 +884,7 @@
         "uuid": "f7595184-4323-4ed9-b19e-5e32e3c6e76f"
       }
     ],
-    "used_designators": "#FLG1-2",
+    "used_designators": "#FLG1-2,#PWR204-205,#PWR208-209,C205-206,TP113,U204-205",
     "variants": []
   },
   "sheets": [

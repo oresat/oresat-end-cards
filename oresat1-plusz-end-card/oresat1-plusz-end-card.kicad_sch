@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat1 +Z End Card")
-		(date "2026-09-25")
+		(date "2026-10-21")
 		(rev "v1.2")
 		(company "Portland State Aerospace Society")
 	)
@@ -3405,7 +3405,7 @@
 	)
 	(text "L1 value needs to be fine tuned for each helical\nVaries from around 3.0 nH to 5.0 nH"
 		(exclude_from_sim no)
-		(at 76.962 25.908 0)
+		(at 76.708 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 	)
 	(text "Using 4.3 nH should get S11 around -15 dB, \nbut < -30 dB is possible with tuning"
 		(exclude_from_sim no)
-		(at 76.962 30.734 0)
+		(at 76.708 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3872,10 +3872,6 @@
 		(uuid "eaa5d47a-665e-44dd-8202-74a6ad48fe37")
 	)
 	(no_connect
-		(at 238.76 177.8)
-		(uuid "11d74ba1-8e69-4b55-87d5-67ec8117bc54")
-	)
-	(no_connect
 		(at 67.31 144.78)
 		(uuid "1a21b46f-8d64-48b6-9674-7166241f865a")
 	)
@@ -3906,18 +3902,6 @@
 	(no_connect
 		(at 267.97 66.04)
 		(uuid "6f7bebd1-cec4-4ccf-bc25-4fc3bfd6cc8b")
-	)
-	(no_connect
-		(at 238.76 180.34)
-		(uuid "7ae58fbd-2a89-44cb-93ec-6c71ffe6ca9f")
-	)
-	(no_connect
-		(at 334.01 180.34)
-		(uuid "8da640f6-3f13-40c8-98cb-390773fb029f")
-	)
-	(no_connect
-		(at 334.01 177.8)
-		(uuid "a10ec1eb-12bc-4286-b671-979e044e55a5")
 	)
 	(no_connect
 		(at 67.31 172.72)
@@ -4227,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 134.62) (xy 279.4 134.62)
+			(xy 200.66 133.35) (xy 279.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4257,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 128.27) (xy 323.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24df0cbb-1614-4fc4-b9c5-77564011f5d2")
+	)
+	(wire
+		(pts
 			(xy 67.31 114.3) (xy 81.28 114.3)
 		)
 		(stroke
@@ -4264,6 +4258,16 @@
 			(type default)
 		)
 		(uuid "25233378-af9d-49e2-acb9-f294e3e485a0")
+	)
+	(wire
+		(pts
+			(xy 238.76 180.34) (xy 209.55 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fc00a9-99a3-438f-b891-133924427025")
 	)
 	(wire
 		(pts
@@ -4415,6 +4419,16 @@
 		)
 		(uuid "39795164-41b7-43c3-9426-1c286a59924a")
 	)
+	(wire
+		(pts
+			(xy 327.66 177.8) (xy 327.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aad03ee-c075-4b8d-93c6-75a255e7423e")
+	)
 	(polyline
 		(pts
 			(xy 403.86 210.82) (xy 215.9 210.82)
@@ -4427,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 137.16) (xy 276.86 137.16)
+			(xy 200.66 135.89) (xy 276.86 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4464,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "3ed75650-9288-4236-8b20-a5c1b2860062")
+	)
+	(wire
+		(pts
+			(xy 200.66 143.51) (xy 209.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dc5272-9fd4-4978-9fa7-735364ca2e69")
 	)
 	(wire
 		(pts
@@ -4507,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 182.88) (xy 201.93 187.96)
+			(xy 204.47 182.88) (xy 204.47 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4561,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 180.34) (xy 276.86 137.16)
+			(xy 276.86 180.34) (xy 276.86 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4574,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "4f1117cf-3c62-482a-bc3d-ce7325e876e4")
+	)
+	(wire
+		(pts
+			(xy 212.09 177.8) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507145b7-6de5-488c-be41-633727397fc4")
 	)
 	(wire
 		(pts
@@ -4757,13 +4791,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 187.96) (xy 201.93 187.96)
+			(xy 323.85 180.34) (xy 323.85 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a54d666-806e-427a-8191-979f7ba02b22")
+		(uuid "78c824de-9c9b-4221-a537-4df93152d9b1")
 	)
 	(wire
 		(pts
@@ -4877,6 +4911,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 180.34) (xy 209.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8deb3c18-adb9-4741-bb9f-1d1deded5f0e")
+	)
+	(wire
+		(pts
 			(xy 267.97 60.96) (xy 260.35 60.96)
 		)
 		(stroke
@@ -4917,7 +4961,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 134.62) (xy 279.4 177.8)
+			(xy 279.4 133.35) (xy 279.4 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5207,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 177.8) (xy 212.09 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd9b2fb-648e-46a3-9aba-ce1d69b32e58")
+	)
+	(wire
+		(pts
 			(xy 284.48 172.72) (xy 284.48 175.26)
 		)
 		(stroke
@@ -5257,6 +5311,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 140.97) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6120cac-5bdc-4315-b499-da228323d587")
+	)
+	(wire
+		(pts
 			(xy 382.27 172.72) (xy 382.27 175.26)
 		)
 		(stroke
@@ -5297,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 182.88) (xy 201.93 182.88)
+			(xy 68.58 182.88) (xy 204.47 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5314,6 +5378,16 @@
 			(type default)
 		)
 		(uuid "cb2d4be4-f62e-40a7-a977-49f119232f2f")
+	)
+	(wire
+		(pts
+			(xy 204.47 187.96) (xy 238.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb42df21-aaea-49bb-b823-a5211a6639db")
 	)
 	(wire
 		(pts
@@ -5427,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 177.8) (xy 327.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da33cdda-0adb-4396-8ea7-ed82364b497e")
+	)
+	(wire
+		(pts
 			(xy 238.76 175.26) (xy 238.76 172.72)
 		)
 		(stroke
@@ -5524,6 +5608,16 @@
 			(type default)
 		)
 		(uuid "ec59328c-8896-44a2-b05e-c73ebcef9cd0")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 327.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed196ce2-97f9-4719-8c9f-d034b736d08d")
 	)
 	(wire
 		(pts
@@ -5645,6 +5739,16 @@
 		)
 		(uuid "fab33fd5-92a5-4485-b3d0-c20e2bf10797")
 	)
+	(wire
+		(pts
+			(xy 334.01 180.34) (xy 323.85 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2f7e59-334a-402c-a12b-6bea338f3393")
+	)
 	(label "CAN1_L"
 		(at 71.12 182.88 0)
 		(effects
@@ -5696,14 +5800,24 @@
 		(uuid "4d35948e-67e4-45f4-96a0-709f75678a03")
 	)
 	(label "VBUS"
-		(at 228.6 172.72 0)
+		(at 236.22 172.72 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f545d55-8f15-4a10-a8ff-295cd5cea848")
+	)
+	(label "CAN1_H"
+		(at 365.76 182.88 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "4f545d55-8f15-4a10-a8ff-295cd5cea848")
+		(uuid "72f91646-478a-4ef7-98ad-b974697f0300")
 	)
 	(label "OPD_SCL"
 		(at 71.12 127 0)
@@ -5756,12 +5870,12 @@
 		(uuid "a8fe8d0c-533e-4325-ba24-73eca4e03d83")
 	)
 	(label "CAN1_L"
-		(at 228.6 187.96 0)
+		(at 236.22 187.96 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a977eec5-f2f9-4678-b3c2-bbd571f3e8f9")
 	)
@@ -5776,12 +5890,12 @@
 		(uuid "aa46de52-8452-4d50-b9a8-43898763e410")
 	)
 	(label "~{SD}"
-		(at 228.6 162.56 0)
+		(at 236.22 162.56 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b7831781-8ea2-4f4c-96af-130b27c650d4")
 	)
@@ -5795,6 +5909,16 @@
 		)
 		(uuid "c7112c65-f088-413d-b273-77a882952264")
 	)
+	(label "CAN1_L"
+		(at 365.76 187.96 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb4c4f2b-99c9-45ee-ad26-f893b508a1fc")
+	)
 	(label "MAG-SDA"
 		(at 71.12 96.52 0)
 		(effects
@@ -5804,6 +5928,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc374c9c-2868-40a2-86e3-9f17c315a537")
+	)
+	(label "VBUS"
+		(at 365.76 172.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d06bbd34-af69-4b9c-9d24-8fd7ee9fa47e")
 	)
 	(label "CAN1_H"
 		(at 71.12 177.8 0)
@@ -5825,6 +5959,16 @@
 		)
 		(uuid "ded073ce-155e-4012-8d98-76cb62cef23f")
 	)
+	(label "~{SD}"
+		(at 365.76 162.56 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e78198d2-9b7f-4735-839b-8adad9916975")
+	)
 	(label "C3_UART_TX"
 		(at 71.12 187.96 0)
 		(effects
@@ -5836,12 +5980,12 @@
 		(uuid "f6b8d46b-6ebf-4339-90ba-e39a048ef793")
 	)
 	(label "CAN1_H"
-		(at 228.6 182.88 0)
+		(at 236.22 182.88 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f708dd84-bc8c-4c9c-a958-583489679500")
 	)
@@ -6237,7 +6381,7 @@
 		(dnp no)
 		(uuid "04293008-3e07-40b7-9b07-868aad08a8f1")
 		(property "Reference" "J2"
-			(at 242.57 158.242 0)
+			(at 242.57 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6248,7 +6392,7 @@
 			)
 		)
 		(property "Value" "M55-7101242R"
-			(at 236.22 160.782 0)
+			(at 236.22 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6514,7 +6658,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0795f37d-e1f5-48cc-ab01-8a3be26e7bbf")
 		(property "Reference" "#VBUS01"
 			(at 81.28 158.75 0)
@@ -6528,7 +6671,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 81.28 149.86 0)
+			(at 81.28 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7457,7 +7600,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ed73c68-fafe-4724-a8f7-bcbee0840757")
 		(property "Reference" "#FLG0102"
 			(at 81.28 156.845 0)
@@ -7471,7 +7613,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 81.28 160.02 0)
+			(at 81.28 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8020,7 +8162,7 @@
 		(dnp no)
 		(uuid "52a8c9dc-c5aa-485c-817d-caad5d80c397")
 		(property "Reference" "L1"
-			(at 93.98 33.274 90)
+			(at 93.98 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8030,7 +8172,7 @@
 			)
 		)
 		(property "Value" "4.3 nH"
-			(at 93.98 37.338 90)
+			(at 93.98 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9398,7 +9540,7 @@
 		(dnp no)
 		(uuid "a7a4aa37-6c4b-4a1a-a853-96cd77f57974")
 		(property "Reference" "CM1"
-			(at 58.42 29.21 0)
+			(at 62.23 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10988,7 +11130,7 @@
 		(dnp no)
 		(uuid "eae7c992-c3a0-4fcc-acc3-e4c5a717280c")
 		(property "Reference" "CM2"
-			(at 58.42 63.5 0)
+			(at 61.976 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10999,7 +11141,7 @@
 			)
 		)
 		(property "Value" "2477330-1"
-			(at 58.42 66.04 0)
+			(at 57.912 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11383,7 +11525,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0eaa954-b01b-4d62-9469-68ee3ee8117f")
 		(property "Reference" "#FLG0101"
 			(at 81.28 165.735 0)
@@ -11397,7 +11538,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 81.28 162.56 0)
+			(at 81.28 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11777,7 +11918,7 @@
 			)
 		)
 		(pin "PX-UART-RX" input
-			(at 200.66 137.16 0)
+			(at 200.66 135.89 0)
 			(uuid "69dae80a-4b34-44e4-a820-e5d8e31723f4")
 			(effects
 				(font
@@ -11787,7 +11928,7 @@
 			)
 		)
 		(pin "PX-UART-TX" input
-			(at 200.66 134.62 0)
+			(at 200.66 133.35 0)
 			(uuid "654e37e5-35ad-42c6-93d2-14209dced0a6")
 			(effects
 				(font
@@ -11824,6 +11965,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MY-UART-RX" input
+			(at 200.66 143.51 0)
+			(uuid "40443226-30f4-44d2-8928-aa4e1f97fa8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MY-UART-TX" input
+			(at 200.66 140.97 0)
+			(uuid "d3d8cdd2-80fd-4709-8800-ad9786d7d611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PY-UART-RX" input
+			(at 200.66 128.27 0)
+			(uuid "ddacd6bb-39e6-4098-92f9-1e5c367d5874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PY-UART-TX" input
+			(at 200.66 125.73 0)
+			(uuid "cd0d0496-b6b2-4d39-a31b-95ecbebf3d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
